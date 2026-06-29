@@ -6,7 +6,7 @@
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.images | default (dict 0 "img/og-default.png") }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Site.Params.images }}{{ index . 0 }}{{ else }}img/og-default.png{{ end }}" />
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{{ .Permalink }}">
 {{ range .AllTranslations }}

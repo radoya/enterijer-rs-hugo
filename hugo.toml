@@ -1,0 +1,164 @@
+baseURL = 'https://enterijer.rs'
+defaultContentLanguage = 'sr'
+languageCode = 'sr'
+title = "Enterijer.rs — Saveti za uređenje prostora"
+theme = 'enterijer-theme'
+copyright = '© Enterijer.rs'
+enableRobotsTXT = true
+canonifyURLs = true
+enableGitInfo = true
+
+[params]
+  author = "Enterijer.rs Tim"
+  description = "Praktični enterijer u Srbiji i regionu — renoviranje, dekoracija, materijali, majstori."
+  images = ["img/og-default.png"]
+  keywords = ["enterijer", "renoviranje", "sredjivanje stana", "majstori", "materijali", "dekoracija"]
+  mainSections = ["blog"]
+
+[menu]
+  [[menu.main]]
+    name = "Početna"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[menu.main]]
+    name = "Galerija"
+    url = "/galerija/"
+    weight = 30
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 40
+
+[Languages]
+
+[languages.sr]
+  contentDir = 'content/sr'
+  disabled = false
+  languageCode = 'sr'
+  languageName = 'Srpski'
+  title = "Enterijer.rs"
+  weight = 10
+  [languages.sr.params]
+    subtitle = "Praktični enterijer"
+  [[languages.sr.menu.main]]
+    name = "Početna"
+    url = "/"
+    weight = 10
+  [[languages.sr.menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[languages.sr.menu.main]]
+    name = "Galerija"
+    url = "/galerija/"
+    weight = 30
+  [[languages.sr.menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 40
+
+[languages.en]
+  contentDir = 'content/en'
+  disabled = true
+  languageCode = 'en'
+  languageName = 'English'
+  title = "Enterijer.rs"
+  weight = 20
+  [languages.en.params]
+    subtitle = "Praktični enterijer"
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[languages.en.menu.main]]
+    name = "Gallery"
+    url = "/galerija/"
+    weight = 30
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/kontakt/"
+    weight = 40
+
+# Dodatni jezici — draft/placeholder
+[languages.de]
+  contentDir = 'content/de'
+  disabled = true
+  languageCode = 'de'
+  languageName = 'Deutsch'
+  title = "Enterijer.rs"
+  weight = 30
+
+[languages.it]
+  contentDir = 'content/it'
+  disabled = true
+  languageCode = 'it'
+  languageName = 'Italiano'
+  title = "Enterijer.rs"
+  weight = 40
+
+[languages.es]
+  contentDir = 'content/es'
+  disabled = true
+  languageCode = 'es'
+  languageName = 'Español'
+  title = "Enterijer.rs"
+  weight = 50
+
+[languages.fr]
+  contentDir = 'content/fr'
+  disabled = true
+  languageCode = 'fr'
+  languageName = 'Français'
+  title = "Enterijer.rs"
+  weight = 60
+
+[languages.ru]
+  contentDir = 'content/ru'
+  disabled = true
+  languageCode = 'ru'
+  languageName = 'Русский'
+  title = "Enterijer.rs"
+  weight = 70
+
+[languages.zh]
+  contentDir = 'content/zh'
+  disabled = true
+  languageCode = 'zh'
+  languageName = '中文'
+  title = "Enterijer.rs"
+  weight = 80
+
+[languages.ar]
+  contentDir = 'content/ar'
+  disabled = true
+  languageCode = 'ar'
+  languageName = 'العربية'
+  title = "Enterijer.rs"
+  weight = 90
+
+[languages.hr]
+  contentDir = 'content/hr'
+  disabled = true
+  languageCode = 'hr'
+  languageName = 'Hrvatski'
+  title = "Enterijer.rs"
+  weight = 100
+
+[languages.bs]
+  contentDir = 'content/bs'
+  disabled = true
+  languageCode = 'bs'
+  languageName = 'Bosanski'
+  title = "Enterijer.rs"
+  weight = 110
+
+[pagination]
+  pagerSize = 12

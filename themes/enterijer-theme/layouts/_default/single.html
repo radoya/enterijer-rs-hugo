@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="container">
+  <h1>{{ .Title }}</h1>
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006." }}</time>
+  {{ if .Params.Tags }}<div style="margin-bottom:18px">{{ range .Params.Tags }}<span class="tag">{{ . }}</span>{{ end }}</div>{{ end }}
+  {{ .Content }}
+  <hr style="border:0;border-top:1px solid #1e2030;margin:32px 0">
+  <p><a href="{{ "/blog/" | relLangURL }}">← Nazad na blog</a></p>
+</article>
+{{ end }}

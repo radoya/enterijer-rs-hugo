@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description | default .Site.Params.description }}</p>
+  </div>
+</section>
+<section class="container" style="padding-bottom:48px">
+  <div class="card-grid">
+    {{ range .Pages }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}">
+        {{ if .Params.images }}<img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy">{{ end }}
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description | default .Summary | truncate 120 }}</p>
+        <div class="meta">{{ .Date.Format "2.1.2006." }} · {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}</div>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

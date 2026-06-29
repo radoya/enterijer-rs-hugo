@@ -1,0 +1,10 @@
+name = "Enterijer Theme"
+license = "MIT"
+description = "Multilingual dark theme for enterijer.rs"
+homepage = "https://enterijer.rs"
+tags = ["blog", "multilingual", "dark", "responsive"]
+features = ["multilingual", "responsive", "seo", "darkmode"]
+min_version = "0.112.0"
+[author]
+  name = "Enterijer.rs Tim"
+  homepage = "https://enterijer.rs"

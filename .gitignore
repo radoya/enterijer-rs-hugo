@@ -1,6 +1,8 @@
 public/
 resources/_gen/
 hugo_stats.json
-.hugo_build_lock
+.hugo_build.lock
+node_modules/
+.wrangler/
 .DS_Store
 Thumbs.db

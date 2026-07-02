@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <h1>404</h1>
+    <p>{{ if eq .Site.Language.Lang "en" }}Page not found.{{ else }}Stranica nije pronađena.{{ end }}</p>
+    <p style="margin-top:18px"><a class="btn" href="{{ "/" | relLangURL }}">← {{ if eq .Site.Language.Lang "en" }}Home{{ else }}Početna{{ end }}</a></p>
+  </div>
+</section>
+{{ end }}

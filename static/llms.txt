@@ -1,0 +1,23 @@
+# Enterijer.rs
+
+## O sajtu (Srpski)
+Enterijer.rs donosi praktične savete za uređenje prostora u Srbiji i regionu:
+renoviranje stanova, dekoracija, izbor materijala, rasveta i saradnja sa
+majstorima. Svaki članak prolazi ljudsku redakciju; koristimo originalne
+fotografije iz stvarnih projekata. Urednik: Nenad Radoja.
+
+## About (English)
+Enterijer.rs publishes practical interior design advice for Serbia and the
+region: apartment renovation, decoration, materials, lighting, and working
+with contractors. Every article is human-edited; we use original photography
+from real projects. Editor: Nenad Radoja. English edition:
+https://interior.enterijer.rs/
+
+## Glavne sekcije / Main sections
+- https://enterijer.rs/ — pocetna / home
+- https://enterijer.rs/blog/ — saveti i clanci / articles
+- https://enterijer.rs/o-nama/ — o uredniku i urednickoj politici / about & editorial policy
+- https://enterijer.rs/kontakt/ — kontakt forma / contact form
+
+## Kontakt / Contact
+https://enterijer.rs/kontakt/

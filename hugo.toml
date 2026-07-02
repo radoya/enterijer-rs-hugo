@@ -1,11 +1,13 @@
-baseURL = 'https://enterijer.rs'
+# Multihost mode: every enabled language has its own baseURL (own domain).
 defaultContentLanguage = 'sr'
 title = "Enterijer.rs — Saveti za uređenje prostora"
 theme = 'enterijer-theme'
 copyright = '© Enterijer.rs'
 enableRobotsTXT = true
-canonifyURLs = true
 enableGitInfo = true
+
+[markup.goldmark.renderer]
+  unsafe = true # allow raw HTML in markdown (contact form)
 
 [params]
   author = "Enterijer.rs Tim"
@@ -34,9 +36,10 @@ enableGitInfo = true
 
 [languages]
   [languages.sr]
+    baseURL = 'https://enterijer.rs/'
     contentDir = 'content/sr'
-    languageCode = 'sr'
-    languageName = 'Srpski'
+    locale = 'sr'
+    label = 'Srpski'
     title = "Enterijer.rs"
     weight = 10
     [languages.sr.params]
@@ -60,9 +63,10 @@ enableGitInfo = true
         weight = 40
 
   [languages.en]
+    baseURL = 'https://interior.enterijer.rs/'
     contentDir = 'content/en'
-    languageCode = 'en'
-    languageName = 'English'
+    locale = 'en'
+    label = 'English'
     title = "Enterijer.rs"
     weight = 20
     [languages.en.params]
@@ -85,77 +89,92 @@ enableGitInfo = true
         url = "/kontakt/"
         weight = 40
 
-  [languages.de]
-    contentDir = 'content/de'
-    disabled = true
-    languageCode = 'de'
-    languageName = 'Deutsch'
-    title = "Enterijer.rs"
-    weight = 30
+  # NOTE: languages with `disabled = true` break Hugo multihost detection
+  # (Hugo 0.163): the whole site silently falls back to single-host layout.
+  # Future languages therefore stay fully commented out until they launch.
+  # To enable one: uncomment its block, set the final baseURL, add the domain
+  # to LANG_BY_HOST in worker/index.js, attach the custom domain to the Worker.
 
-  [languages.it]
-    contentDir = 'content/it'
-    disabled = true
-    languageCode = 'it'
-    languageName = 'Italiano'
-    title = "Enterijer.rs"
-    weight = 40
+  # [languages.de]
+  #   baseURL = 'https://innen.enterijer.rs/'
+  #   contentDir = 'content/de'
+  #   disabled = true
+  #   locale = 'de'
+  #   label = 'Deutsch'
+  #   title = "Enterijer.rs"
+  #   weight = 30
 
-  [languages.es]
-    contentDir = 'content/es'
-    disabled = true
-    languageCode = 'es'
-    languageName = 'Español'
-    title = "Enterijer.rs"
-    weight = 50
+  # [languages.it]
+  #   baseURL = 'https://interno.enterijer.rs/'
+  #   contentDir = 'content/it'
+  #   disabled = true
+  #   locale = 'it'
+  #   label = 'Italiano'
+  #   title = "Enterijer.rs"
+  #   weight = 40
 
-  [languages.fr]
-    contentDir = 'content/fr'
-    disabled = true
-    languageCode = 'fr'
-    languageName = 'Français'
-    title = "Enterijer.rs"
-    weight = 60
+  # [languages.es]
+  #   baseURL = 'https://interior-es.enterijer.rs/'
+  #   contentDir = 'content/es'
+  #   disabled = true
+  #   locale = 'es'
+  #   label = 'Español'
+  #   title = "Enterijer.rs"
+  #   weight = 50
 
-  [languages.ru]
-    contentDir = 'content/ru'
-    disabled = true
-    languageCode = 'ru'
-    languageName = 'Русский'
-    title = "Enterijer.rs"
-    weight = 70
+  # [languages.fr]
+  #   baseURL = 'https://interieur-fr.enterijer.rs/'
+  #   contentDir = 'content/fr'
+  #   disabled = true
+  #   locale = 'fr'
+  #   label = 'Français'
+  #   title = "Enterijer.rs"
+  #   weight = 60
 
-  [languages.zh]
-    contentDir = 'content/zh'
-    disabled = true
-    languageCode = 'zh'
-    languageName = '中文'
-    title = "Enterijer.rs"
-    weight = 80
+  # [languages.ru]
+  #   baseURL = 'https://interior-ru.enterijer.rs/'
+  #   contentDir = 'content/ru'
+  #   disabled = true
+  #   locale = 'ru'
+  #   label = 'Русский'
+  #   title = "Enterijer.rs"
+  #   weight = 70
 
-  [languages.ar]
-    contentDir = 'content/ar'
-    disabled = true
-    languageCode = 'ar'
-    languageName = 'العربية'
-    title = "Enterijer.rs"
-    weight = 90
+  # [languages.zh]
+  #   baseURL = 'https://interior-zh.enterijer.rs/'
+  #   contentDir = 'content/zh'
+  #   disabled = true
+  #   locale = 'zh'
+  #   label = '中文'
+  #   title = "Enterijer.rs"
+  #   weight = 80
 
-  [languages.hr]
-    contentDir = 'content/hr'
-    disabled = true
-    languageCode = 'hr'
-    languageName = 'Hrvatski'
-    title = "Enterijer.rs"
-    weight = 100
+  # [languages.ar]
+  #   baseURL = 'https://interior-ar.enterijer.rs/'
+  #   contentDir = 'content/ar'
+  #   disabled = true
+  #   locale = 'ar'
+  #   label = 'العربية'
+  #   title = "Enterijer.rs"
+  #   weight = 90
 
-  [languages.bs]
-    contentDir = 'content/bs'
-    disabled = true
-    languageCode = 'bs'
-    languageName = 'Bosanski'
-    title = "Enterijer.rs"
-    weight = 110
+  # [languages.hr]
+  #   baseURL = 'https://interior-hr.enterijer.rs/'
+  #   contentDir = 'content/hr'
+  #   disabled = true
+  #   locale = 'hr'
+  #   label = 'Hrvatski'
+  #   title = "Enterijer.rs"
+  #   weight = 100
+
+  # [languages.bs]
+  #   baseURL = 'https://interior-bs.enterijer.rs/'
+  #   contentDir = 'content/bs'
+  #   disabled = true
+  #   locale = 'bs'
+  #   label = 'Bosanski'
+  #   title = "Enterijer.rs"
+  #   weight = 110
 
 [pagination]
   pagerSize = 12

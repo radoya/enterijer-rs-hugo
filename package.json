@@ -1,0 +1,12 @@
+{
+  "name": "enterijer-web",
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "deploy": "wrangler deploy",
+    "dev": "hugo server -D"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

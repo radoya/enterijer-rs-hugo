@@ -8,7 +8,7 @@
     </nav>
     <div class="lang-switch">
       {{ range .Translations }}
-        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        <a href="{{ .Permalink }}">{{ .Language.Label }}</a>
       {{ end }}
     </div>
   </div>

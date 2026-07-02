@@ -2,15 +2,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{- $isArticle := and .IsPage (eq .Type "blog") -}}
+{{- $ogImage := "" -}}
+{{- with .Params.images }}{{ $ogImage = index . 0 | absURL }}{{ else }}{{ with .Site.Params.images }}{{ $ogImage = index . 0 | absURL }}{{ else }}{{ $ogImage = "img/og-default.png" | absURL }}{{ end }}{{ end -}}
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Site.Params.images }}{{ index . 0 }}{{ else }}img/og-default.png{{ end }}" />
+<meta property="og:image" content="{{ $ogImage }}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{{ .Permalink }}">
 {{ range .AllTranslations }}
-<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{ end }}
+{{- range .AllTranslations }}{{ if eq .Language.Lang "sr" }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{ end }}{{ end }}
+{{- $baseURL := printf "%s" .Site.BaseURL -}}
+{{- if .IsHome }}
+{{- $org := dict
+      "@type" "Organization"
+      "@id" (printf "%s#organization" $baseURL)
+      "name" "Enterijer.rs"
+      "url" $baseURL
+      "logo" $ogImage -}}
+{{- $website := dict
+      "@type" "WebSite"
+      "@id" (printf "%s#website" $baseURL)
+      "url" $baseURL
+      "name" .Site.Title
+      "description" .Site.Params.description
+      "inLanguage" .Site.Language.Locale
+      "publisher" (dict "@id" (printf "%s#organization" $baseURL)) -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $website $org) | jsonify | safeJS }}</script>
+{{ end }}
+{{- if $isArticle }}
+{{- $article := dict
+      "@context" "https://schema.org"
+      "@type" "Article"
+      "headline" .Title
+      "description" (or .Description (.Summary | plainify))
+      "image" $ogImage
+      "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+      "inLanguage" .Site.Language.Locale
+      "author" (dict "@type" "Person" "name" "Nenad Radoja" "url" ("/o-nama/" | absLangURL))
+      "publisher" (dict "@type" "Organization" "name" "Enterijer.rs" "url" $baseURL) -}}
+<script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
 {{ end }}
 <style>
 :root{--bg:#0b0d11;--surface:#11131a;--border:#1e2030;--text:#e6e7eb;--muted:#8b8fa3;--accent:#4ade80;--accent2:#22c55e;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
@@ -43,6 +82,10 @@ img{max-width:100%;height:auto;display:block}
 article{max-width:720px;margin:0 auto;padding:28px 0 48px}
 article h1{font-size:clamp(1.6rem,3.5vw,2.2rem);margin:0 0 14px}
 article time{color:var(--muted);font-size:.9rem;display:block;margin-bottom:18px}
+.contact-form{display:grid;gap:14px;margin:24px 0}
+.contact-form label{display:block;font-size:.9rem;font-weight:600;margin-bottom:6px}
+.contact-form input,.contact-form textarea{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;color:var(--text);font:inherit}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--accent2)}
 .site-footer{border-top:1px solid var(--border);padding:24px 0;color:var(--muted);font-size:.85rem}
 .site-footer .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
 @media(max-width:640px){.page-hero{padding:36px 0 24px}.card-grid{grid-template-columns:1fr}}

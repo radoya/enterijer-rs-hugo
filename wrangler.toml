@@ -1,0 +1,15 @@
+name = "enterijer-web"
+main = "worker/index.js"
+compatibility_date = "2026-06-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+not_found_handling = "404-page"
+
+[vars]
+# owner/repo of the Obsidian vault where contact-form leads are written
+VAULT_REPO = "radoya/enterijer-rs-vault"
+# Secrets (set via `wrangler secret put`): GITHUB_TOKEN
+# Optional: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID

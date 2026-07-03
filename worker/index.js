@@ -90,6 +90,9 @@ async function handleContact(request, env, ctx) {
   return seeOther('/hvala/');
 }
 
+// legacy WordPress URLs (pre-cutover sitemap: only /newsletter/ existed besides /)
+const LEGACY_REDIRECTS = { '/newsletter/': '/kontakt/', '/newsletter': '/kontakt/' };
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -97,6 +100,10 @@ export default {
     if (url.hostname === 'www.enterijer.rs') {
       url.hostname = 'enterijer.rs';
       return Response.redirect(url.toString(), 301);
+    }
+
+    if (LEGACY_REDIRECTS[url.pathname]) {
+      return Response.redirect(new URL(LEGACY_REDIRECTS[url.pathname], url).toString(), 301);
     }
 
     if (request.method === 'POST' && url.pathname === '/api/contact') {

@@ -1,0 +1,17 @@
+{{- $crumbs := slice -}}
+{{- range .Ancestors.Reverse -}}
+  {{- $crumbs = $crumbs | append (dict "name" (.Title | default .Site.Title) "url" .Permalink) -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  {{- range $i, $c := $crumbs -}}
+    {{- if $i }}<span class="sep">/</span>{{ end -}}
+    {{- if eq (add $i 1) (len $crumbs) }}<span aria-current="page">{{ $c.name }}</span>
+    {{- else }}<a href="{{ $c.url }}">{{ if eq $i 0 }}{{ i18n "home" }}{{ else }}{{ $c.name }}{{ end }}</a>{{ end -}}
+  {{- end -}}
+</nav>
+{{- $items := slice -}}
+{{- range $i, $c := $crumbs -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>

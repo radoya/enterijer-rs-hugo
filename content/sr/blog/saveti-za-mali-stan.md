@@ -4,6 +4,7 @@ date: "2026-06-29T10:00:00+02:00"
 draft: false
 description: "Kako vizuelno uvećati prostor i funkcionalno organizovati stan do 40 kvadrata."
 tags: ["osvetljenje","mali-prostor","organizacija"]
+images: ["/img/blog/saveti-za-mali-stan.jpg"]
 ---
 
 ## 1. Svetlost pre svega

@@ -12,7 +12,7 @@ enableGitInfo = true
 [params]
   author = "Enterijer.rs Tim"
   description = "Praktični enterijer u Srbiji i regionu — renoviranje, dekoracija, materijali, majstori."
-  images = ["img/og-default.png"]
+  images = ["img/og-default.jpg"]
   keywords = ["enterijer", "renoviranje", "sredjivanje stana", "majstori", "materijali", "dekoracija"]
   mainSections = ["blog"]
 
@@ -25,10 +25,6 @@ enableGitInfo = true
     name = "Blog"
     url = "/blog/"
     weight = 20
-  [[menu.main]]
-    name = "Galerija"
-    url = "/galerija/"
-    weight = 30
   [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
@@ -43,7 +39,7 @@ enableGitInfo = true
     title = "Enterijer.rs"
     weight = 10
     [languages.sr.params]
-      subtitle = "Praktični enterijer"
+      subtitle = "Uredite dom bez skupih grešaka"
     [languages.sr.menus]
       [[languages.sr.menus.main]]
         name = "Početna"
@@ -53,10 +49,6 @@ enableGitInfo = true
         name = "Blog"
         url = "/blog/"
         weight = 20
-      [[languages.sr.menus.main]]
-        name = "Galerija"
-        url = "/galerija/"
-        weight = 30
       [[languages.sr.menus.main]]
         name = "Kontakt"
         url = "/kontakt/"
@@ -70,7 +62,7 @@ enableGitInfo = true
     title = "Enterijer.rs"
     weight = 20
     [languages.en.params]
-      subtitle = "Practical interior tips"
+      subtitle = "A home that works — without costly mistakes"
     [languages.en.menus]
       [[languages.en.menus.main]]
         name = "Home"
@@ -80,10 +72,6 @@ enableGitInfo = true
         name = "Blog"
         url = "/blog/"
         weight = 20
-      [[languages.en.menus.main]]
-        name = "Gallery"
-        url = "/galerija/"
-        weight = 30
       [[languages.en.menus.main]]
         name = "Contact"
         url = "/kontakt/"

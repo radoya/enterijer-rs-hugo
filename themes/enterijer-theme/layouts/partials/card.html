@@ -1,0 +1,15 @@
+<article class="card">
+  <a href="{{ .RelPermalink }}">
+    {{ if .Params.images }}
+      <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy">
+    {{ end }}
+    <div class="card-body">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Description | default .Summary | truncate 120 }}</p>
+      <div class="meta">
+        {{ if not .Date.IsZero }}{{ .Date.Format "2.1.2006." }}{{ end }}
+        {{ with .Params.tags }}{{ range first 3 . }}<span class="tag" data-k="{{ . | urlize }}">{{ . }}</span>{{ end }}{{ end }}
+      </div>
+    </div>
+  </a>
+</article>

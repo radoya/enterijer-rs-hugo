@@ -1,12 +1,18 @@
 {{ define "main" }}
-<article class="container">
-  <h1>{{ .Title }}</h1>
-  {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006." }}</time>{{ end }}
-  {{ if .Params.Tags }}<div style="margin-bottom:18px">{{ range .Params.Tags }}<span class="tag">{{ . }}</span>{{ end }}</div>{{ end }}
-  {{ .Content }}
-  {{ if eq .Type "blog" }}
-  <hr style="border:0;border-top:1px solid #1e2030;margin:32px 0">
-  <p><a href="{{ "/blog/" | relLangURL }}">← Nazad na blog</a></p>
-  {{ end }}
-</article>
+<div class="container">
+  {{ partial "breadcrumbs.html" . }}
+  <article class="prose">
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta">
+      {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2.1.2006." }}</time>{{ end }}
+      {{ if .Params.tags }}<span>{{ range .Params.tags }}<span class="tag" data-k="{{ . | urlize }}">{{ . }}</span>{{ end }}</span>{{ end }}
+      {{ if eq .Type "blog" }}<span>{{ .ReadingTime }} {{ i18n "min_read" }}</span>{{ end }}
+    </div>
+    {{ .Content }}
+    {{ if eq .Type "blog" }}
+    <hr>
+    <p><a href="{{ "/blog/" | relLangURL }}">← {{ i18n "back_to_blog" }}</a></p>
+    {{ end }}
+  </article>
+</div>
 {{ end }}

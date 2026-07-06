@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Locale }}" class="dark">
+<html lang="{{ .Site.Language.Locale }}">
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="bg-zinc-950 text-zinc-100 antialiased">
+<body>
   {{ partial "header.html" . }}
-  <main id="main" class="min-h-[60vh]">
+  <main id="main">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}

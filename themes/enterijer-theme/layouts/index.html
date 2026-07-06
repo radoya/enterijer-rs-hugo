@@ -1,23 +1,35 @@
 {{ define "main" }}
-<section class="page-hero">
+<section class="hero">
   <div class="container">
-    <h1>{{ .Site.Params.subtitle | default .Site.Title }}</h1>
-    <p>{{ .Site.Params.description }}</p>
-    <p style="margin-top:18px"><a class="btn" href="{{ "/blog/" | relLangURL }}">→ Pogledaj savete</a></p>
+    <div class="hero-copy">
+      <p class="eyebrow dim-line">{{ i18n "hero_eyebrow" }}</p>
+      <h1>{{ .Site.Params.subtitle | default .Site.Title }}</h1>
+      <p>{{ .Site.Params.description }}</p>
+      <p>
+        <a class="btn" href="{{ "/blog/" | relLangURL }}">{{ i18n "home_cta" }}</a>
+        <a class="btn btn-ghost" href="{{ "/kontakt/" | relLangURL }}">{{ i18n "contact" }}</a>
+      </p>
+    </div>
+    <div class="hero-media">
+      <img src="/img/hero.jpg" alt="{{ i18n "hero_alt" }}" fetchpriority="high">
+    </div>
   </div>
 </section>
-<section class="container" style="padding-bottom:48px">
-  <h2 style="font-size:1.15rem;color:var(--muted);margin-bottom:10px">Najnoviji saveti</h2>
-  <div class="card-grid">
-    {{ range first 6 (where .Site.RegularPages "Type" "blog") }}
-    <article class="card">
-      <a href="{{ .RelPermalink }}">
-        {{ if .Params.images }}<img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy">{{ end }}
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Description | default .Summary | truncate 120 }}</p>
-        <div class="meta">{{ .Date.Format "2.1.2006." }} · {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}</div>
-      </a>
-    </article>
+
+<section class="section container">
+  <p class="eyebrow">{{ i18n "home_latest" }}</p>
+  <div class="card-grid card-grid--featured">
+    {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+<section class="section container">
+  <p class="eyebrow">{{ i18n "home_categories" }}</p>
+  <div class="swatch-row">
+    {{ range $name := slice "Kuhinje" "Kupatila" "Dnevna soba" "Spavaća soba" "Rasveta" "Podovi" "Nameštaj" "Boje" }}
+      <a class="tag" data-k="{{ $name | urlize }}" href="{{ "/blog/" | relLangURL }}">{{ $name }}</a>
     {{ end }}
   </div>
 </section>

@@ -1,6 +1,20 @@
-<footer style="border-top:1px solid #1e2030;padding:24px 0;color:#8b8fa3;font-size:.85rem">
-  <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
-    <span>© {{ now.Year }} Enterijer.rs — Sva prava zadržana.</span>
-    <a href="https://instagram.com/enterijer.rs" target="_blank" rel="noopener">Instagram</a>
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <h4>Enterijer.rs</h4>
+      <p>{{ .Site.Params.description }}</p>
+    </div>
+    <nav aria-label="Footer">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    <div>
+      <h4>{{ i18n "follow_us" }}</h4>
+      <nav aria-label="Social">
+        <a href="https://instagram.com/enterijer.rs" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+    <div class="footer-legal">{{ .Site.Copyright }} {{ now.Year }} — {{ i18n "rights_reserved" }}</div>
   </div>
 </footer>

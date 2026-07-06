@@ -15,6 +15,7 @@ const slug = (s) =>
 const seeOther = (loc) => new Response(null, { status: 303, headers: { Location: loc } });
 
 async function handleContact(request, env, ctx) {
+  let ghFailed = false;
   let form;
   try {
     form = await request.formData();
@@ -71,11 +72,13 @@ async function handleContact(request, env, ctx) {
         content: btoa(String.fromCharCode(...new TextEncoder().encode(md))),
       }),
     });
-    if (!res.ok) console.error('GitHub lead write failed:', res.status, await res.text());
+    if (!res.ok) { ghFailed = true; console.error('GitHub lead write failed:', res.status, await res.text()); }
   } catch (err) {
+    ghFailed = true;
     console.error('GitHub lead write error:', err); // never lose UX over a failed write
   }
 
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CHAT_ID) console.error('Telegram not configured — notification skipped');
   if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID) {
     ctx.waitUntil(
       fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
@@ -83,7 +86,7 @@ async function handleContact(request, env, ctx) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           chat_id: env.TELEGRAM_CHAT_ID,
-          text: `Novi lead sa enterijer.rs\n${name}\n${email || phone}${listing ? `\nListing: ${listing}` : ''}\n\n${message}`,
+          text: `${ghFailed ? '⚠️ GitHub upis NIJE PROŠAO — sačuvaj ručno!\n' : ''}Novi lead sa enterijer.rs\n${name}\n${email || phone}${listing ? `\nListing: ${listing}` : ''}\n\n${message}`,
         }),
       }).catch((err) => console.error('Telegram notify failed:', err)),
     );
@@ -96,6 +99,7 @@ async function handleContact(request, env, ctx) {
 // bake to data/reviews.json). ponytail: D1 endpoint when the API token gains
 // D1 scope — until then every review is human-approved in the vault anyway.
 async function handleReview(request, env, ctx) {
+  let ghFailed = false;
   let form;
   try {
     form = await request.formData();
@@ -150,11 +154,13 @@ async function handleReview(request, env, ctx) {
         content: btoa(String.fromCharCode(...new TextEncoder().encode(md))),
       }),
     });
-    if (!res.ok) console.error('GitHub review write failed:', res.status, await res.text());
+    if (!res.ok) { ghFailed = true; console.error('GitHub review write failed:', res.status, await res.text()); }
   } catch (err) {
+    ghFailed = true;
     console.error('GitHub review write error:', err);
   }
 
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CHAT_ID) console.error('Telegram not configured — notification skipped');
   if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID) {
     ctx.waitUntil(
       fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
@@ -162,7 +168,7 @@ async function handleReview(request, env, ctx) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           chat_id: env.TELEGRAM_CHAT_ID,
-          text: `Nova recenzija ${rating}/5 za ${listing}\n${author}: ${body.slice(0, 300)}\n\nOdobri: promeni status u approved u vault 07 - CRM/RECENZIJE/`,
+          text: `${ghFailed ? '⚠️ GitHub upis NIJE PROŠAO — sačuvaj ručno!\n' : ''}Nova recenzija ${rating}/5 za ${listing}\n${author}: ${body.slice(0, 300)}\n\nOdobri: promeni status u approved u vault 07 - CRM/RECENZIJE/`,
         }),
       }).catch((err) => console.error('Telegram notify failed:', err)),
     );

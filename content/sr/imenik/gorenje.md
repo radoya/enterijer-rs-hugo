@@ -6,6 +6,9 @@ kategorija: ["kuhinje"]
 grad: ["beograd"]
 brend: ["gorenje"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: "https://www.gorenje.rs"
 phone: ""
 address: ""

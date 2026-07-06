@@ -6,6 +6,9 @@ kategorija: ["namestaj", "dekoracija"]
 grad: ["beograd", "novi-sad", "nis"]
 brend: ["jysk"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: "https://jysk.rs"
 phone: ""
 address: ""

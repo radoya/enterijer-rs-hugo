@@ -6,6 +6,9 @@ kategorija: ["namestaj"]
 grad: ["beograd"]
 brend: ["extraform"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

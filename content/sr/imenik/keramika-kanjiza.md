@@ -6,6 +6,9 @@ kategorija: ["kupatila", "podovi"]
 grad: ["kanjiza"]
 brend: ["keramika-kanjiza"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

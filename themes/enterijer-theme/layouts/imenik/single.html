@@ -6,7 +6,7 @@
   <article class="prose">
     <header class="listing-header">
       <h1>{{ .Title }}</h1>
-      {{ with .Params.price_range }}<span class="price-range">{{ . }}</span>{{ end }}
+      {{/* price_range/price se prikupljaju ali za sada ne prikazuju — amandman 1 */}}
       {{ with $rev.avg }}{{ partial "stars.html" . }} <span>({{ $rev.count }})</span>{{ end }}
     </header>
     <div class="article-meta">
@@ -15,30 +15,30 @@
       {{ with .Params.tip }}<a class="tag" href="{{ printf "/tip/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
     </div>
 
-    {{ with .Params.images }}<img src="{{ index . 0 }}" alt="{{ $.Title }}">{{ end }}
-
+    {{/* images/website/source_url se prikupljaju ali za sada ne prikazuju; lead forma uklonjena — amandman 1 */}}
     <p class="lead">{{ .Description }}</p>
     {{ .Content }}
 
+    {{ with .Params.store }}
+      {{ with site.GetPage (printf "/imenik/%s" .) }}
+    <p class="store-link">Prodavnica: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      {{ end }}
+    {{ end }}
+
     <div class="listing-contact">
-      {{ with .Params.website }}<span><strong>Sajt:</strong> <a href="{{ . }}" target="_blank" rel="noopener nofollow">{{ . }}</a></span>{{ end }}
       {{ with .Params.phone }}<span><strong>Telefon:</strong> <a href="tel:{{ replace . " " "" }}">{{ . }}</a></span>{{ end }}
       {{ with .Params.address }}<span><strong>Adresa:</strong> {{ . }}</span>{{ end }}
     </div>
 
-    <div class="listing-cta">
-      <h2>Pošaljite upit</h2>
-      <p>Direktno do {{ .Title }} — opišite šta vam treba, javljaju se u najkraćem roku.</p>
-      <form class="contact-form" method="post" action="/api/contact">
-        <input type="hidden" name="listing" value="{{ $slug }}">
-        <p class="hp-field"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
-        <div><label for="lead-name">Ime</label><input id="lead-name" name="name" required maxlength="120"></div>
-        <div><label for="lead-email">Email</label><input id="lead-email" name="email" type="email" maxlength="200"></div>
-        <div><label for="lead-phone">Telefon</label><input id="lead-phone" name="phone" maxlength="40"></div>
-        <div><label for="lead-msg">Poruka</label><textarea id="lead-msg" name="message" rows="4" required maxlength="5000"></textarea></div>
-        <div><button class="btn" type="submit">Pošalji upit</button></div>
-      </form>
-    </div>
+    {{- $products := where site.RegularPages "Params.store" $slug -}}
+    {{ with $products }}
+    <section class="store-products">
+      <h2>Proizvodi ({{ len . }})</h2>
+      <div class="grid-cards">
+        {{ range . }}{{ partial "listing-card.html" . }}{{ end }}
+      </div>
+    </section>
+    {{ end }}
 
     {{ partial "reviews.html" . }}
   </article>
@@ -53,7 +53,6 @@
   {{- with .Params.phone }}{{ $ld = merge $ld (dict "telephone" .) }}{{ end -}}
   {{- with .Params.address }}{{ $ld = merge $ld (dict "address" .) }}{{ end -}}
 {{- end -}}
-{{- with .Params.images }}{{ $ld = merge $ld (dict "image" (index . 0 | absURL)) }}{{ end -}}
 {{- with .Params.description }}{{ $ld = merge $ld (dict "description" .) }}{{ end -}}
 {{- with $rev.avg -}}
   {{- $ld = merge $ld (dict "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" . "reviewCount" $rev.count)) -}}

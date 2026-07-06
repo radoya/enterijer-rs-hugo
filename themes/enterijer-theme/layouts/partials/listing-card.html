@@ -2,16 +2,13 @@
 {{- $rev := index site.Data.reviews $slug | default dict -}}
 <article class="card">
   <a href="{{ .RelPermalink }}">
-    {{ if .Params.images }}
-      <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy">
-    {{ end }}
+    {{/* images skrivene za sada — amandman 1 */}}
     <div class="card-body">
       <h3>{{ .Title }}</h3>
       <p>{{ .Description | truncate 110 }}</p>
       <div class="meta">
         {{ range first 2 (.Params.kategorija | default slice) }}<span class="tag" data-k="{{ . | urlize }}">{{ . }}</span>{{ end }}
         {{ with index (.Params.grad | default slice) 0 }}<span class="tag">{{ . | title }}</span>{{ end }}
-        {{ with .Params.price_range }}<span class="price-range">{{ . }}</span>{{ end }}
         {{ with $rev.avg }}{{ partial "stars.html" . }} ({{ $rev.count }}){{ end }}
       </div>
     </div>

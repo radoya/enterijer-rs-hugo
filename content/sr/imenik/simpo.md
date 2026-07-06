@@ -6,6 +6,9 @@ kategorija: ["namestaj"]
 grad: ["vranje"]
 brend: ["simpo"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: "https://www.simpo.rs"
 phone: ""
 address: ""

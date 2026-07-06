@@ -6,6 +6,9 @@ kategorija: ["namestaj"]
 grad: ["ivanjica"]
 brend: ["matis"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

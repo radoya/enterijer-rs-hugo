@@ -6,6 +6,9 @@ kategorija: ["namestaj", "kuhinje", "dekoracija"]
 grad: ["beograd"]
 brend: ["ikea"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: "https://www.ikea.rs"
 phone: ""
 address: ""

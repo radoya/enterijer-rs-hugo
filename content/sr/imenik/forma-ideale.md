@@ -6,6 +6,9 @@ kategorija: ["namestaj"]
 grad: ["kragujevac"]
 brend: ["forma-ideale"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: "https://www.formaideale.rs"
 phone: ""
 address: ""

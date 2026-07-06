@@ -6,6 +6,9 @@ kategorija: ["podovi", "dekoracija"]
 grad: ["beograd"]
 brend: []
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

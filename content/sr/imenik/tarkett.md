@@ -6,6 +6,9 @@ kategorija: ["podovi"]
 grad: ["backa-palanka"]
 brend: ["tarkett"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

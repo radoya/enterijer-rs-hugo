@@ -6,6 +6,9 @@ kategorija: ["kuhinje"]
 grad: ["gornji-milanovac"]
 brend: ["metalac"]
 price_range: ""
+price: ""
+store: ""
+source_url: ""
 website: ""
 phone: ""
 address: ""

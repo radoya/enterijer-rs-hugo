@@ -1,0 +1,16 @@
+{{- with .Params.faq -}}
+<section class="faq">
+  <h2>Česta pitanja</h2>
+  {{ range . }}
+  <details>
+    <summary>{{ .q }}</summary>
+    <div>{{ .a }}</div>
+  </details>
+  {{ end }}
+</section>
+{{- $items := slice -}}
+{{- range . -}}
+  {{- $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify | safeJS }}</script>
+{{- end -}}

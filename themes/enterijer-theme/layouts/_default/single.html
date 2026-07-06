@@ -9,6 +9,10 @@
       {{ if eq .Type "blog" }}<span>{{ .ReadingTime }} {{ i18n "min_read" }}</span>{{ end }}
     </div>
     {{ .Content }}
+    {{ if eq .Type "saveti" }}
+    {{ partial "faq-schema.html" . }}
+    {{ partial "related-imenik.html" . }}
+    {{ end }}
     {{ if eq .Type "blog" }}
     <hr>
     <p><a href="{{ "/blog/" | relLangURL }}">← {{ i18n "back_to_blog" }}</a></p>

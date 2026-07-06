@@ -1,0 +1,11 @@
+{{- with .Params.kategorija -}}
+<section class="listing-cta">
+  <h2>Iz imenika</h2>
+  <p>Provereni proizvođači i majstori za ovu temu:</p>
+  <div class="swatch-row">
+    {{ range . }}
+    <a class="tag" data-k="{{ . | urlize }}" href="{{ printf "/kategorija/%s/" (. | urlize) | relLangURL }}">{{ . | title }}</a>
+    {{ end }}
+  </div>
+</section>
+{{- end -}}

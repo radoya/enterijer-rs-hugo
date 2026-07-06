@@ -3,13 +3,18 @@
     <a class="brand" href="{{ "/" | relLangURL }}">enterijer<span>.rs</span></a>
     <nav class="nav" aria-label="Primary">
       {{ range .Site.Menus.main }}
+        {{ if ne (.URL | relLangURL) ("/kontakt/" | relLangURL) }}
         <a href="{{ .URL | relLangURL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{ end }}
       {{ end }}
     </nav>
-    <div class="lang-switch">
-      {{ range .Translations }}
-        <a href="{{ .Permalink }}">{{ .Language.Label }}</a>
-      {{ end }}
+    <div class="header-cta">
+      <div class="lang-switch">
+        {{ range .Translations }}
+          <a href="{{ .Permalink }}">{{ .Language.Label }}</a>
+        {{ end }}
+      </div>
+      <a class="btn btn-ghost" href="{{ "/kontakt/" | relLangURL }}">{{ i18n "contact" }}</a>
     </div>
   </div>
 </header>

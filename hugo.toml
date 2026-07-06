@@ -47,7 +47,7 @@ enableGitInfo = true
     title = "Enterijer.rs"
     weight = 10
     [languages.sr.params]
-      subtitle = "Uredite dom bez skupih grešaka"
+      subtitle = "Uredite dom *bez skupih grešaka*"
     [languages.sr.menus]
       [[languages.sr.menus.main]]
         name = "Početna"
@@ -78,7 +78,7 @@ enableGitInfo = true
     title = "Enterijer.rs"
     weight = 20
     [languages.en.params]
-      subtitle = "A home that works — without costly mistakes"
+      subtitle = "A home that works — *without costly mistakes*"
     [languages.en.menus]
       [[languages.en.menus.main]]
         name = "Home"

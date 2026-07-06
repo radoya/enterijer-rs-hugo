@@ -1,29 +1,55 @@
 {{ define "main" }}
-<section class="hero">
+<section class="hero container">
+  <p class="eyebrow">{{ i18n "hero_eyebrow" }}</p>
+  <h1>{{ .Site.Params.subtitle | default .Site.Title | markdownify }}</h1>
+  <p class="hero-sub">{{ .Site.Params.description }}</p>
+  <div class="hero-actions">
+    <a class="btn" href="{{ "/blog/" | relLangURL }}">{{ i18n "home_cta" }}</a>
+    <a class="btn btn-ghost" href="{{ "/kontakt/" | relLangURL }}">{{ i18n "contact" }}</a>
+  </div>
+  <div class="hero-media">
+    <img src="/img/hero.jpg" alt="{{ i18n "hero_alt" }}" fetchpriority="high">
+  </div>
+</section>
+
+<section class="band">
   <div class="container">
-    <div class="hero-copy">
-      <p class="eyebrow dim-line">{{ i18n "hero_eyebrow" }}</p>
-      <h1>{{ .Site.Params.subtitle | default .Site.Title }}</h1>
-      <p>{{ .Site.Params.description }}</p>
-      <p>
-        <a class="btn" href="{{ "/blog/" | relLangURL }}">{{ i18n "home_cta" }}</a>
-        <a class="btn btn-ghost" href="{{ "/kontakt/" | relLangURL }}">{{ i18n "contact" }}</a>
-      </p>
-    </div>
-    <div class="hero-media">
-      <img src="/img/hero.jpg" alt="{{ i18n "hero_alt" }}" fetchpriority="high">
+    <p class="eyebrow">{{ i18n "home_latest" }}</p>
+    <div class="card-grid card-grid--featured">
+      {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
+        {{ partial "card.html" . }}
+      {{ end }}
     </div>
   </div>
 </section>
 
-<section class="section container">
-  <p class="eyebrow">{{ i18n "home_latest" }}</p>
-  <div class="card-grid card-grid--featured">
-    {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
-      {{ partial "card.html" . }}
-    {{ end }}
+{{ with .Site.GetPage "/imenik" }}
+<section class="container">
+  <div class="promo">
+    <div class="promo-media"><img src="/img/blog/osvetljenje-stana.jpg" alt="{{ .Title }}" loading="lazy"></div>
+    <div class="promo-copy">
+      <p class="eyebrow">{{ i18n "promo_imenik_eyebrow" }}</p>
+      <h2>{{ i18n "promo_imenik_title" | markdownify }}</h2>
+      <p>{{ i18n "promo_imenik_text" }}</p>
+      <a class="btn btn-ghost" href="{{ .RelPermalink }}">{{ i18n "promo_imenik_cta" }}</a>
+    </div>
   </div>
 </section>
+{{ end }}
+
+{{ with .Site.GetPage "/saveti" }}
+<section class="container">
+  <div class="promo promo--flip">
+    <div class="promo-media"><img src="/img/blog/saveti-za-mali-stan.jpg" alt="{{ .Title }}" loading="lazy"></div>
+    <div class="promo-copy">
+      <p class="eyebrow">{{ i18n "promo_saveti_eyebrow" }}</p>
+      <h2>{{ i18n "promo_saveti_title" | markdownify }}</h2>
+      <p>{{ i18n "promo_saveti_text" }}</p>
+      <a class="btn btn-ghost" href="{{ .RelPermalink }}">{{ i18n "promo_saveti_cta" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <section class="section container">
   <p class="eyebrow">{{ i18n "home_categories" }}</p>

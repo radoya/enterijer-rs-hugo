@@ -1,5 +1,6 @@
 <article class="card">
   <a href="{{ .RelPermalink }}">
+    <span class="card-arrow" aria-hidden="true">↗</span>
     {{ if .Params.images }}
       <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy">
     {{ end }}

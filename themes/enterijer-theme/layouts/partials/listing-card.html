@@ -2,6 +2,7 @@
 {{- $rev := index site.Data.reviews $slug | default dict -}}
 <article class="card">
   <a href="{{ .RelPermalink }}">
+    <span class="card-arrow" aria-hidden="true">↗</span>
     {{/* images skrivene za sada — amandman 1 */}}
     <div class="card-body">
       <h3>{{ .Title }}</h3>

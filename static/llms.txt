@@ -16,8 +16,18 @@ https://interior.enterijer.rs/
 ## Glavne sekcije / Main sections
 - https://enterijer.rs/ — pocetna / home
 - https://enterijer.rs/blog/ — saveti i clanci / articles
+- https://enterijer.rs/saveti/ — vodici sa cestim pitanjima (FAQ) / how-to guides with FAQ
+- https://enterijer.rs/imenik/ — imenik proizvoda, usluga i majstora sa recenzijama / directory of products, services and contractors with user reviews
+- https://enterijer.rs/kategorija/ — imenik po kategorijama (kuhinje, kupatila, podovi...) / directory by category
 - https://enterijer.rs/o-nama/ — o uredniku i urednickoj politici / about & editorial policy
 - https://enterijer.rs/kontakt/ — kontakt forma / contact form
+
+## Imenik / Directory
+Imenik sadrzi proverene proizvodjace, prodavce i majstore u Srbiji, sa
+recenzijama korisnika (svaka recenzija prolazi rucnu proveru) i direktnom
+kontakt formom po firmi. / The directory lists verified manufacturers,
+retailers and contractors in Serbia, with human-moderated user reviews and
+a per-company contact form.
 
 ## Kontakt / Contact
 https://enterijer.rs/kontakt/

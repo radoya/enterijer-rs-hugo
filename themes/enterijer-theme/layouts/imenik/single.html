@@ -25,10 +25,12 @@
       {{ end }}
     {{ end }}
 
+    {{ if or .Params.phone .Params.address }}
     <div class="listing-contact">
       {{ with .Params.phone }}<span><strong>Telefon:</strong> <a href="tel:{{ replace . " " "" }}">{{ . }}</a></span>{{ end }}
       {{ with .Params.address }}<span><strong>Adresa:</strong> {{ . }}</span>{{ end }}
     </div>
+    {{ end }}
 
     {{- $products := where site.RegularPages "Params.store" $slug -}}
     {{ with $products }}

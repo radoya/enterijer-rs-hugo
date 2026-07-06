@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container">
+  <header class="page-hero">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+  {{ $kat := .Site.Taxonomies.kategorija }}
+  {{ if $kat }}
+  <p class="eyebrow">Kategorije</p>
+  <div class="swatch-row" style="margin-bottom: var(--space-3)">
+    {{ range $kat.ByCount }}
+      <a class="tag" data-k="{{ .Name | urlize }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="card-grid">
+    {{ range .Pages.ByTitle }}
+      {{ partial "listing-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

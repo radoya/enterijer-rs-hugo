@@ -1,0 +1,16 @@
+---
+title: "Metalac"
+description: "Poznati domaći brend kuhinjskog posuđa i opreme iz Gornjeg Milanovca."
+tip: "proizvod"
+kategorija: ["kuhinje"]
+grad: ["gornji-milanovac"]
+brend: ["metalac"]
+price_range: ""
+website: ""
+phone: ""
+address: ""
+images: []
+date: 2026-07-06
+---
+
+Metalac posuđe je decenijama standard u srpskim kuhinjama; program uključuje i sudopere i kuhinjsku opremu.

@@ -1,6 +1,6 @@
 {{- $crumbs := slice -}}
 {{- range .Ancestors.Reverse -}}
-  {{- $crumbs = $crumbs | append (dict "name" (.Title | default .Site.Title) "url" .Permalink) -}}
+  {{- $crumbs = $crumbs | append (dict "name" (.LinkTitle | default .Site.Title) "url" .Permalink) -}}
 {{- end -}}
 {{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
 <nav class="breadcrumbs" aria-label="Breadcrumb">

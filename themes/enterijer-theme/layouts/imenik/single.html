@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{- $slug := .File.ContentBaseName -}}
+{{- $rev := index site.Data.reviews $slug | default dict -}}
+<div class="container">
+  {{ partial "breadcrumbs.html" . }}
+  <article class="prose">
+    <header class="listing-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.price_range }}<span class="price-range">{{ . }}</span>{{ end }}
+      {{ with $rev.avg }}{{ partial "stars.html" . }} <span>({{ $rev.count }})</span>{{ end }}
+    </header>
+    <div class="article-meta">
+      {{ range .Params.kategorija }}<a class="tag" data-k="{{ . | urlize }}" href="{{ printf "/kategorija/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+      {{ range .Params.grad }}<a class="tag" href="{{ printf "/grad/%s/" (. | urlize) | relLangURL }}">{{ . | title }}</a>{{ end }}
+      {{ with .Params.tip }}<a class="tag" href="{{ printf "/tip/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+    </div>
+
+    {{ with .Params.images }}<img src="{{ index . 0 }}" alt="{{ $.Title }}">{{ end }}
+
+    <p class="lead">{{ .Description }}</p>
+    {{ .Content }}
+
+    <div class="listing-contact">
+      {{ with .Params.website }}<span><strong>Sajt:</strong> <a href="{{ . }}" target="_blank" rel="noopener nofollow">{{ . }}</a></span>{{ end }}
+      {{ with .Params.phone }}<span><strong>Telefon:</strong> <a href="tel:{{ replace . " " "" }}">{{ . }}</a></span>{{ end }}
+      {{ with .Params.address }}<span><strong>Adresa:</strong> {{ . }}</span>{{ end }}
+    </div>
+
+    <div class="listing-cta">
+      <h2>Pošaljite upit</h2>
+      <p>Direktno do {{ .Title }} — opišite šta vam treba, javljaju se u najkraćem roku.</p>
+      <form class="contact-form" method="post" action="/api/contact">
+        <input type="hidden" name="listing" value="{{ $slug }}">
+        <p class="hp-field"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
+        <div><label for="lead-name">Ime</label><input id="lead-name" name="name" required maxlength="120"></div>
+        <div><label for="lead-email">Email</label><input id="lead-email" name="email" type="email" maxlength="200"></div>
+        <div><label for="lead-phone">Telefon</label><input id="lead-phone" name="phone" maxlength="40"></div>
+        <div><label for="lead-msg">Poruka</label><textarea id="lead-msg" name="message" rows="4" required maxlength="5000"></textarea></div>
+        <div><button class="btn" type="submit">Pošalji upit</button></div>
+      </form>
+    </div>
+
+    {{ partial "reviews.html" . }}
+  </article>
+</div>
+
+{{- $ld := dict "@context" "https://schema.org" "name" .Title "url" .Permalink -}}
+{{- if eq .Params.tip "proizvod" -}}
+  {{- $ld = merge $ld (dict "@type" "Product") -}}
+  {{- with index (.Params.brend | default slice) 0 }}{{ $ld = merge $ld (dict "brand" (dict "@type" "Brand" "name" (. | title))) }}{{ end -}}
+{{- else -}}
+  {{- $ld = merge $ld (dict "@type" "LocalBusiness") -}}
+  {{- with .Params.phone }}{{ $ld = merge $ld (dict "telephone" .) }}{{ end -}}
+  {{- with .Params.address }}{{ $ld = merge $ld (dict "address" .) }}{{ end -}}
+{{- end -}}
+{{- with .Params.images }}{{ $ld = merge $ld (dict "image" (index . 0 | absURL)) }}{{ end -}}
+{{- with .Params.description }}{{ $ld = merge $ld (dict "description" .) }}{{ end -}}
+{{- with $rev.avg -}}
+  {{- $ld = merge $ld (dict "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" . "reviewCount" $rev.count)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{ end }}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container">
+  <header class="page-hero">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="swatch-row">
+    {{ range .Data.Terms.ByCount }}
+      <a class="tag" data-k="{{ .Name | urlize }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+{{- /* param: float avg 0-5 */ -}}
+{{- $avg := . -}}
+{{- $full := math.Floor $avg | int -}}
+<span class="stars" role="img" aria-label="{{ printf "%.1f / 5" $avg }}">
+  {{- range seq 5 -}}
+    {{- if le . $full -}}★{{- else -}}<span class="off">★</span>{{- end -}}
+  {{- end -}}
+</span>

@@ -6,6 +6,14 @@ copyright = '© Enterijer.rs'
 enableRobotsTXT = true
 enableGitInfo = true
 
+
+[taxonomies]
+  kategorija = 'kategorija'
+  grad = 'grad'
+  tip = 'tip'
+  brend = 'brend'
+  tag = 'tags'
+
 [markup.goldmark.renderer]
   unsafe = true # allow raw HTML in markdown (contact form)
 
@@ -49,6 +57,10 @@ enableGitInfo = true
         name = "Blog"
         url = "/blog/"
         weight = 20
+      [[languages.sr.menus.main]]
+        name = "Imenik"
+        url = "/imenik/"
+        weight = 25
       [[languages.sr.menus.main]]
         name = "Kontakt"
         url = "/kontakt/"

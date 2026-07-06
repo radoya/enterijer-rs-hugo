@@ -1,0 +1,16 @@
+---
+title: "Tarkett"
+description: "Svetski proizvođač podnih obloga sa fabrikom u Bačkoj Palanci — laminat, vinil, parket."
+tip: "proizvod"
+kategorija: ["podovi"]
+grad: ["backa-palanka"]
+brend: ["tarkett"]
+price_range: ""
+website: ""
+phone: ""
+address: ""
+images: []
+date: 2026-07-06
+---
+
+Tarkett podne obloge se proizvode i u Srbiji; širok izbor laminata, vinilnih podova i parketa kroz maloprodajnu mrežu partnera.

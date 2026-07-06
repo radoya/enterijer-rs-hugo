@@ -27,6 +27,7 @@ async function handleContact(request, env, ctx) {
   const name = line('name');
   const email = line('email');
   const phone = line('phone');
+  const listing = line('listing');
   const message = get('message').slice(0, 5000);
 
   if (get('website')) return seeOther('/hvala/'); // honeypot — silent drop
@@ -44,6 +45,7 @@ async function handleContact(request, env, ctx) {
     `ime: "${name}"`,
     `email: "${email}"`,
     `telefon: "${phone}"`,
+    `listing: "${listing}"`,
     `datum: ${now.toISOString()}`,
     'izvor: enterijer.rs',
     '---',
@@ -81,7 +83,7 @@ async function handleContact(request, env, ctx) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           chat_id: env.TELEGRAM_CHAT_ID,
-          text: `Novi lead sa enterijer.rs\n${name}\n${email || phone}\n\n${message}`,
+          text: `Novi lead sa enterijer.rs\n${name}\n${email || phone}${listing ? `\nListing: ${listing}` : ''}\n\n${message}`,
         }),
       }).catch((err) => console.error('Telegram notify failed:', err)),
     );

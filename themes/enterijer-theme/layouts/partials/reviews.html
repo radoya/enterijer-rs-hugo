@@ -1,1 +1,36 @@
-{{- /* Phase 4 fills this in: baked reviews + submit form + client fetch */ -}}
+{{- $slug := .File.ContentBaseName -}}
+{{- $rev := index site.Data.reviews $slug | default dict -}}
+<section class="reviews" id="recenzije">
+  <h2>Recenzije{{ with $rev.count }} ({{ . }}){{ end }}</h2>
+  {{ with $rev.avg }}
+    <p>{{ partial "stars.html" . }} <strong>{{ printf "%.1f" . }}</strong> / 5</p>
+  {{ end }}
+  {{ range $rev.reviews }}
+    <div class="review">
+      <div>{{ partial "stars.html" (float .ocena) }} <strong>{{ .autor }}</strong></div>
+      <p>{{ .tekst }}</p>
+      <div class="meta">{{ .datum }}</div>
+    </div>
+  {{ else }}
+    <p>Još nema recenzija — budite prvi.</p>
+  {{ end }}
+
+  <h3>Ostavite recenziju</h3>
+  <form class="contact-form" method="post" action="/api/reviews">
+    <input type="hidden" name="listing" value="{{ $slug }}">
+    <p class="hp-field"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
+    <div><label for="rev-author">Ime</label><input id="rev-author" name="author" required maxlength="80"></div>
+    <div><label for="rev-rating">Ocena</label>
+      <select id="rev-rating" name="rating" required>
+        <option value="5">5 — odlično</option>
+        <option value="4">4 — vrlo dobro</option>
+        <option value="3">3 — dobro</option>
+        <option value="2">2 — slabo</option>
+        <option value="1">1 — loše</option>
+      </select>
+    </div>
+    <div><label for="rev-body">Recenzija</label><textarea id="rev-body" name="body" rows="4" required minlength="10" maxlength="2000"></textarea></div>
+    <div><button class="btn" type="submit">Pošalji recenziju</button></div>
+    <p class="meta">Recenzija se objavljuje nakon provere.</p>
+  </form>
+</section>

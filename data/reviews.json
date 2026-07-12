@@ -1,1 +1,14 @@
-{}
+{
+ "forma-ideale": {
+  "reviews": [
+   {
+    "autor": "Bozur",
+    "ocena": 5,
+    "tekst": "Fantastican service.",
+    "datum": "2026-07-12"
+   }
+  ],
+  "count": 1,
+  "avg": 5.0
+ }
+}

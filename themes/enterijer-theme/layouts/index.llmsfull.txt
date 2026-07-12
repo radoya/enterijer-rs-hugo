@@ -1,0 +1,17 @@
+# {{ site.Title }} — llms-full.txt
+# Pun sadržaj za AI/LLM. Jezik: {{ site.Language.Lang }}. Generisano iz Hugo (ne može zastati).
+# {{ site.Params.description | default "" }}
+
+{{ range where site.RegularPages "Kind" "page" -}}
+{{- $p := . -}}
+================================================================
+URL: {{ $p.Permalink }}
+Naslov: {{ $p.Title }}
+{{ with $p.Params.kategorija }}Kategorija: {{ delimit . ", " }}
+{{ end }}{{ with $p.Params.grad }}Grad: {{ delimit . ", " }}
+{{ end }}{{ with $p.Description }}Sažetak: {{ . }}
+{{ end }}Datum: {{ $p.Date.Format "2006-01-02" }}
+
+{{ $p.Plain | chomp }}
+
+{{ end -}}

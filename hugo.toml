@@ -184,3 +184,13 @@ enableGitInfo = true
 
 [pagination]
   pagerSize = 12
+
+[outputFormats.LLMSFULL]
+  mediaType = "text/plain"
+  baseName = "llms-full"
+  isPlainText = true
+  rel = "alternate"
+  noUgly = true
+
+[outputs]
+  home = ["HTML", "RSS", "LLMSFULL"]

@@ -9,7 +9,20 @@ run_worker_first = true
 not_found_handling = "404-page"
 
 [vars]
-# owner/repo of the Obsidian vault where contact-form leads are written
+# owner/repo of the Obsidian vault where contact-form leads + approved reviews are written
 VAULT_REPO = "radoya/enterijer-rs-vault"
-# Secrets (set via `wrangler secret put`): GITHUB_TOKEN
+# ENT·Odobrenja grupa — recenzije Telegram javljanje ide ovde
+REVIEW_CHAT_ID = "-5361984248"
+# Secrets (set via `wrangler secret put`): GITHUB_TOKEN, TURNSTILE_SECRET
+# N2 magic-link (kad se aktivira): JWT_SECRET, ADMIN_TOKEN, RESEND_API_KEY, REVIEW_FROM
 # Optional: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+
+# N2 magic-link backend (reviews.js): efemerno auth stanje (magic_links) + rate limit (RATE_KV)
+[[d1_databases]]
+binding = "DB"
+database_name = "enterijer-reviews"
+database_id = "47d295f1-9308-46d4-9392-2e7fe0fa5c75"
+
+[[kv_namespaces]]
+binding = "RATE_KV"
+id = "1145b7d52f084913ba578a2181ac4856"

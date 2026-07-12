@@ -1,3 +1,5 @@
+import { handleReview as handleReviewMagic } from './reviews.js';
+
 // One Worker serves every language domain. Hugo multihost builds to
 // public/<lang>/, so we prefix the pathname with the host's language.
 const LANG_BY_HOST = {
@@ -222,7 +224,13 @@ export default {
     }
 
     if (request.method === 'POST' && url.pathname === '/api/reviews') {
-      return handleReview(request, env, ctx);
+      return handleReview(request, env, ctx); // legacy vault-native forma (fallback)
+    }
+
+    // N2 magic-link recenzije: /api/review/{request-link,verify,submit} + /api/admin/reviews
+    if (url.pathname.startsWith('/api/review/') || url.pathname.startsWith('/api/admin/reviews')) {
+      const r = await handleReviewMagic(request, env, ctx, url);
+      if (r) return r;
     }
 
     if (request.method !== 'GET' && request.method !== 'HEAD') {

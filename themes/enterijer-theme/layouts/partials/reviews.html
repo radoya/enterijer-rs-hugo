@@ -16,23 +16,6 @@
   {{ end }}
 
   <h3>Ostavite recenziju</h3>
-  <form class="contact-form" method="post" action="/api/reviews">
-    <input type="hidden" name="listing" value="{{ $slug }}">
-    <p class="hp-field"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
-    <div><label for="rev-author">Ime</label><input id="rev-author" name="author" required maxlength="80"></div>
-    <div><label for="rev-rating">Ocena</label>
-      <select id="rev-rating" name="rating" required>
-        <option value="5">5 — odlično</option>
-        <option value="4">4 — vrlo dobro</option>
-        <option value="3">3 — dobro</option>
-        <option value="2">2 — slabo</option>
-        <option value="1">1 — loše</option>
-      </select>
-    </div>
-    <div><label for="rev-body">Recenzija</label><textarea id="rev-body" name="body" rows="4" required minlength="10" maxlength="2000"></textarea></div>
-    {{ with site.Params.turnstile_sitekey }}<div class="cf-turnstile" data-sitekey="{{ . }}" style="margin:.5rem 0"></div>{{ end }}
-    <div><button class="btn" type="submit">Pošalji recenziju</button></div>
-    <p class="meta">Recenzija se objavljuje nakon provere.</p>
-  </form>
+  <p>Podelite iskustvo. Potvrđujemo vaš email (bez lozinke), pa recenzija ide na proveru pre objave.</p>
+  <a class="btn" href="/recenzija/?subjekt={{ $slug }}">Ostavi recenziju</a>
 </section>
-{{ with site.Params.turnstile_sitekey }}<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>{{ end }}

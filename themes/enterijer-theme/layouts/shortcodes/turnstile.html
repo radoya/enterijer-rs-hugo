@@ -1,0 +1,4 @@
+{{- with site.Params.turnstile_sitekey -}}
+<div class="cf-turnstile" data-sitekey="{{ . }}" style="margin:.5rem 0"></div>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+{{- end -}}

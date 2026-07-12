@@ -27,5 +27,6 @@ Imate pitanje o uređenju prostora, predlog za saradnju ili želite da se oglasi
     <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
   </div>
   <p style="color:var(--muted);font-size:.85rem;margin:0">* obavezna polja. Unesite email ili telefon da bismo mogli da vam odgovorimo.</p>
+  {{< turnstile >}}
   <div><button type="submit" class="btn">Pošalji poruku</button></div>
 </form>

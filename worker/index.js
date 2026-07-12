@@ -47,6 +47,9 @@ async function handleContact(request, env, ctx) {
   const message = get('message').slice(0, 5000);
 
   if (get('website')) return seeOther('/hvala/'); // honeypot — silent drop
+  if (!(await turnstileOK(get('cf-turnstile-response'), env.TURNSTILE_SECRET, request.headers.get('CF-Connecting-IP')))) {
+    return new Response('Provera protiv robota nije uspela — osvežite stranicu i pokušajte ponovo.', { status: 400 });
+  }
   if (!name || !message || (!email && !phone)) {
     return new Response('Obavezna polja: ime, poruka i email ili telefon.', { status: 400 });
   }
@@ -180,14 +183,15 @@ async function handleReview(request, env, ctx) {
     console.error('GitHub review write error:', err);
   }
 
-  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_CHAT_ID) console.error('Telegram not configured — notification skipped');
-  if (env.TELEGRAM_BOT_TOKEN && env.TELEGRAM_CHAT_ID) {
+  const revChat = env.REVIEW_CHAT_ID || env.TELEGRAM_CHAT_ID; // recenzije → ENT·Odobrenja grupa
+  if (!env.TELEGRAM_BOT_TOKEN || !revChat) console.error('Telegram not configured — notification skipped');
+  if (env.TELEGRAM_BOT_TOKEN && revChat) {
     ctx.waitUntil(
       fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          chat_id: env.TELEGRAM_CHAT_ID,
+          chat_id: revChat,
           text: `${ghFailed ? '⚠️ GitHub upis NIJE PROŠAO — sačuvaj ručno!\n' : ''}Nova recenzija ${rating}/5 za ${listing}\n${author}: ${body.slice(0, 300)}\n\nOdobri: promeni status u approved u vault 07 - CRM/RECENZIJE/`,
         }),
       }).catch((err) => console.error('Telegram notify failed:', err)),

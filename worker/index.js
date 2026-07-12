@@ -14,6 +14,21 @@ const slug = (s) =>
 
 const seeOther = (loc) => new Response(null, { status: 303, headers: { Location: loc } });
 
+// Cloudflare Turnstile server-side provera. Ako TURNSTILE_SECRET nije postavljen → ne blokira (graceful).
+async function turnstileOK(token, secret, ip) {
+  if (!secret) return true;
+  if (!token) return false;
+  const fd = new FormData();
+  fd.append('secret', secret);
+  fd.append('response', token);
+  if (ip) fd.append('remoteip', ip);
+  try {
+    const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST', body: fd });
+    const d = await r.json();
+    return !!d.success;
+  } catch { return false; }
+}
+
 async function handleContact(request, env, ctx) {
   let ghFailed = false;
   let form;
@@ -110,6 +125,11 @@ async function handleReview(request, env, ctx) {
   const line = (k) => get(k).replace(/\s+/g, ' ').replace(/"/g, "'").slice(0, 200);
 
   if (get('website')) return seeOther('/hvala/'); // honeypot — silent drop
+
+  // Turnstile anti-spam (widget ubacuje cf-turnstile-response u form POST)
+  if (!(await turnstileOK(get('cf-turnstile-response'), env.TURNSTILE_SECRET, request.headers.get('CF-Connecting-IP')))) {
+    return new Response('Provera protiv robota nije uspela — osvežite stranicu i pokušajte ponovo.', { status: 400 });
+  }
 
   const listing = line('listing');
   const author = line('author').slice(0, 80);

@@ -30,7 +30,9 @@
       </select>
     </div>
     <div><label for="rev-body">Recenzija</label><textarea id="rev-body" name="body" rows="4" required minlength="10" maxlength="2000"></textarea></div>
+    {{ with site.Params.turnstile_sitekey }}<div class="cf-turnstile" data-sitekey="{{ . }}" style="margin:.5rem 0"></div>{{ end }}
     <div><button class="btn" type="submit">Pošalji recenziju</button></div>
     <p class="meta">Recenzija se objavljuje nakon provere.</p>
   </form>
 </section>
+{{ with site.Params.turnstile_sitekey }}<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>{{ end }}

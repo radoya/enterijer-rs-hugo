@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-06
+date: 2026-07-14
 ---
 
 Matis je poznat po nameštaju od masiva. Dobar izbor kada tražite trajnost i klasičan izgled.

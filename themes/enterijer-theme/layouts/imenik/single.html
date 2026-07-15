@@ -6,27 +6,19 @@
   <article class="prose">
     <header class="listing-header">
       <h1>{{ .Title }}</h1>
-      {{/* price_range/price se prikupljaju ali za sada ne prikazuju — amandman 1 */}}
       {{ with $rev.avg }}{{ partial "stars.html" . }} <span>({{ $rev.count }})</span>{{ end }}
     </header>
     <div class="article-meta">
       {{ range .Params.kategorija }}<a class="tag" data-k="{{ . | urlize }}" href="{{ printf "/kategorija/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
       {{ range .Params.grad }}<a class="tag" href="{{ printf "/grad/%s/" (. | urlize) | relLangURL }}">{{ . | title }}</a>{{ end }}
-      {{ with .Params.tip }}<a class="tag" href="{{ printf "/tip/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
     </div>
 
-    {{/* images/website/source_url se prikupljaju ali za sada ne prikazuju; lead forma uklonjena — amandman 1 */}}
     <p class="lead">{{ .Description }}</p>
     {{ .Content }}
 
-    {{ with .Params.store }}
-      {{ with site.GetPage (printf "/imenik/%s" .) }}
-    <p class="store-link">Prodavnica: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
-      {{ end }}
-    {{ end }}
-
-    {{ if or .Params.phone .Params.address }}
+    {{ if or .Params.phone .Params.address .Params.website }}
     <div class="listing-contact">
+      {{ with .Params.website }}<span><strong>Sajt:</strong> <a href="{{ . }}" rel="nofollow noopener" target="_blank">{{ . | replaceRE `^https?://(www\.)?` "" | replaceRE `/+$` "" }}</a></span>{{ end }}
       {{ with .Params.phone }}<span><strong>Telefon:</strong> <a href="tel:{{ replace . " " "" }}">{{ . }}</a></span>{{ end }}
       {{ with .Params.address }}<span><strong>Adresa:</strong> {{ . }}</span>{{ end }}
     </div>
@@ -36,8 +28,8 @@
     {{ with $products }}
     <section class="store-products">
       <h2>Proizvodi ({{ len . }})</h2>
-      <div class="grid-cards">
-        {{ range . }}{{ partial "listing-card.html" . }}{{ end }}
+      <div class="card-grid">
+        {{ range .ByTitle }}{{ partial "listing-card.html" . }}{{ end }}
       </div>
     </section>
     {{ end }}
@@ -46,15 +38,9 @@
   </article>
 </div>
 
-{{- $ld := dict "@context" "https://schema.org" "name" .Title "url" .Permalink -}}
-{{- if eq .Params.tip "proizvod" -}}
-  {{- $ld = merge $ld (dict "@type" "Product") -}}
-  {{- with index (.Params.brend | default slice) 0 }}{{ $ld = merge $ld (dict "brand" (dict "@type" "Brand" "name" (. | title))) }}{{ end -}}
-{{- else -}}
-  {{- $ld = merge $ld (dict "@type" "LocalBusiness") -}}
-  {{- with .Params.phone }}{{ $ld = merge $ld (dict "telephone" .) }}{{ end -}}
-  {{- with .Params.address }}{{ $ld = merge $ld (dict "address" .) }}{{ end -}}
-{{- end -}}
+{{- $ld := dict "@context" "https://schema.org" "@type" "LocalBusiness" "name" .Title "url" .Permalink -}}
+{{- with .Params.phone }}{{ $ld = merge $ld (dict "telephone" .) }}{{ end -}}
+{{- with .Params.address }}{{ $ld = merge $ld (dict "address" .) }}{{ end -}}
 {{- with .Params.description }}{{ $ld = merge $ld (dict "description" .) }}{{ end -}}
 {{- with $rev.avg -}}
   {{- $ld = merge $ld (dict "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" . "reviewCount" $rev.count)) -}}

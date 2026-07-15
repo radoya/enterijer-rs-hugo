@@ -1,7 +1,7 @@
 ---
 title: "Diplon Kupatila"
 description: "Preko 5000 proizvoda za kupatilo — slavine, kade, tuš kabine, sanitarije, pločice i kupatilski nameštaj."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila"]
 grad: ["beograd"]
 brend: []

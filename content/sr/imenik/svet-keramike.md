@@ -1,7 +1,7 @@
 ---
 title: "Svet keramike"
 description: "Keramičke pločice i oprema za kupatila — sanitarije, kade, tuš kabine, nameštaj; besplatan 3D dizajn kupatila."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

@@ -1,0 +1,54 @@
+{{- /* Klijentski filter (progresivno poboljšanje: bez JS su sve kartice vidljive).
+       Poziv: {{ partial "list-filter.html" (dict "pages" .Pages "facets" (slice (dict "key" "kategorija" "label" "Kategorija") (dict "key" "brend" "label" "Brend"))) }}
+       Grid mora biti u kontejneru sa atributom data-filterable, kartice iz listing-card.html nose data-facets. */ -}}
+{{- $pages := .pages -}}
+{{- range .facets -}}
+  {{- $key := .key -}}
+  {{- $vals := slice -}}
+  {{- range $pages -}}
+    {{- range (index .Params $key | default slice) -}}
+      {{- $vals = $vals | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $uniq := $vals | uniq | sort -}}
+  {{- with $uniq }}
+  <div class="filter-row" role="group" aria-label="Filter: {{ $.label | default $key }}">
+    <span class="filter-label">{{ $.label | default $key }}:</span>
+    <button type="button" class="tag is-active" data-filter="{{ $key }}" data-val="">Sve</button>
+    {{ range . }}<button type="button" class="tag" data-filter="{{ $key }}" data-val="{{ . | urlize }}">{{ . }}</button>{{ end }}
+  </div>
+  {{- end -}}
+{{- end -}}
+<script>
+(function () {
+  var root = document.querySelector('[data-filterable]');
+  if (!root) return;
+  var chips = root.querySelectorAll('button[data-filter]');
+  var cards = root.querySelectorAll('.card[data-facets]');
+  var counter = root.querySelector('[data-filter-count]');
+  var active = {};
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (c) {
+      var f; try { f = JSON.parse(c.getAttribute('data-facets')); } catch (e) { f = {}; }
+      var show = Object.keys(active).every(function (dim) {
+        var v = active[dim];
+        return !v || (f[dim] || []).indexOf(v) > -1;
+      });
+      c.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    if (counter) counter.textContent = shown;
+  }
+  chips.forEach(function (ch) {
+    ch.addEventListener('click', function () {
+      var dim = ch.getAttribute('data-filter'), val = ch.getAttribute('data-val');
+      active[dim] = val || null;
+      root.querySelectorAll('button[data-filter="' + dim + '"]').forEach(function (x) {
+        x.classList.toggle('is-active', (x.getAttribute('data-val') || '') === (active[dim] || ''));
+      });
+      apply();
+    });
+  });
+})();
+</script>

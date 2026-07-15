@@ -1,7 +1,7 @@
 ---
 title: "Ceramix"
 description: "Uvoz i prodaja opreme za kupatila — keramičke, granitne i mozaik pločice, sanitarije, kade, tuš kabine i radijatori."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

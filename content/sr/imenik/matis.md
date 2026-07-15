@@ -1,7 +1,7 @@
 ---
 title: "Matis"
 description: "Proizvođač nameštaja od punog drveta iz Ivanjice — trpezarije, spavaće sobe, stolovi i stolice."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj"]
 grad: ["ivanjica"]
 brend: ["matis"]

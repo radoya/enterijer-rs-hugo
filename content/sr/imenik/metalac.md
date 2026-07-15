@@ -1,7 +1,7 @@
 ---
 title: "Metalac"
 description: "Poznati domaći brend kuhinjskog posuđa i opreme iz Gornjeg Milanovca."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kuhinje"]
 grad: ["gornji-milanovac"]
 brend: ["metalac"]

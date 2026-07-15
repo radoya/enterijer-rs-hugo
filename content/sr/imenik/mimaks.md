@@ -1,7 +1,7 @@
 ---
 title: "Mimaks"
 description: "Online prodaja opreme za kupatilo — pločice, slavine, bojleri, lavaboi, nameštaj, kade, tuš kabine i sanitarije."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila"]
 grad: ["beograd"]
 brend: []

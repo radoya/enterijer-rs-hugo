@@ -1,7 +1,7 @@
 ---
 title: "AquaCasa - Minotti"
 description: "Preko 5000 proizvoda za opremanje kupatila — nameštaj, pločice, sanitarije, kade i tuš kabine, uz isporuku u Srbiji."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila"]
 grad: ["beograd"]
 brend: []

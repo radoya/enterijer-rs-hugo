@@ -1,7 +1,7 @@
 ---
 title: "BG-Sanitarija"
 description: "Salon kupatila osnovan 1996 — keramičke pločice, sanitarije evropskih brendova, kade, tuš kabine, baterije i galanterija."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

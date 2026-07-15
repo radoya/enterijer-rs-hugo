@@ -1,7 +1,7 @@
 ---
 title: "Keramika Kanjiža"
 description: "Domaći proizvođač keramičkih pločica za kupatila, kuhinje i podove."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["kanjiza"]
 brend: ["keramika-kanjiza"]

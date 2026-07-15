@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container">
+  {{ partial "breadcrumbs.html" . }}
+  <article class="prose">
+    <header class="listing-header">
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{- $img := index (.Params.images | default slice) 0 -}}
+    {{ with $img }}<img class="product-hero" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
+    <div class="article-meta">
+      {{ range .Params.kategorija }}<a class="tag" data-k="{{ . | urlize }}" href="{{ printf "/kategorija/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+      {{ range .Params.brend }}<a class="tag" href="{{ printf "/brend/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+    </div>
+
+    <p class="lead">{{ .Description }}</p>
+    {{ .Content }}
+
+    {{ with .Params.store }}
+      {{ with site.GetPage (printf "/imenik/%s" .) }}
+    <p class="store-link">Deo ponude: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      {{ end }}
+    {{ end }}
+  </article>
+</div>
+
+{{- $ld := dict "@context" "https://schema.org" "@type" "Product" "name" .Title "url" .Permalink -}}
+{{- with index (.Params.brend | default slice) 0 }}{{ $ld = merge $ld (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end -}}
+{{- with .Params.description }}{{ $ld = merge $ld (dict "description" .) }}{{ end -}}
+{{- with index (.Params.images | default slice) 0 }}{{ $ld = merge $ld (dict "image" .) }}{{ end -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{ end }}

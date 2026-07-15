@@ -1,7 +1,7 @@
 ---
 title: "Extraform"
 description: "Domaći proizvođač kreveta, dušeka i tapaciranog nameštaja."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj"]
 grad: ["beograd"]
 brend: ["extraform"]

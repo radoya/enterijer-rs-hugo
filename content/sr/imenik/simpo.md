@@ -1,7 +1,7 @@
 ---
 title: "Simpo"
 description: "Jedan od najvećih proizvođača nameštaja u Srbiji — sobni, tapacirani i kancelarijski nameštaj, dušeci."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj"]
 grad: ["vranje"]
 brend: ["simpo"]

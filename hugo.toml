@@ -64,6 +64,10 @@ enableGitInfo = true
         url = "/imenik/"
         weight = 25
       [[languages.sr.menus.main]]
+        name = "Proizvodi"
+        url = "/proizvodi/"
+        weight = 26
+      [[languages.sr.menus.main]]
         name = "Saveti"
         url = "/saveti/"
         weight = 22

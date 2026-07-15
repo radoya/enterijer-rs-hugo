@@ -1,7 +1,7 @@
 ---
 title: "Uradi Sam"
 description: "Lanac prodavnica za majstore i uradi-sam radove — boje, alati, građevinski materijal."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["boje", "alati", "podovi"]
 grad: ["beograd"]
 brend: []

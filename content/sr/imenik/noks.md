@@ -1,7 +1,7 @@
 ---
 title: "Noks"
 description: "Saloni keramičkih pločica i opreme za kupatilo sa preko 25 godina iskustva i tri salona u Beogradu."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

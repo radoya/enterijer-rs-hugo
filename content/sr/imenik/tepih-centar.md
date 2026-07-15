@@ -1,7 +1,7 @@
 ---
 title: "Tepih Centar"
 description: "Specijalizovani lanac za tepihe, itisone i podne obloge."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["podovi", "dekoracija"]
 grad: ["beograd"]
 brend: []

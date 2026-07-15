@@ -1,7 +1,7 @@
 ---
 title: "Gorenje"
 description: "Bela tehnika i ugradni kuhinjski aparati — šporeti, rerne, ploče, aspiratori, frižideri."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kuhinje"]
 grad: ["beograd"]
 brend: ["gorenje"]

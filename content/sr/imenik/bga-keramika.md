@@ -1,7 +1,7 @@
 ---
 title: "BGA Keramika"
 description: "Keramičke i granitne pločice, sanitarije, slavine, tuš kabine i kupatilski nameštaj na više lokacija u Beogradu."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

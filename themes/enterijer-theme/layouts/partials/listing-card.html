@@ -1,15 +1,25 @@
 {{- $slug := .File.ContentBaseName -}}
 {{- $rev := index site.Data.reviews $slug | default dict -}}
-<article class="card">
+{{- $isProduct := eq .Params.tip "proizvod" -}}
+{{- $img := index (.Params.images | default slice) 0 -}}
+{{- $facets := dict
+      "kategorija" (apply (.Params.kategorija | default slice) "urlize" ".")
+      "grad" (apply (.Params.grad | default slice) "urlize" ".")
+      "brend" (apply (.Params.brend | default slice) "urlize" ".") -}}
+<article class="card" data-facets='{{ $facets | jsonify }}'>
   <a href="{{ .RelPermalink }}">
     <span class="card-arrow" aria-hidden="true">↗</span>
-    {{/* images skrivene za sada — amandman 1 */}}
+    {{ if and $isProduct $img }}<img src="{{ $img }}" alt="{{ .Title }}" loading="lazy">{{ end }}
     <div class="card-body">
       <h3>{{ .Title }}</h3>
       <p>{{ .Description | truncate 110 }}</p>
       <div class="meta">
         {{ range first 2 (.Params.kategorija | default slice) }}<span class="tag" data-k="{{ . | urlize }}">{{ . }}</span>{{ end }}
-        {{ with index (.Params.grad | default slice) 0 }}<span class="tag">{{ . | title }}</span>{{ end }}
+        {{ if $isProduct }}
+          {{ with index (.Params.brend | default slice) 0 }}<span class="tag">{{ . }}</span>{{ end }}
+        {{ else }}
+          {{ with index (.Params.grad | default slice) 0 }}<span class="tag">{{ . | title }}</span>{{ end }}
+        {{ end }}
         {{ with $rev.avg }}{{ partial "stars.html" . }} ({{ $rev.count }}){{ end }}
       </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 title: "Nantes"
 description: "Uvoznik italijanskih, španskih i turskih pločica, sanitarija, tuš kabina i slavina; kompletna oprema za kupatila."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

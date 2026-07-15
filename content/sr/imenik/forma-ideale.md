@@ -1,7 +1,7 @@
 ---
 title: "Forma Ideale"
 description: "Kragujevački proizvođač pločastog nameštaja — regali, komode, kuhinjski elementi, dostupno u celoj Srbiji."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj"]
 grad: ["kragujevac"]
 brend: ["forma-ideale"]

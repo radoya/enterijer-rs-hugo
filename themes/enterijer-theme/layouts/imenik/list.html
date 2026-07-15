@@ -7,20 +7,16 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  {{ $kat := .Site.Taxonomies.kategorija }}
-  {{ if $kat }}
-  <p class="eyebrow">Kategorije</p>
-  <div class="swatch-row" style="margin-bottom: var(--space-3)">
-    {{ range $kat.ByCount }}
-      <a class="tag" data-k="{{ .Name | urlize }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
-    {{ end }}
-  </div>
-  {{ end }}
-
-  <div class="card-grid">
-    {{ range .Pages.ByTitle }}
-      {{ partial "listing-card.html" . }}
-    {{ end }}
+  <div data-filterable>
+    {{ partial "list-filter.html" (dict "pages" .Pages "facets" (slice
+        (dict "key" "kategorija" "label" "Kategorija")
+        (dict "key" "grad" "label" "Grad"))) }}
+    <p class="eyebrow"><span data-filter-count>{{ len .Pages }}</span> firmi u direktorijumu</p>
+    <div class="card-grid">
+      {{ range .Pages.ByTitle }}
+        {{ partial "listing-card.html" . }}
+      {{ end }}
+    </div>
   </div>
 </div>
 {{ end }}

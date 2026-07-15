@@ -1,7 +1,7 @@
 ---
 title: "Dakom International"
 description: "Uvoz i prodaja granitne keramike i sanitarija — konzolne WC šolje, samostojeće kade, tuš kabine i baterije."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila", "podovi"]
 grad: ["beograd"]
 brend: []

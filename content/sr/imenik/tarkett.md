@@ -1,7 +1,7 @@
 ---
 title: "Tarkett"
 description: "Svetski proizvođač podnih obloga sa fabrikom u Bačkoj Palanci — laminat, vinil, parket."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["podovi"]
 grad: ["backa-palanka"]
 brend: ["tarkett"]

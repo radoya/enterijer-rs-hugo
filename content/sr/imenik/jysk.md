@@ -1,7 +1,7 @@
 ---
 title: "JYSK Srbija"
 description: "Danski lanac opreme za dom — dušeci, posteljina, baštenski i sobni nameštaj, dekoracija."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj", "dekoracija"]
 grad: ["beograd", "novi-sad", "nis"]
 brend: ["jysk"]

@@ -1,7 +1,7 @@
 ---
 title: "HidroSaan"
 description: "Kompletna oprema i nameštaj za kupatilo, vodovodne instalacije i dekorativni elementi; osnovano 2005."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["kupatila"]
 grad: ["beograd"]
 brend: []

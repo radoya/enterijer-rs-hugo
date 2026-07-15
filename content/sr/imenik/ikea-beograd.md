@@ -1,7 +1,7 @@
 ---
 title: "IKEA Beograd"
 description: "Robna kuća skandinavskog nameštaja i opreme za dom — kuhinje, plakari, rasveta, dekoracija."
-tip: "proizvod"
+tip: "firma"
 kategorija: ["namestaj", "kuhinje", "dekoracija"]
 grad: ["beograd"]
 brend: ["ikea"]

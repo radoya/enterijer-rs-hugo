@@ -2,7 +2,7 @@
 title: "Cena krečenja i moleraja stana u Srbiji 2026"
 description: "Koliko košta krečenje i moleraj u Srbiji 2026? Cene rada od 1,5 do 12 EUR/m², primer za stan od 60 m² i kako se plaća materijal. Proverene brojke."
 slug: "krecenje-moleraj-cena-stana-srbija-2026"
-date: 2026-07-16T11:00:00+02:00
+date: 2026-07-16T00:11:27+0200
 tags: ["moleraj", "krecenje", "cene", "renoviranje", "srbija-2026"]
 images: []
 author: "Nenad Radoja"

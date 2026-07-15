@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-stela.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovo bež sedište od tekstila karakterišu dva dela i dve pufne. Njegov moderni stil savršeno se uklapa u savremene enterijere.

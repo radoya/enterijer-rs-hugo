@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/dodatni-program/glorija-dns/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/deciji-nocni-stocic-glorija.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj sivi noćni ormarić klasičnog stila poseduje dve zatvorene fioke i okrugle noge. Na njemu su postavljene tri knjige, dodajući mu funkcionalnost i dekorativni element.

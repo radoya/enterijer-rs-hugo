@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Tarkett podne obloge se proizvode i u Srbiji; širok izbor laminata, vinilnih podova i parketa kroz maloprodajnu mrežu partnera.

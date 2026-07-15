@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/kas
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-kastor.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderni set uključuje sto sa drvenim nogama i sedam stolica. Stolice su dizajnirane sa udobnim zelenim sedištima, pružajući funkcionalnost i stil za vašu trpezariju.

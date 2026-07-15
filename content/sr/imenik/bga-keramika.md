@@ -13,7 +13,7 @@ website: "https://bgakeramika.rs"
 phone: "011/286-17-39"
 address: "Bulevar Kralja Aleksandra 433, 11050 Beograd"
 images: []
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 BGA Keramika d.o.o. nudi keramičke i granitne pločice, sanitarije, slavine, tuš kabine i kupatilski nameštaj. Saloni: Bulevar Kralja Aleksandra 433 (Beograd), Jurija Gagarina 32 (Novi Beograd), Cara Dušana 266 (Zemun); magacin na Vilinim vodama.

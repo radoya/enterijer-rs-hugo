@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/polarn
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-polarna-noc.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderni kombinovani set idealan je za spavanje i sedenje. Izrađen je od tekstila i veštačke kože u elegantnoj plavoj boji.

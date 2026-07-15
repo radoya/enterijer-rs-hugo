@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-margo.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Visoka lampa sa metalnom bazom i belim platnom. Idealna je za stvaranje prijatne atmosfere u prostorijama sa tamnim zidovima.

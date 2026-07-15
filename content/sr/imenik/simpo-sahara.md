@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/sah
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-sahara.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj trpezarijski set uključuje sto sa četiri sedišta. Sto je izrađen od drveta sa svetlim nogama, dok sedišta imaju tamnozeleno platno sa belim detaljima.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/alora/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/alora-nocni-stocic.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderni noćni stočić poseduje dve zatvorene fioke sa okruglim ručkama. Gornja ploča pruža idealan prostor za odlaganje ili dekorativne predmete.

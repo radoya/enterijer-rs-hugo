@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-mojca.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj komad nameštaja nudi dvostruku funkcionalnost, savršeno se transformišući iz udobnog kreveta u prostranu sofu. Izrađen je od tekstila i poliuretana, dostupan u elegantnim bež i smeđim tonovima, donoseći industrijski stil u vaš dom.

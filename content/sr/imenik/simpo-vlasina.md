@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/vla
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-vlasina.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Sedam stolica okružuje beli sto modernog dizajna. Na stolu su postavljene čaše sa slovima 'KAD' i plava vaza.

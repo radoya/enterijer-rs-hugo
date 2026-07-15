@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/elizab
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/elizabet-ugaona-garnitura.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Dugačka sofa izrađena od tekstila sa drvenim nogama, dizajnirana za komfor i stil. Idealna je za moderan enterijer, a na njoj su postavljene dve keramičke vaze.

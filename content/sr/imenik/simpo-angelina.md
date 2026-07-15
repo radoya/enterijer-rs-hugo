@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-angelina.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Bež tekstilno sedište sa dva ukrasna i dva bela jastuka. Deo je kompletnog seta za spavanje i sedenje.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/luna
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje_luna.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Moderni element za predsoblje sa držačima za odeću i praktičnim kutijama za odlaganje. Donji deo sadrži dvostruki ormarić sa držačima za obuću i dodatnim kutijama za odlaganje.

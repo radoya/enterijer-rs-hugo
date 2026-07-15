@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-metropoliten.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovo moderno sedište u plavoj boji izrađeno je od tekstila. Dizajnirano je kao dvosed i nudi praktičnu funkciju razvlačenja u udoban ležaj za spavanje.

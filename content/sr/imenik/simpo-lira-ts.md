@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/lir
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-lira.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj set uključuje okrugli sto sa četiri samostojeće stolice. Sto je izrađen od tamnog drveta sa tri noge u obliku krsta. Stolice su presvučene tkaninom u braon boji, a na naslonima se nalaze dugmad za dodatnu udobnost.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/dev
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-devon.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj klasičan set za trpezariju sadrži dva stola i stolice sa tekstilnim tapacirungom i belim nogama. Glavni sto je bele boje, ukrašen dekorativnim detaljima na površini. Na njemu su izložene vaze i šolje za kafu.

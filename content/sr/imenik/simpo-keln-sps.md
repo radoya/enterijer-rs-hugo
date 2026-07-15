@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-keln.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Moderan bračni krevet sa belim jastucima i plavom podlogom. Postavljen je na drvenoj podlozi sa tepihom.

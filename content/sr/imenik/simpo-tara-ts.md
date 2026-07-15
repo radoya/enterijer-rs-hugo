@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/tar
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-tara.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Moderna restoranska stolica kombinuje tekstilni naslon sa metalnim nogama. Njen industrijski stil čini je idealnom za trpezarijski prostor ili radno okruženje.

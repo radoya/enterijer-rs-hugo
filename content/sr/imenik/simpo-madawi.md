@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/madawi
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-madawi.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderni set, u zeleno-sivoj boji, idealan je za sedenje i spavanje. Izrađen od tekstila i metala, komplet sadrži ugaonu garnituru i dodatni modul za proširenje prostora.

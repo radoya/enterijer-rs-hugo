@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-garnitura-kairo.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Moderna sofa presvučena tekstilom u bež boji. Pruža udobnost sa podlogom za noge i prostorom za dekorativne dodatke.

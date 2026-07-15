@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-david.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovo moderno sedište je izrađeno od tekstila. Karakteriše ga jednostavan dizajn sa uskim nogama, idealan za savremene enterijere.

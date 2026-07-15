@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/de-lux/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-delux.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Klasičan madrac sa kvadratnim jastucima na površini. Izrađen je od poliuretana i dostupan u beloj boji.

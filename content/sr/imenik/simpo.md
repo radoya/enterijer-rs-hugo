@@ -13,7 +13,7 @@ website: "https://www.simpo.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Simpo iz Vranja proizvodi nameštaj od 1963. godine. Asortiman pokriva dnevne i spavaće sobe, tapacirani nameštaj, dušeke i opremanje objekata.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/contes
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-contessa.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Moderna dugačka siva sofa sa dodatnim modulom nudi proširenu funkcionalnost i udobnost. Opremljena je jastucima i dekorativnim detaljima, dok umetnički rad na zidu upotpunjuje ambijent.

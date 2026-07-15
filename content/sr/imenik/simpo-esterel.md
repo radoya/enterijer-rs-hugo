@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/estere
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-esterel.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj kombinovani set sadrži dve kutije, jednu namenjenu za spavanje i drugu za odmor. Upotpunjen je ukrasnim jastucima u harmoničnim bež i smeđim nijansama.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/lun
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje-ormar-luna.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderan element za predsoblje kombinuje drvene detalje sa belim površinama, stvarajući elegantan izgled. Opremljen je visokim drvenim čivilucima za odeću i praktičnim kutijama za odlaganje, nudeći funkcionalno rešenje za vaš ulazni prostor.

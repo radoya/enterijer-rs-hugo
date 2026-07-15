@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/ste
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-stefany.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj moderni set za trpezariju obuhvata sto i sedam stolica. Sto je izrađen od drveta sa dekorativnim detaljima na površini, a stolice imaju drvene noge i tekstilne naslone.

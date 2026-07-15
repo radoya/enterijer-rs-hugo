@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-garnitura-adel.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj elegantan set kožnih sedišta sa metalnim nogama idealan je za moderno uređenje enterijera. Sedišta su vizuelno upotpunjena detaljima od bele keramike i cveća na stolovima.

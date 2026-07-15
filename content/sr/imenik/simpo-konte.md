@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/konte/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/kauc-konte.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovaj set stolica, presvučen tekstilom u narandžastoj boji, odlikuje se dugim, tankim naslonima i okruglim nogarima. Njegov dizajn pruža moderan i elegantan izgled.

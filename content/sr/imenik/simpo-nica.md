@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-nica.webp"]
-date: 2026-07-14
+date: 2026-07-15
 ---
 
 Ovi moderni zidni elementi za spavaću sobu donose spoj funkcionalnosti i stila. Set obuhvata složena vrata sa šarenim okvirima i bojama, kao i stolicu sa šarenim nogicama. Zidovi su ukrašeni dekorativnim detaljima, upotpunjujući savremen enterijer.

@@ -1,6 +1,7 @@
-{{- /* Klijentski filter (progresivno poboljšanje: bez JS su sve kartice vidljive).
+{{- /* Klijentski filter + paginacija (progresivno: bez JS su sve kartice vidljive).
        Poziv: {{ partial "list-filter.html" (dict "pages" .Pages "facets" (slice (dict "key" "kategorija" "label" "Kategorija") (dict "key" "brend" "label" "Brend"))) }}
-       Grid mora biti u kontejneru sa atributom data-filterable, kartice iz listing-card.html nose data-facets. */ -}}
+       Kontejner mora imati data-filterable (i opciono data-page-size); grid nosi kartice iz listing-card.html
+       (data-facets); posle grida dodaj <nav class="pager" data-pager></nav>. */ -}}
 {{- $pages := .pages -}}
 {{- range .facets -}}
   {{- $key := .key -}}
@@ -21,34 +22,70 @@
 {{- end -}}
 <script>
 (function () {
-  var root = document.querySelector('[data-filterable]');
-  if (!root) return;
-  var chips = root.querySelectorAll('button[data-filter]');
-  var cards = root.querySelectorAll('.card[data-facets]');
-  var counter = root.querySelector('[data-filter-count]');
-  var active = {};
-  function apply() {
-    var shown = 0;
-    cards.forEach(function (c) {
-      var f; try { f = JSON.parse(c.getAttribute('data-facets')); } catch (e) { f = {}; }
-      var show = Object.keys(active).every(function (dim) {
+  function init() {
+    var root = document.querySelector('[data-filterable]');
+    if (!root) return;
+    var chips = root.querySelectorAll('button[data-filter]');
+    var cards = Array.prototype.slice.call(root.querySelectorAll('.card[data-facets]'));
+    var counter = root.querySelector('[data-filter-count]');
+    var pager = root.querySelector('[data-pager]');
+    var empty = root.querySelector('[data-filter-empty]');
+    var pageSize = parseInt(root.getAttribute('data-page-size'), 10) || 12;
+    var active = {};
+    var page = 1;
+
+    function matches(card) {
+      var f; try { f = JSON.parse(card.getAttribute('data-facets')); } catch (e) { f = {}; }
+      return Object.keys(active).every(function (dim) {
         var v = active[dim];
         return !v || (f[dim] || []).indexOf(v) > -1;
       });
-      c.style.display = show ? '' : 'none';
-      if (show) shown++;
-    });
-    if (counter) counter.textContent = shown;
-  }
-  chips.forEach(function (ch) {
-    ch.addEventListener('click', function () {
-      var dim = ch.getAttribute('data-filter'), val = ch.getAttribute('data-val');
-      active[dim] = val || null;
-      root.querySelectorAll('button[data-filter="' + dim + '"]').forEach(function (x) {
-        x.classList.toggle('is-active', (x.getAttribute('data-val') || '') === (active[dim] || ''));
+    }
+    function renderPager(pages) {
+      if (!pager) return;
+      if (pages <= 1) { pager.innerHTML = ''; return; }
+      var html = '<button type="button" class="pager-btn" data-page="prev"' + (page === 1 ? ' disabled' : '') + '>‹</button>';
+      for (var i = 1; i <= pages; i++) {
+        html += '<button type="button" class="pager-btn' + (i === page ? ' is-active' : '') + '" data-page="' + i + '">' + i + '</button>';
+      }
+      html += '<button type="button" class="pager-btn" data-page="next"' + (page === pages ? ' disabled' : '') + '>›</button>';
+      pager.innerHTML = html;
+      pager.querySelectorAll('button[data-page]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var p = b.getAttribute('data-page');
+          if (p === 'prev') page = Math.max(1, page - 1);
+          else if (p === 'next') page = page + 1;
+          else page = parseInt(p, 10);
+          render();
+          root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
       });
-      apply();
+    }
+    function render() {
+      var filtered = cards.filter(matches);
+      var pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+      if (page > pages) page = pages;
+      var start = (page - 1) * pageSize, end = start + pageSize;
+      cards.forEach(function (c) { c.style.display = 'none'; });
+      filtered.slice(start, end).forEach(function (c) { c.style.display = ''; });
+      if (counter) counter.textContent = filtered.length;
+      if (empty) empty.style.display = filtered.length ? 'none' : '';
+      renderPager(pages);
+    }
+    chips.forEach(function (ch) {
+      ch.addEventListener('click', function () {
+        var dim = ch.getAttribute('data-filter'), val = ch.getAttribute('data-val');
+        active[dim] = val || null;
+        root.querySelectorAll('button[data-filter="' + dim + '"]').forEach(function (x) {
+          x.classList.toggle('is-active', (x.getAttribute('data-val') || '') === (active[dim] || ''));
+        });
+        page = 1;
+        render();
+      });
     });
-  });
+    render();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();
 </script>

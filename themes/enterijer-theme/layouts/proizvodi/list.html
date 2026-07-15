@@ -7,7 +7,7 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  <div data-filterable>
+  <div data-filterable data-page-size="12">
     {{ partial "list-filter.html" (dict "pages" .Pages "facets" (slice
         (dict "key" "brend" "label" "Brend")
         (dict "key" "kategorija" "label" "Kategorija"))) }}
@@ -17,6 +17,8 @@
         {{ partial "listing-card.html" . }}
       {{ end }}
     </div>
+    <p data-filter-empty style="display:none" class="filter-empty">Nema proizvoda za izabrane filtere.</p>
+    <nav class="pager" data-pager aria-label="Stranice"></nav>
   </div>
 </div>
 {{ end }}

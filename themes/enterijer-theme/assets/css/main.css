@@ -347,3 +347,16 @@ article.prose { max-width: var(--measure); margin: 0 auto; padding: var(--space-
   display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;
   overflow: hidden; line-height: 1.5; min-height: 3em;
 }
+
+/* Paginacija (klijentska) */
+.pager { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: var(--space-3); }
+.pager:empty { display: none; }
+.pager-btn {
+  min-width: 40px; padding: 8px 12px; cursor: pointer;
+  background: var(--bg-card); border: 1.5px solid var(--line); color: var(--ink-soft);
+  border-radius: var(--radius-pill); font: inherit; font-weight: 600; line-height: 1;
+}
+.pager-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.pager-btn.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.pager-btn:disabled { opacity: .4; cursor: default; }
+.filter-empty { color: var(--ink-soft); padding: var(--space-2) 0; }

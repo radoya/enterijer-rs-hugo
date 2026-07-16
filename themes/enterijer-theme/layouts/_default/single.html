@@ -8,6 +8,7 @@
       {{ if .Params.tags }}<span>{{ range .Params.tags }}<span class="tag" data-k="{{ . | urlize }}">{{ . }}</span>{{ end }}</span>{{ end }}
       {{ if eq .Type "blog" }}<span>{{ .ReadingTime }} {{ i18n "min_read" }}</span>{{ end }}
     </div>
+    {{ with index (.Params.images | default slice) 0 }}<img class="post-hero" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
     {{ .Content }}
     {{ if eq .Type "saveti" }}
     {{ partial "faq-schema.html" . }}

@@ -4,7 +4,7 @@ description: "Koliko košta krečenje i moleraj u Srbiji 2026? Cene rada od 1,5 
 slug: "krecenje-moleraj-cena-stana-srbija-2026"
 date: 2026-07-16T00:11:27+0200
 tags: ["moleraj", "krecenje", "cene", "renoviranje", "srbija-2026"]
-images: []
+images: ["/img/blog/krecenje-moleraj-cena-stana-srbija-2026-hero.jpg"]
 author: "Nenad Radoja"
 draft: false
 ---
@@ -20,8 +20,6 @@ Donji deo raspona važi za jedan premaz na spremnom zidu, a gornji za dva premaz
 ## Zašto gletovanje i farbanje višestruko poskupljuju moleraj?
 
 Kada zidovi nisu spremni, potreban je kompletan tretman: skidanje stare boje, popravke, gletovanje, gruder i farbanje u dva premaza. Taj posao košta **5–12 EUR/m²**, odnosno **700–1.200 RSD/m²** — otprilike 2 do 4 puta više od golog farbanja.
-
-> "Najveća greška klijenata je što porede samo cenu po kvadratu. Golo krečenje i kompletan moleraj sa gletom nisu isti posao — razlika u ceni je razlika u tome koliko sata majstor provede na pripremi zida, a upravo priprema određuje da li će boja izgledati dobro za pet godina." — *[PLACEHOLDER: zameniti verifikovanim molerskim majstorom iz [[05 - EKSPERTI]] pre objave]*
 
 ### Koliko to ispada za stan od 60 m²?
 
@@ -44,20 +42,3 @@ Nije. Cena po m² je za rad; boja, glet i gruder se plaćaju odvojeno. Za 60 m²
 **Koja je razlika između golog krečenja i moleraja sa gletom?**
 Golo krečenje je bojenje već pripremljenih zidova (1,5–5 EUR/m²). Moleraj sa gletom uključuje pripremu, gletovanje i gruder (5–12 EUR/m²) i košta 2–4 puta više.
 
-<!--
-GEO 2026 checklist (vidi CONTENT_GENERATION_PROMPT):
-- [x] Answer-first uvod
-- [x] ≥2 statistike sa imenovanim izvorima (Solvi, MajstoriZaSve)
-- [~] ≥1 citat eksperta — TRENUTNO PLACEHOLDER: 05 - EKSPERTI je prazan; pre objave dodati/zameniti verifikovanim molerskim majstorom sa bio stranicom
-- [x] Svi H2/H3 u obliku pitanja
-- [x] Q&A blok na kraju
-- [ ] Originalne slike — generišu se odvojeno (images: [] po zahtevu)
-- [x] Imenovani autor (Nenad Radoja)
-- [x] Lokalni signali (RSD/EUR, Srbija, primer 60 m²)
-- [x] Ključne reči i u latinici i u ćirilici (krečenje/кречење, moleraj/молерај)
-
-Izvori (iz [[03 - BAZA ZNANJA]], verifikovano: da):
-- [[krecenje-osnovno-cena-2026]]
-- [[krecenje-glet-farbanje-cena]]
-- [[moleraj-materijal-odvojeno]]
--->

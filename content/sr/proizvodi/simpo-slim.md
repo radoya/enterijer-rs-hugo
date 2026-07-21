@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/slim
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-predsoblje-slim.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-slim/"]
 ---
 

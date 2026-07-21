@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/saf
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-safira.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-safira-ts/"]
 ---
 

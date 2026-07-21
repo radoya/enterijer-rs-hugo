@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/polarn
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-polarna-noc.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-polarna-noc/"]
 ---
 

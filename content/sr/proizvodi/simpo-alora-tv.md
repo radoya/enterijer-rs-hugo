@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/alora-tv/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/alora-tv-komoda.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-alora-tv/"]
 ---
 

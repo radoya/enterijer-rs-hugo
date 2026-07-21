@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-decu/m
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/moon-radni-sto.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-moon/"]
 ---
 

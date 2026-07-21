@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/safira/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-dnevna-soba-safira.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-safira/"]
 ---
 

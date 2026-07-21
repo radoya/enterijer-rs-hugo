@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-15
+date: 2026-07-21
 ---
 
 Keramičke pločice domaće proizvodnje u širokoj paleti formata i dezena.

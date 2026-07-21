@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/viktorija/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-dnevna-soba-viktorija.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-viktorija/"]
 ---
 

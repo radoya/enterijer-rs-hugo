@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-15
+date: 2026-07-21
 ---
 
 Sve za renoviranje na jednom mestu: boje i lakovi, alati, lepkovi, podne obloge i osnovni građevinski materijal.

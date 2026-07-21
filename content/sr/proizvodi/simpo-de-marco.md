@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-de-marco.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-de-marco/"]
 ---
 

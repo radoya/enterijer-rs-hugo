@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/miran-san/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-miran-san.webp"]
-date: 2026-07-15
+date: 2026-07-21
 aliases: ["/imenik/simpo-miran-san/"]
 ---
 

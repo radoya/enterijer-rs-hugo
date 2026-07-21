@@ -13,7 +13,7 @@ website: "https://jysk.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-07-15
+date: 2026-07-21
 ---
 
 JYSK ima prodavnice širom Srbije i redovne akcije, praktičan izbor za brzo opremanje po pristupačnim cenama.

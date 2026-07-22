@@ -13,7 +13,7 @@ website: "https://rs.gorenje.com/"
 phone: "0700 100 700"
 address: "Cara Dušana 10a, 11000 Beograd"
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Gorenje d.o.o. Beograd je generalni uvoznik i distributer Gorenje programa za Srbiju. Kroz koncept Gorenje Studio nude bogatu ponudu Gorenje kuhinja sa mogucnoscu kombinovanja i savetima dizajnera. Sediste je u Ulici cara Dušana 10a u Beogradu.

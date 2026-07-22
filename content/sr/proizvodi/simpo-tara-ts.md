@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/tar
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-tara.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-tara-ts/"]
 ---
 

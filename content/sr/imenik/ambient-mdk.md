@@ -13,7 +13,7 @@ website: "https://ambient-mdk.rs/"
 phone: ""
 address: ""
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Ambient MDK je salon namestaja u Beogradu. U ponudi su ugaone garniture, TDF garniture, dnevni boravci, francuski lezajevi, sobe, kuhinje, predsoblja, plocasti i tapacirani namestaj, fotelje, stolice i stolovi. Telefon i tacna adresa nisu potvrdjeni na zvanicnom sajtu (kontakt stranica trenutno nedostupna) pa su polja ostavljena prazna.

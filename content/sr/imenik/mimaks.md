@@ -13,7 +13,7 @@ website: "https://www.mimaks.rs"
 phone: "064/6464-103"
 address: ""
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Mimaks Beograd je online prodavnica opreme za kupatilo: keramika i pločice, slavine, bojleri, lavaboi, ogledala, kupatilski nameštaj, kade, tuš kabine i sanitarije. Nudi besplatnu isporuku za porudžbine preko 30.000 RSD i uslugu montaže.

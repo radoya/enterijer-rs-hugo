@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/flavio-ks/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/flavio-klub-sto.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-flavio-ks/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/de-marco-tr/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trosed-de-marco.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-de-marco-tr/"]
 ---
 

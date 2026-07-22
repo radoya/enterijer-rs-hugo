@@ -13,7 +13,7 @@ website: "https://www.ikea.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 IKEA robna kuća u Beogradu pokriva kompletno opremanje doma, uz uslugu planiranja kuhinja i plakara po meri sistema.

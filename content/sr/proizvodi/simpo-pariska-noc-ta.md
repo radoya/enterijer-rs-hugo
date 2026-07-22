@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/pariska-noc-ta/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tabure-pariska-noc.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-pariska-noc-ta/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://informa.rs/"
 phone: "011 23 49 183"
 address: "Pozeska 67a lokal 301, Banovo brdo, Beograd"
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Informa d.o.o. je beogradska firma (Pozeska 67a lokal 301, Banovo brdo) koja se vec 25 godina bavi distribucijom, prodajom i ugradnjom podnih obloga. U ponudi su parket, laminat, LVT i SPC podovi, tepisi, PVC i linoleum, itisoni (modularne tekstilne ploce), vinil, vestacka trava, sportski podovi, epoksi i stampani betonski podovi. Dodatni telefon 064 15 17 439, email office@informa.rs.

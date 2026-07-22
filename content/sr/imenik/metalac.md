@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Metalac posuđe je decenijama standard u srpskim kuhinjama; program uključuje i sudopere i kuhinjsku opremu.

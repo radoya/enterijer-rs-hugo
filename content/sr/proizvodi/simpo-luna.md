@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/luna
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje_luna.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-luna/"]
 ---
 

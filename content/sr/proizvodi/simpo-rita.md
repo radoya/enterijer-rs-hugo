@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/rita
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klik-klak-rita.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-rita/"]
 ---
 

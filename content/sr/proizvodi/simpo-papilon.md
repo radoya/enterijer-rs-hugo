@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/papilon/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-papilon.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-papilon/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/anabela-lux/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-anabela-lux.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-anabela-lux/"]
 ---
 

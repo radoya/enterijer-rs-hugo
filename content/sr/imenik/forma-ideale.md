@@ -13,7 +13,7 @@ website: "https://www.formaideale.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Forma Ideale je među najpoznatijim domaćim brendovima pločastog nameštaja, sa širokom maloprodajnom mrežom i online prodajom.

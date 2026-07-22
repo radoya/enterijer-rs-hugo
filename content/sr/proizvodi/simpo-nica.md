@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-nica.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-nica/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/maja
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klik-klak-maja.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-maja/"]
 ---
 

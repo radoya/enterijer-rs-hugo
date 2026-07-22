@@ -13,7 +13,7 @@ website: "https://www.dakomstyle.com"
 phone: "011 77 03 901"
 address: "Omladinskih brigada 86K, kompleks WEST 65, Novi Beograd"
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Dakom International d.o.o. posluje preko 20 godina kao uvoznik i maloprodaja opreme za kupatilo: granitna keramika, sanitarije, lavaboi, ugradni vodokotlići, konzolne WC šolje, bidei, samostojeće kade, tuš kompleti, baterije i tuš kabine premium brendova. Lokacija: WEST 65, Novi Beograd.

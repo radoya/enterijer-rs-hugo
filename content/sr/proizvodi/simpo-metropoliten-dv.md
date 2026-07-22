@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/metropoliten-dv
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dvosed-metropoliten.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-metropoliten-dv/"]
 ---
 

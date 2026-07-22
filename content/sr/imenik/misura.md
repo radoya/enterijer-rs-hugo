@@ -13,7 +13,7 @@ website: "https://misura.rs/"
 phone: "+381 11 42 36 482"
 address: "Trešnjinog cveta 5, Beograd"
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Misura je beogradski showroom specijalizovan za italijanski i spanski namestaj i dekoraciju. U ponudi su kuhinje brendova Veneta Cucine, Cucine Lube i Creo Kitchens, kao i garniture, spavace sobe, rasveta, kupatila i dekoracija. Nalaze se na Trešnjinog cveta 5.

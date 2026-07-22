@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/dev
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-devon.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-devon/"]
 ---
 

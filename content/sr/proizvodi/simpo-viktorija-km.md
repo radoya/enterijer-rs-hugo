@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/komode/viktorija-km/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komoda-viktorija.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-viktorija-km/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/safira-ks/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klub-sto-safira.webp"]
-date: 2026-07-21
+date: 2026-07-22
 aliases: ["/imenik/simpo-safira-ks/"]
 ---
 

@@ -13,7 +13,7 @@ website: "https://topnamestajpomeri.rs/"
 phone: "062 388 331"
 address: "Novi Beograd, Beograd"
 images: []
-date: 2026-07-21
+date: 2026-07-22
 ---
 
 Top Nameštaj po meri je beogradska firma (Novi Beograd) za izradu namestaja po meri. Za spavacu sobu i predsoblje izradjuju garderobere, plakare, krevete, komode, cipelarnike i police, a nude i kuhinje, stolove i ostali namestaj po meri prema prostoru klijenta.

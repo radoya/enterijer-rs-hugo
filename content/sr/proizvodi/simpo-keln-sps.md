@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-keln.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-keln-sps/"]
 ---
 

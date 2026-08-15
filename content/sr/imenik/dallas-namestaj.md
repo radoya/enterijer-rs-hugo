@@ -13,7 +13,7 @@ website: "https://dalasnamestaj.com"
 phone: "011/411-20-91"
 address: "Autoput 18 (BG-ZG), TC Zmaj, Zemun, Beograd"
 images: []
-date: 2026-07-22
+date: 2026-08-15
 ---
 
 Dallas Nameštaj u Beogradu posluje na dve lokacije: TC Zmaj u Zemunu (Autoput 18, tel. 011/411-20-91 i 011/443-11-01) i TC Galerija — Beograd na vodi (Bulevar Vudroa Vilsona 12, 2. sprat, tel. 062/267-760). Asortiman obuhvata ugaone garniture, kožne garniture, sofe, dvosede i trosede, fotelje, trpezarijske stolove i stolice, krevete, ormare, dušeke i baštenski nameštaj. Deo je lanca Dallas sa salonima u Beogradu, Novom Sadu i Pazaru.

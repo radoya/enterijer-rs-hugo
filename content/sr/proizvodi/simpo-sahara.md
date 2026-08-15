@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/sah
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-sahara.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-sahara/"]
 ---
 

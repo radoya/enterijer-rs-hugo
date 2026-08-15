@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/zul
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-zulu.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-zulu/"]
 ---
 

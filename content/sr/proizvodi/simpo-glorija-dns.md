@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/dodatni-program/glorija-dns/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/deciji-nocni-stocic-glorija.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-glorija-dns/"]
 ---
 

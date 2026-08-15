@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/nica-kr/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-nica.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-nica-kr/"]
 ---
 

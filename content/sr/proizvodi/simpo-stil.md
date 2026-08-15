@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/sti
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-stil.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-stil/"]
 ---
 

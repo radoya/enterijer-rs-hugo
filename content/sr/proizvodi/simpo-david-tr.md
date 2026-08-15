@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/david-tr/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trosed-david.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-david-tr/"]
 ---
 

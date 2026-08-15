@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/bambino-aloe-vera/
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-bambino_aloe_vera.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-bambino-aloe-vera/"]
 ---
 

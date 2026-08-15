@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/admiral/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-admiral.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-admiral/"]
 ---
 

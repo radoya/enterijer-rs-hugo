@@ -13,7 +13,7 @@ website: "http://www.namestajdjeram.co.rs"
 phone: "064/189-86-63"
 address: "Bulevar kralja Aleksandra 147, Beograd"
 images: []
-date: 2026-07-22
+date: 2026-08-15
 ---
 
 Nameštaj Đeram je specijalizovana prodavnica nameštaja od punog (masivnog) drveta, otvorena 2004. godine. Radi sa dve lokacije u Beogradu: Bulevar kralja Aleksandra 147 i Kneza Miloša 19. Asortiman čine trpezarijski stolovi i stolice, kreveti, noćni ormarići, ogledala, ormari, komode i tapacirani nameštaj (sofe, fotelje). Nameštaj je domaće i delimično italijanske izrade, radi se i po meri i po modelima kupca, kao i opremanje poslovnih prostora, kancelarija i restorana. Kontakt/Viber: 064/189-86-63, nesadjeram@gmail.com.

@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/miran-sa
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-krevet-miran-san.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-miran-san-dk/"]
 ---
 

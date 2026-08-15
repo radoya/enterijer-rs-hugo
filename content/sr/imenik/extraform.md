@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-22
+date: 2026-08-15
 ---
 
 Extraform je specijalizovan za program spavanja — kreveti i dušeci domaće proizvodnje.

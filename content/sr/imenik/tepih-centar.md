@@ -13,7 +13,7 @@ website: ""
 phone: ""
 address: ""
 images: []
-date: 2026-07-22
+date: 2026-08-15
 ---
 
 Veliki izbor tepiha i podnih obloga različitih dimenzija i materijala.

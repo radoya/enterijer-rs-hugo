@@ -13,7 +13,7 @@ website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/margo-ta/"
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tabure-margo.webp"]
-date: 2026-07-22
+date: 2026-08-15
 aliases: ["/imenik/simpo-margo-ta/"]
 ---
 

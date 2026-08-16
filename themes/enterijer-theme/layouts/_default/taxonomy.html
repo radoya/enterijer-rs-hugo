@@ -55,12 +55,12 @@
     </section>
     {{ end }}
     {{- $stranica := .Paginate (sort $proizvodi "Title") -}}
+    {{- /* filter se montira sa fiksnim delom (scope) — taj facet se ne prikazuje kao čip */ -}}
+    {{- $scope := dict -}}
+    {{- $mapa := dict "kategorija" "k" "potkategorija" "c" "brend" "b" "grad" "g" -}}
+    {{- with index $mapa .Data.Singular }}{{ $scope = dict . (slice $.Data.Term) }}{{ end -}}
     <section class="section" id="proizvodi">
-      <p class="eyebrow">{{ len $proizvodi }} {{ i18n "products" }}</p>
-      <div class="card-grid">
-        {{ range $stranica.Pages }}{{ partial "listing-card.html" . }}{{ end }}
-      </div>
-      {{ partial "pager.html" $stranica }}
+      {{ partial "catalog.html" (dict "stranica" $stranica "ukupno" (len $proizvodi) "scope" $scope) }}
     </section>
   {{ else }}
     {{- $stranica := .Paginate (sort .Pages "Title") -}}

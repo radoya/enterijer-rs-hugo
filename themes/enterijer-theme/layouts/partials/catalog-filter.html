@@ -1,0 +1,95 @@
+{{- /* SSR ljuska filtera kataloga. Poziv:
+         {{ partial "catalog-filter.html" (dict "scope" (dict "k" (slice "dnevna-soba"))) }}
+       `scope` je fiksni deo filtera (npr. na stranici kategorije) i ne prikazuje se kao čip.
+       Bez JS-a ostaje vidljiv SSR grid ispod — ovo je samo forma. */ -}}
+{{- $scope := .scope | default dict -}}
+{{- $svi := where site.RegularPages "Type" "proizvodi" -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
+
+{{- /* opcije facet-a iz celog kataloga, da se lista ne menja pri svakom filtriranju */ -}}
+{{- $opcije := dict -}}
+{{- range $dim := slice "kategorija" "potkategorija" "brend" "grad" -}}
+  {{- $v := slice -}}
+  {{- range $svi }}{{ range (index .Params $dim | default slice) }}{{ $v = $v | append . }}{{ end }}{{ end -}}
+  {{- $opcije = merge $opcije (dict $dim ($v | uniq | sort)) -}}
+{{- end -}}
+{{- $prodavnice := slice -}}
+{{- range $svi }}{{ with .Params.store }}{{ $prodavnice = $prodavnice | append . }}{{ end }}{{ end -}}
+{{- $prodavnice = $prodavnice | uniq | sort -}}
+
+{{- $deca := dict -}}
+{{- range $slug, $c := $kat }}{{ $d := slice }}{{ range $leaf, $n := $c.deca }}{{ $d = $d | append $leaf }}{{ end }}{{ $deca = merge $deca (dict $slug $d) }}{{ end -}}
+
+<form class="catalog-facets" data-facets-form onsubmit="return false">
+  <div class="facet">
+    <label class="facet-label" for="q-katalog">{{ i18n "catalog_search" }}</label>
+    <input id="q-katalog" type="search" data-q placeholder="{{ i18n "catalog_search_ph" }}" autocomplete="off">
+  </div>
+
+  {{ if not (index $scope "k") }}
+  <details class="facet" open>
+    <summary>{{ i18n "catalog_category" }}</summary>
+    <div class="facet-list">
+      {{ range $slug, $c := $kat }}
+        {{ if in (index $opcije "kategorija") $slug }}
+        <label><input type="checkbox" data-dim="k" value="{{ $slug }}"> {{ $c.naziv }}</label>
+        {{ end }}
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+
+  {{ if not (index $scope "c") }}
+  <details class="facet">
+    <summary>{{ i18n "catalog_subcategory" }}</summary>
+    <div class="facet-list">
+      {{ range index $opcije "potkategorija" }}
+        {{- $leaf := . -}}{{- $naziv := . -}}
+        {{- range $kat }}{{ with index .deca $leaf }}{{ $naziv = . }}{{ end }}{{ end -}}
+        <label><input type="checkbox" data-dim="c" value="{{ $leaf }}"> {{ $naziv }}</label>
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+
+  <details class="facet">
+    <summary>{{ i18n "catalog_price" }}</summary>
+    <div class="price-inputs">
+      <label>{{ i18n "catalog_price_from" }} <input type="number" min="0" step="100" data-min inputmode="numeric"></label>
+      <label>{{ i18n "catalog_price_to" }} <input type="number" min="0" step="100" data-max inputmode="numeric"></label>
+    </div>
+  </details>
+
+  {{ if not (index $scope "s") }}
+  <details class="facet">
+    <summary>{{ i18n "catalog_store" }}</summary>
+    <div class="facet-list facet-list--scroll">
+      {{ range $prodavnice }}
+        {{- $naziv := . -}}
+        {{- with site.GetPage (printf "/imenik/%s" .) }}{{ $naziv = .Title }}{{ end -}}
+        <label><input type="checkbox" data-dim="s" value="{{ . }}"> {{ $naziv }}</label>
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+
+  {{ with index $opcije "brend" }}
+  <details class="facet">
+    <summary>{{ i18n "catalog_brand" }}</summary>
+    <div class="facet-list facet-list--scroll">
+      {{ range . }}<label><input type="checkbox" data-dim="b" value="{{ . }}"> {{ . }}</label>{{ end }}
+    </div>
+  </details>
+  {{ end }}
+
+  {{ if not (index $scope "g") }}
+  {{ with index $opcije "grad" }}
+  <details class="facet">
+    <summary>{{ i18n "catalog_city" }}</summary>
+    <div class="facet-list facet-list--scroll">
+      {{ range . }}<label><input type="checkbox" data-dim="g" value="{{ . }}"> {{ . | title }}</label>{{ end }}
+    </div>
+  </details>
+  {{ end }}
+  {{ end }}
+</form>

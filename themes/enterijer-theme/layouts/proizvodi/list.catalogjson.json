@@ -1,0 +1,28 @@
+{{- /* Klijentski indeks kataloga (/proizvodi/index.json). Kratki ključevi jer raste
+       ka ~2000 proizvoda: t naziv, u url, i slika, p cena, k kategorije, c potkategorije,
+       b brend, s slug prodavnice, sn naziv prodavnice, g grad, d datum, r ocena, n broj recenzija.
+       Kartice se u JS-u renderuju istim redosledom polja kao partials/listing-card.html. */ -}}
+{{- $out := slice -}}
+{{- range where site.RegularPages "Type" "proizvodi" -}}
+  {{- $slug := .File.ContentBaseName -}}
+  {{- $rev := index hugo.Data.reviews $slug | default dict -}}
+  {{- $sn := "" -}}
+  {{- with .Params.store }}{{ with site.GetPage (printf "/imenik/%s" .) }}{{ $sn = .Title }}{{ end }}{{ end -}}
+  {{- $r := dict
+      "t" .Title
+      "u" .RelPermalink
+      "i" (index (.Params.images | default slice) 0 | default "")
+      "p" (.Params.price | default 0)
+      "k" (.Params.kategorija | default slice)
+      "c" (.Params.potkategorija | default slice)
+      "b" (index (.Params.brend | default slice) 0 | default "")
+      "s" (.Params.store | default "")
+      "sn" $sn
+      "g" (.Params.grad | default slice)
+      "d" (.Date.Format "2006-01-02")
+      "de" (.Description | truncate 110)
+  -}}
+  {{- with $rev.avg }}{{ $r = merge $r (dict "r" . "n" $rev.count) }}{{ end -}}
+  {{- $out = $out | append $r -}}
+{{- end -}}
+{{- $out | jsonify -}}

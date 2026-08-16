@@ -24,6 +24,8 @@ enableGitInfo = true
   images = ["img/og-default.jpg"]
   keywords = ["enterijer", "renoviranje", "sredjivanje stana", "majstori", "materijali", "dekoracija"]
   mainSections = ["blog"]
+  # mora da prati [pagination].pagerSize — klijentski katalog pagina istim korakom
+  catalog_page_size = 24
   # Cloudflare Turnstile javni sitekey (anti-spam na formi recenzija). Secret je Worker secret TURNSTILE_SECRET.
   turnstile_sitekey = "0x4AAAAAAD0TkMvjZSBU4pSQ"
 
@@ -207,6 +209,12 @@ enableGitInfo = true
   [[related.indices]]
     name = 'brend'
     weight = 30
+
+[outputFormats.CATALOGJSON]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = true
 
 [outputFormats.LLMSFULL]
   mediaType = "text/plain"

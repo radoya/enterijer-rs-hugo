@@ -54,8 +54,13 @@
 <section class="section container">
   <p class="eyebrow">{{ i18n "home_categories" }}</p>
   <div class="swatch-row">
-    {{ range $name := slice "Kuhinje" "Kupatila" "Dnevna soba" "Spavaća soba" "Rasveta" "Podovi" "Nameštaj" "Boje" }}
-      <a class="tag" data-k="{{ $name | urlize }}" href="{{ "/blog/" | relLangURL }}">{{ $name }}</a>
+    {{- $kat := hugo.Data.kategorije | default dict -}}
+    {{ range $slug, $c := $kat }}
+      {{- $n := 0 -}}
+      {{- with index site.Taxonomies.kategorija $slug }}{{ $n = len . }}{{ end -}}
+      {{ if and $n (not $c.usluga) }}
+      <a class="tag" data-k="{{ $slug }}" href="{{ (printf "/kategorija/%s/" $slug) | relLangURL }}">{{ $c.naziv }}</a>
+      {{ end }}
     {{ end }}
   </div>
 </section>

@@ -1,31 +1,127 @@
 {{ define "main" }}
+{{- $slug := .File.ContentBaseName -}}
+{{- $rev := index hugo.Data.reviews $slug | default dict -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
+{{- $slike := .Params.images | default slice -}}
+{{- $cena := .Params.price | default 0 -}}
+{{- $firma := "" -}}
+{{- with .Params.store }}{{ $firma = site.GetPage (printf "/imenik/%s" .) }}{{ end -}}
+{{- $izvor := .Params.source_url -}}
+
 <div class="container">
   {{ partial "breadcrumbs.html" . }}
-  <article class="prose">
-    <header class="listing-header">
-      <h1>{{ .Title }}</h1>
-    </header>
-    {{- $img := index (.Params.images | default slice) 0 -}}
-    {{ with $img }}<img class="product-hero" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
-    <div class="article-meta">
-      {{ range .Params.kategorija }}<a class="tag" data-k="{{ . | urlize }}" href="{{ printf "/kategorija/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
-      {{ range .Params.brend }}<a class="tag" href="{{ printf "/brend/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+
+  <div class="pdp">
+    <div class="pdp-gallery">
+      {{ if $slike }}
+      <div class="pdp-stage" role="group" aria-label="{{ i18n "product_gallery" }}">
+        {{ range $i, $u := $slike }}
+        <figure class="pdp-slide" id="slika-{{ add $i 1 }}">
+          <img src="{{ $u }}" alt="{{ $.Title }}{{ if $i }} — {{ add $i 1 }}{{ end }}"
+               loading="{{ cond (eq $i 0) "eager" "lazy" }}" decoding="async" referrerpolicy="no-referrer">
+        </figure>
+        {{ end }}
+      </div>
+      {{ if gt (len $slike) 1 }}
+      <div class="pdp-thumbs">
+        {{ range $i, $u := $slike }}
+        <a href="#slika-{{ add $i 1 }}" aria-label="{{ add $i 1 }}"><img src="{{ $u }}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ else }}
+      <div class="pdp-stage pdp-stage--prazno" aria-hidden="true"></div>
+      {{ end }}
     </div>
 
-    <p class="lead">{{ .Description }}</p>
-    {{ .Content }}
+    <div class="pdp-info">
+      <h1>{{ .Title }}</h1>
 
-    {{ with .Params.store }}
-      {{ with site.GetPage (printf "/imenik/%s" .) }}
-    <p class="store-link">Deo ponude: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      <div class="pdp-meta">
+        {{ with $rev.avg }}<a class="pdp-rating" href="#recenzije">{{ partial "stars.html" . }} <span>({{ $rev.count }})</span></a>{{ end }}
+        {{ range .Params.brend }}<a class="tag" href="{{ printf "/brend/%s/" (. | urlize) | relLangURL }}">{{ . }}</a>{{ end }}
+      </div>
+
+      <p class="price{{ if not (gt $cena 0) }} price--upit{{ end }}">{{ partial "cena.html" $cena }}</p>
+      {{ if gt $cena 0 }}
+      <p class="price-note">{{ printf (i18n "product_price_note") (.Date.Format "2.1.2006") }}</p>
       {{ end }}
-    {{ end }}
-  </article>
+
+      <div class="pdp-cta">
+        {{ if $izvor }}
+        <a class="btn" href="{{ $izvor }}" rel="nofollow noopener" target="_blank">{{ i18n "product_view_at_seller" }} ↗</a>
+        {{ else if $firma }}
+        <a class="btn" href="{{ $firma.RelPermalink }}">{{ i18n "product_store" }} ↗</a>
+        {{ end }}
+        <a class="btn btn-ghost" href="{{ printf "/kontakt/?proizvod=%s" $slug | relLangURL }}">{{ i18n "product_send_inquiry" }}</a>
+      </div>
+
+      {{ with $firma }}
+      <a class="store-card" href="{{ .RelPermalink }}">
+        <span class="store-card-label">{{ i18n "product_of_offer" }}</span>
+        <span class="store-card-name">{{ .Title }}</span>
+        <span class="store-card-meta">
+          {{ with index (.Params.grad | default slice) 0 }}{{ . | title }}{{ end }}
+          {{ with .Params.phone }} · {{ . }}{{ end }}
+        </span>
+      </a>
+      {{ end }}
+
+      {{- $redovi := slice -}}
+      {{- range $polje := slice "brend" "boja" "materijal" "stil" -}}
+        {{- $v := index $.Params $polje -}}
+        {{- if reflect.IsSlice $v }}{{ $v = delimit $v ", " }}{{ end -}}
+        {{- with $v }}{{ $redovi = $redovi | append (dict "k" (i18n (printf "spec_%s" $polje)) "v" ($v | humanize)) }}{{ end -}}
+      {{- end -}}
+      {{- with index (.Params.kategorija | default slice) 0 -}}
+        {{- $naziv := . -}}{{ with index $kat . }}{{ $naziv = .naziv }}{{ end -}}
+        {{- $redovi = $redovi | append (dict "k" (i18n "spec_kategorija") "v" $naziv) -}}
+      {{- end -}}
+      {{- with index (.Params.potkategorija | default slice) 0 -}}
+        {{- $leaf := . -}}{{- $naziv := . -}}
+        {{- range $kat }}{{ with index .deca $leaf }}{{ $naziv = . }}{{ end }}{{ end -}}
+        {{- $redovi = $redovi | append (dict "k" (i18n "spec_potkategorija") "v" $naziv) -}}
+      {{- end -}}
+      {{ with $redovi }}
+      <h2 class="pdp-h2">{{ i18n "product_specs" }}</h2>
+      <table class="spec-table">
+        <tbody>
+          {{ range . }}<tr><th scope="row">{{ .k }}</th><td>{{ .v }}</td></tr>{{ end }}
+        </tbody>
+      </table>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if or .Description .Content }}
+  <div class="pdp-opis prose">
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{ partial "reviews.html" . }}
+
+  {{- $srodni := first 4 ((where site.RegularPages "Type" "proizvodi").Related .) -}}
+  {{ with $srodni }}
+  <section class="section">
+    <p class="eyebrow">{{ i18n "product_related" }}</p>
+    <div class="card-grid">{{ range . }}{{ partial "listing-card.html" . }}{{ end }}</div>
+  </section>
+  {{ end }}
 </div>
 
 {{- $ld := dict "@context" "https://schema.org" "@type" "Product" "name" .Title "url" .Permalink -}}
 {{- with index (.Params.brend | default slice) 0 }}{{ $ld = merge $ld (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end -}}
 {{- with .Params.description }}{{ $ld = merge $ld (dict "description" .) }}{{ end -}}
-{{- with index (.Params.images | default slice) 0 }}{{ $ld = merge $ld (dict "image" .) }}{{ end -}}
+{{- with $slike }}{{ $ld = merge $ld (dict "image" .) }}{{ end -}}
+{{- if gt $cena 0 -}}
+  {{- $ponuda := dict "@type" "Offer" "price" $cena "priceCurrency" "RSD" "url" (cond (ne $izvor "") $izvor .Permalink) -}}
+  {{- with $firma }}{{ $ponuda = merge $ponuda (dict "seller" (dict "@type" "Organization" "name" .Title)) }}{{ end -}}
+  {{- $ld = merge $ld (dict "offers" $ponuda) -}}
+{{- end -}}
+{{- with $rev.avg }}
+  {{- $ld = merge $ld (dict "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" . "reviewCount" $rev.count)) -}}
+{{- end -}}
 <script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
 {{ end }}

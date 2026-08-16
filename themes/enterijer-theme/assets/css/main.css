@@ -338,12 +338,14 @@ article.prose { max-width: var(--measure); margin: 0 auto; padding: var(--space-
 /* Katalog kartice: ujednačena visina naslova/opisa -> sve kartice iste visine,
    nema praznog belog prostora ispod kraćih kartica (iznad slike sledećeg reda). */
 [data-filterable] .card h3,
+[data-catalog] .card h3,
 .store-products .card h3 {
   display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;
   overflow: hidden; line-height: 1.3; min-height: 2.6em;
 }
-[data-filterable] .card p,
-.store-products .card p {
+[data-filterable] .card p:not(.card-price),
+[data-catalog] .card p:not(.card-price),
+.store-products .card p:not(.card-price) {
   display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical;
   overflow: hidden; line-height: 1.5; min-height: 3em;
 }
@@ -363,3 +365,126 @@ article.prose { max-width: var(--measure); margin: 0 auto; padding: var(--space-
 
 /* Blog post hero slika */
 .post-hero { width: 100%; max-height: 520px; object-fit: cover; border-radius: var(--radius); margin: var(--space-2) 0 var(--space-3); }
+
+/* ==========================================================================
+   Katalog v3 — sidebar filteri, kategorije, kartica sa cenom, PDP
+   Sve vrednosti iz postojećih tokena (topla paleta, Fraunces, --radius).
+   ========================================================================== */
+
+/* --- kartica proizvoda --- */
+.card-price { font-family: var(--font-display); font-size: 1.05rem; font-weight: 620; color: var(--ink); margin: 0; }
+.card-price--upit { font-size: .92rem; font-weight: 500; color: var(--ink-soft); }
+.card-store { font-size: .82rem; color: var(--ink-soft); }
+.card-ocena { font-size: .82rem; color: var(--ink-soft); }
+
+/* --- pločice kategorija --- */
+.subcat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+.subcat-tile {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 14px 16px; background: var(--bg-alt); border: 1px solid transparent;
+  border-radius: var(--radius-sm); text-decoration: none; color: var(--ink);
+  transition: border-color .18s ease, background .18s ease;
+}
+.subcat-tile:hover { background: var(--bg-card); border-color: var(--accent); }
+.subcat-name { font-weight: 600; }
+.subcat-count { font-size: .8rem; color: var(--ink-soft); background: var(--bg-card); border-radius: var(--radius-pill); padding: 2px 9px; }
+.kat-grupa h2 { display: flex; align-items: baseline; gap: 10px; }
+.kat-grupa h2 a { color: inherit; text-decoration: none; }
+.kat-grupa h2 a:hover { color: var(--accent); }
+.kat-count { font-size: .8rem; font-weight: 500; color: var(--ink-soft); }
+.term-parent a { font-size: .8rem; color: var(--ink-soft); text-decoration: none; }
+.term-parent a:hover { color: var(--accent); }
+
+/* --- katalog: sidebar + rezultati --- */
+.catalog { display: grid; gap: var(--space-3); align-items: start; }
+.catalog-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: var(--space-1); }
+.catalog-bar .eyebrow { margin: 0; margin-right: auto; }
+.catalog-sort { display: flex; align-items: center; gap: 8px; font-size: .8rem; color: var(--ink-soft); }
+.catalog-sort select {
+  font: inherit; font-size: .85rem; padding: 8px 12px; color: var(--ink);
+  background: var(--bg-card); border: 1.5px solid var(--line); border-radius: var(--radius-pill);
+}
+.catalog-sort select:focus { outline: none; border-color: var(--accent); }
+.catalog-side { background: var(--bg-card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
+.catalog-side-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.facet { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.facet:last-child { border-bottom: 0; }
+.facet > summary {
+  cursor: pointer; font-size: .78rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ink-soft); list-style: none;
+}
+.facet > summary::-webkit-details-marker { display: none; }
+.facet > summary::after { content: "+"; float: right; font-weight: 500; }
+.facet[open] > summary::after { content: "−"; }
+.facet-label { display: block; margin-bottom: 6px; }
+.facet input[type="search"], .facet input[type="number"] {
+  width: 100%; font: inherit; font-size: .9rem; padding: 9px 12px;
+  background: var(--bg); border: 1.5px solid var(--line); border-radius: var(--radius-sm); color: var(--ink);
+}
+.facet input:focus { outline: none; border-color: var(--accent); }
+.facet-list { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; }
+.facet-list--scroll { max-height: 220px; overflow-y: auto; }
+.facet-list label { display: flex; align-items: center; gap: 8px; font-size: .88rem; cursor: pointer; }
+.facet-list input[type="checkbox"] { accent-color: var(--accent); width: 15px; height: 15px; }
+.price-inputs { display: flex; gap: 10px; padding-top: 10px; }
+.price-inputs label { flex: 1; font-size: .78rem; color: var(--ink-soft); }
+.active-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: var(--space-2); }
+.active-filters:empty { display: none; }
+.active-filters .tag { cursor: pointer; font-family: inherit; }
+.pager-gap { color: var(--ink-soft); padding: 8px 4px; }
+
+/* mobilni: sidebar je fioka, otvara je checkbox — bez JS-a */
+.catalog-open { display: inline-flex; }
+.catalog-close { display: inline-flex; }
+.catalog-side { display: none; }
+.catalog-toggle:checked ~ .catalog-side {
+  display: block; position: fixed; inset: 0; z-index: 60; overflow-y: auto;
+  border-radius: 0; padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .catalog { grid-template-columns: 260px minmax(0, 1fr); }
+  .catalog-side { display: block; position: static; }
+  .catalog-open, .catalog-close, .catalog-side-head { display: none; }
+}
+
+/* --- PDP --- */
+.pdp { display: grid; gap: var(--space-3); align-items: start; margin-top: var(--space-2); }
+.pdp-stage {
+  display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 8px;
+  border-radius: var(--radius); background: var(--bg-alt);
+}
+.pdp-stage::-webkit-scrollbar { height: 6px; }
+.pdp-slide { flex: 0 0 100%; scroll-snap-align: center; margin: 0; }
+.pdp-slide img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; display: block; }
+.pdp-stage--prazno { aspect-ratio: 4 / 3; }
+.pdp-thumbs { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.pdp-thumbs a { display: block; width: 68px; height: 68px; border-radius: var(--radius-sm); overflow: hidden; border: 1.5px solid var(--line); }
+.pdp-thumbs a:hover { border-color: var(--accent); }
+.pdp-thumbs img { width: 100%; height: 100%; object-fit: cover; }
+.pdp-info h1 { margin-bottom: 8px; }
+.pdp-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: var(--space-2); }
+.pdp-rating { text-decoration: none; color: var(--ink-soft); font-size: .85rem; }
+.price { font-family: var(--font-display); font-size: 1.9rem; font-weight: 640; color: var(--ink); margin: 0 0 4px; }
+.price--upit { font-size: 1.2rem; color: var(--ink-soft); }
+.price-note { font-size: .78rem; color: var(--ink-soft); margin: 0 0 var(--space-2); max-width: 42ch; }
+.pdp-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: var(--space-2); }
+.store-card {
+  display: grid; gap: 2px; padding: 14px 16px; background: var(--bg-alt);
+  border-radius: var(--radius-sm); text-decoration: none; color: var(--ink);
+  border: 1px solid transparent; transition: border-color .18s ease;
+}
+.store-card:hover { border-color: var(--accent); }
+.store-card-label { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); }
+.store-card-name { font-weight: 600; }
+.store-card-meta { font-size: .82rem; color: var(--ink-soft); }
+.pdp-h2 { font-size: 1.1rem; margin: var(--space-3) 0 10px; }
+.spec-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.spec-table th, .spec-table td { text-align: left; padding: 9px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.spec-table th { font-weight: 500; color: var(--ink-soft); width: 40%; }
+.pdp-opis { margin-top: var(--space-3); }
+
+@media (min-width: 900px) {
+  .pdp { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: var(--space-4); }
+  .pdp-info { position: sticky; top: 90px; }
+}

@@ -1,0 +1,8 @@
+{{- /* Cena -> "14.990 RSD" ili "Cena na upit". Prima broj (.Params.price).
+       Jedno mesto za format, koriste ga i kartica i stranica proizvoda. */ -}}
+{{- $p := . | default 0 -}}
+{{- if gt $p 0 -}}
+{{ lang.FormatNumberCustom 0 $p "- , ." }} RSD
+{{- else -}}
+{{ i18n "product_price_on_request" }}
+{{- end -}}

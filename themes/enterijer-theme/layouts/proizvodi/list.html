@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{- $proizvodi := .Pages -}}
+{{- $stranica := .Paginate (sort $proizvodi "Title") -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
 <div class="container">
   <header class="page-hero">
     {{ partial "breadcrumbs.html" . }}
@@ -7,18 +10,21 @@
   </header>
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  <div data-filterable data-page-size="12">
-    {{ partial "list-filter.html" (dict "pages" .Pages "facets" (slice
-        (dict "key" "brend" "label" "Brend")
-        (dict "key" "kategorija" "label" "Kategorija"))) }}
-    <p class="eyebrow"><span data-filter-count>{{ len .Pages }}</span> proizvoda</p>
-    <div class="card-grid">
-      {{ range .Pages.ByTitle }}
-        {{ partial "listing-card.html" . }}
+  <section class="section">
+    <div class="subcat-grid">
+      {{ range $slug, $c := $kat }}
+        {{- $n := 0 -}}
+        {{- with index site.Taxonomies.kategorija $slug }}{{ $n = len (where .Pages "Type" "proizvodi") }}{{ end -}}
+        {{ if $n }}
+        <a class="subcat-tile" href="{{ (printf "/kategorija/%s/" $slug) | relLangURL }}">
+          <span class="subcat-name">{{ $c.naziv }}</span>
+          <span class="subcat-count">{{ $n }}</span>
+        </a>
+        {{ end }}
       {{ end }}
     </div>
-    <p data-filter-empty style="display:none" class="filter-empty">Nema proizvoda za izabrane filtere.</p>
-    <nav class="pager" data-pager aria-label="Stranice"></nav>
-  </div>
+  </section>
+
+  {{ partial "catalog.html" (dict "stranica" $stranica "ukupno" (len $proizvodi) "scope" dict) }}
 </div>
 {{ end }}

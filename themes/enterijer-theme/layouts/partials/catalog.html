@@ -1,0 +1,55 @@
+{{- /* Katalog: sidebar sa filterima + grid + paginacija.
+       Poziv: {{ partial "catalog.html" (dict "stranica" $stranica "ukupno" (len $proizvodi) "scope" (dict "k" (slice "dnevna-soba"))) }}
+       SSR grid i SSR pager su izvor istine dok se filter ne dodirne (crawlable, radi bez JS-a);
+       tek tada catalog.js preuzima grid. Mobilni sidebar se otvara checkbox-om, bez JS-a. */ -}}
+{{- $stranica := .stranica -}}
+{{- $scope := .scope | default dict -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
+{{- $deca := dict -}}
+{{- range $slug, $c := $kat }}{{ $d := slice }}{{ range $leaf, $n := $c.deca }}{{ $d = $d | append $leaf }}{{ end }}{{ $deca = merge $deca (dict $slug $d) }}{{ end -}}
+{{- $indeks := "/proizvodi/index.json" | relLangURL -}}
+
+<div class="catalog" data-catalog
+     data-index="{{ $indeks }}"
+     data-page-size="{{ site.Params.catalog_page_size | default 24 }}"
+     data-scope='{{ $scope | jsonify }}'
+     data-kat='{{ $deca | jsonify }}'
+     data-i18n='{{ dict "upit" (i18n "product_price_on_request") "clear" (i18n "catalog_clear_all") | jsonify }}'>
+
+  <input type="checkbox" id="filteri-toggle" class="catalog-toggle" hidden>
+  <aside class="catalog-side">
+    <div class="catalog-side-head">
+      <span class="filter-label">{{ i18n "catalog_filters" }}</span>
+      <label for="filteri-toggle" class="btn btn-ghost catalog-close">{{ i18n "catalog_close" }}</label>
+    </div>
+    {{ partial "catalog-filter.html" (dict "scope" $scope) }}
+  </aside>
+
+  <div class="catalog-main">
+    <div class="catalog-bar">
+      <p class="eyebrow"><span data-catalog-count>{{ .ukupno }}</span> {{ i18n "products" }}</p>
+      <label for="filteri-toggle" class="btn btn-ghost catalog-open">{{ i18n "catalog_filter_open" }}</label>
+      <label class="catalog-sort">{{ i18n "catalog_sort" }}
+        <select data-sort>
+          <option value="">{{ i18n "catalog_sort_name" }}</option>
+          <option value="price-asc">{{ i18n "catalog_sort_price_asc" }}</option>
+          <option value="price-desc">{{ i18n "catalog_sort_price_desc" }}</option>
+          <option value="newest">{{ i18n "catalog_sort_newest" }}</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="active-filters" data-active-filters></div>
+
+    <div class="card-grid" data-catalog-grid>
+      {{ range $stranica.Pages }}{{ partial "listing-card.html" . }}{{ end }}
+    </div>
+
+    <p class="filter-empty" data-catalog-empty hidden>{{ i18n "catalog_empty" }}</p>
+    <nav class="pager" data-catalog-pager aria-label="{{ i18n "pages" }}"></nav>
+    <div data-catalog-ssr>{{ partial "pager.html" $stranica }}</div>
+  </div>
+</div>
+{{- with resources.Get "js/catalog.js" | minify | fingerprint -}}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{- end -}}

@@ -2,18 +2,22 @@
 title: "Trpezarijski set"
 description: "Klasičan set stola i stolica za trpezariju u beloj boji sa detaljima od sive tkanine."
 tip: "proizvod"
-kategorija: ["kolekcije-programi"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["kolekcije-programi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/viktorija/"
+source_url: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/viktorija/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-dnevna-soba-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, siva"
+materijal: "drvo, tkanina"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viktorija/"]
 ---
 

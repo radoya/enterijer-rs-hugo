@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Krevet sa uspravnim uzglavljem i dugmadima u modernom stilu."
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/ceri/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/ceri/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-ceri.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "pvc"
+stil: "moderan"
 aliases: ["/imenik/simpo-ceri/"]
 ---
 

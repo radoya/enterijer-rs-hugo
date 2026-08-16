@@ -2,18 +2,22 @@
 title: "Klasične stolice"
 description: "Dve klasične stolice s drvenim okvirom i tkaninom u braon-beloj kombinaciji."
 tip: "proizvod"
-kategorija: ["fotelje"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["fotelje"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/viktorija-ft/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/viktorija-ft/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/fotelja-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "braon, bež sa cvetnim motivom"
+materijal: "drvo, tkanina"
+stil: "klasik"
 aliases: ["/imenik/simpo-viktorija-ft/"]
 ---
 

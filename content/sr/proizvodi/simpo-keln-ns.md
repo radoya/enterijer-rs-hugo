@@ -2,18 +2,22 @@
 title: "Noćni ormarić"
 description: "Moderni noćni ormarić sa kutijom za sveću i ramom za naočare."
 tip: "proizvod"
-kategorija: ["nocni-stocici"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["nocni-stocici"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/keln-ns/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/keln-ns/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-nocni-stocic-keln.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, smeđa"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-keln-ns/"]
 ---
 

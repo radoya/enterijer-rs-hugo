@@ -2,18 +2,22 @@
 title: "Dečiji krevet"
 description: "Klasična dečija soba sa belim krevetom, stolom i kutijama za odlaganje."
 tip: "proizvod"
-kategorija: ["police-za-deciju-sobu"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["police-za-deciju-sobu"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sobu/castle-pd/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sobu/castle-pd/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-polica-castle.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "none"
+stil: "klasičan"
 aliases: ["/imenik/simpo-castle-pd/"]
 ---
 

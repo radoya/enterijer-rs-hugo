@@ -2,18 +2,22 @@
 title: "Vitrina za knjige"
 description: "Vitrina za knjige sa staklenim vratima, idealna za izlaganje dekorativnih elemenata."
 tip: "proizvod"
-kategorija: ["vitrine"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["vitrine"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/vitrine/viktorija-vt/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/vitrine/viktorija-vt/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/vitrina-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, siva"
+materijal: "drvo, staklo"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viktorija-vt/"]
 ---
 

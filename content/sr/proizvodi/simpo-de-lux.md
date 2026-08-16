@@ -2,18 +2,22 @@
 title: "Madrac"
 description: "Klasični madrac sa kvadratnim jastucima i belom površinom."
 tip: "proizvod"
-kategorija: ["duseci-sa-oprugama"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-sa-oprugama"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/de-lux/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/de-lux/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-delux.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "poliuretan"
+stil: "klasičan"
 aliases: ["/imenik/simpo-de-lux/"]
 ---
 

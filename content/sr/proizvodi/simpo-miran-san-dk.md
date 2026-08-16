@@ -2,18 +2,22 @@
 title: "Moderni krevet"
 description: "Moderni krevet sa jastucima i uzglavljem, stropna lampa sa natpisima."
 tip: "proizvod"
-kategorija: ["deciji-kreveti"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["deciji-kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/miran-san-dk/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/miran-san-dk/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-krevet-miran-san.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, smeđa, bela"
+materijal: "tekstil, metal"
+stil: "moderni"
 aliases: ["/imenik/simpo-miran-san-dk/"]
 ---
 

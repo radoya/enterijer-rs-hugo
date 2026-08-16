@@ -2,18 +2,22 @@
 title: "Noćni stočić"
 description: "Moderni noćni stočić sa dve zatvorene fioke i okruglim ručkama."
 tip: "proizvod"
-kategorija: ["nocni-stocici"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["nocni-stocici"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/alora/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/alora/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/alora-nocni-stocic.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "belo, smeđi tonovi"
+materijal: "drvo, metal"
+stil: "moderni"
 aliases: ["/imenik/simpo-alora/"]
 ---
 

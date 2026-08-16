@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- $slug := .File.ContentBaseName -}}
-{{- $rev := index site.Data.reviews $slug | default dict -}}
+{{- $rev := index hugo.Data.reviews $slug | default dict -}}
 <div class="container">
   {{ partial "breadcrumbs.html" . }}
   <article class="prose">

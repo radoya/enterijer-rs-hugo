@@ -2,18 +2,22 @@
 title: "Zidna slika"
 description: "Apstraktna zidna slika sa žutom i crnom bojom"
 tip: "proizvod"
-kategorija: ["ogledala"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ogledala"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/keln-og/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/keln-og/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ogledalo-keln.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "žuta, bela i crna"
+materijal: "none"
+stil: "apstraktan"
 aliases: ["/imenik/simpo-keln-og/"]
 ---
 

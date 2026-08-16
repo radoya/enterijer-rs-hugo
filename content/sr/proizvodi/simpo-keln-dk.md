@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Moderni bračni krevet sa drvenim okvirom i metalnim detaljima, okružen belim noćnim stočićem."
 tip: "proizvod"
-kategorija: ["deciji-kreveti"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["deciji-kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/keln-dk/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/keln-dk/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-krevet-keln.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela i smeđa"
+materijal: "drveni okvir sa metalnim detaljima"
+stil: "moderni"
 aliases: ["/imenik/simpo-keln-dk/"]
 ---
 

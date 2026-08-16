@@ -2,18 +2,22 @@
 title: "Trpezarijski set"
 description: "Trpezarijski set sa drvenim nogama i tamnozelenim sedištima sa belim detaljima."
 tip: "proizvod"
-kategorija: ["trpezarijski-stolovi"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijski-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/sahara/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/sahara/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-sahara.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "svetlo smeđa, tamnozelena, bela"
+materijal: "drvo, platno"
+stil: "none"
 aliases: ["/imenik/simpo-sahara/"]
 ---
 

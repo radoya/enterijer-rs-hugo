@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Moderni krevet sa tekstilnim okvirom, jastucima sa natpisima 'Faith' i 'Kindness', staklenim noćnim stočićem i lampom."
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/miran-san/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/miran-san/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-miran-san.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, bela, zelena"
+materijal: "tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-miran-san/"]
 ---
 

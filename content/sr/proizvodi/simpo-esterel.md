@@ -2,18 +2,22 @@
 title: "Kombinovani set za odmor i spavanje"
 description: "Moderni kombinovani set za spavanje i odmor sa tekstilnim materijalom u bež boji."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/esterel/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/esterel/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-esterel.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-esterel/"]
 ---
 

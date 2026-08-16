@@ -2,18 +2,22 @@
 title: "Moderni dušek"
 description: "Dušek sa karakterističnom teksturom, modernog dizajna."
 tip: "proizvod"
-kategorija: ["duseci-od-pene"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-od-pene"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-od-pene/adonis-s/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-od-pene/adonis-s/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-adonis.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "belo i crno"
+materijal: "poliuretan i pamuk"
+stil: "moderni"
 aliases: ["/imenik/simpo-adonis-s/"]
 ---
 

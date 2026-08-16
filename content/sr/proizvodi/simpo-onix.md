@@ -2,18 +2,22 @@
 title: "Siva tekstilna sofa"
 description: "Siva tekstilna sofa sa dijamantskim uzorkom i dve dekorativne jastučnice."
 tip: "proizvod"
-kategorija: ["kauci"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["kauci"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/onix/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/onix/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/kauc-onix.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva"
+materijal: "tekstil"
+stil: "klasičan"
 aliases: ["/imenik/simpo-onix/"]
 ---
 

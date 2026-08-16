@@ -2,18 +2,22 @@
 title: "Sedište"
 description: "Ljubičasto sedište od kože"
 tip: "proizvod"
-kategorija: ["fotelje"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["fotelje"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/metropoliten-ft/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/metropoliten-ft/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/fotelja-metropoliten.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "ljubičasta"
+materijal: "koža"
+stil: "moderni"
 aliases: ["/imenik/simpo-metropoliten-ft/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Čiviluk za predsoblje"
 description: "Moderan čiviluk za predsoblje sa drvenim detaljima, kutijama za odlaganje i visokim čivilucima."
 tip: "proizvod"
-kategorija: ["ormari-za-predsoblja"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["ormari-za-predsoblja"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/luna-op/"
+source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/luna-op/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje-ormar-luna.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, smeđa"
+materijal: "drvo, plastični premaz"
+stil: "moderan"
 aliases: ["/imenik/simpo-luna-op/"]
 ---
 

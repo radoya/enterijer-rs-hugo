@@ -2,18 +2,22 @@
 title: "Sofa"
 description: "Elegantna barokna sofa sa dekorativnim detaljima i tuftiranim detaljima."
 tip: "proizvod"
-kategorija: ["trosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["trosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/viktorija-tr/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/viktorija-tr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trosed-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež, smeđa"
+materijal: "drvo, tkanina"
+stil: "barok"
 aliases: ["/imenik/simpo-viktorija-tr/"]
 ---
 

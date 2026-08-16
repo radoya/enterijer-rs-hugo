@@ -2,18 +2,22 @@
 title: "Zidne police i ormarići"
 description: "Moderni sistem zidnih polica, ormarića i dekoracija za organizaciju prostora."
 tip: "proizvod"
-kategorija: ["police-za-knjige"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["police-za-knjige"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/daria/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/daria/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/polica-za-knjige-daria.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, boja drveta"
+materijal: "drvo, metal"
+stil: "moderni"
 aliases: ["/imenik/simpo-daria/"]
 ---
 

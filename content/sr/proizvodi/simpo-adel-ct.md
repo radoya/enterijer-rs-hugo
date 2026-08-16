@@ -2,18 +2,22 @@
 title: "Trosed"
 description: "Moderan trosed od kože u braon boji sa metalnim nogama."
 tip: "proizvod"
-kategorija: ["cetvorosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["cetvorosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/cetvorosedi/adel-ct/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/cetvorosedi/adel-ct/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/cetvorosed-adel.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "braon"
+materijal: "koža"
+stil: "moderan"
 aliases: ["/imenik/simpo-adel-ct/"]
 ---
 

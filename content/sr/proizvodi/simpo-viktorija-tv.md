@@ -2,18 +2,22 @@
 title: "Dekorativna zidna vrata"
 description: "Dva bela vrata sa dekorativnim rukohvatićima na zidnoj ogradi."
 tip: "proizvod"
-kategorija: ["tv-komode"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["tv-komode"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/viktorija-tv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/viktorija-tv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tv-komoda-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "plastika"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viktorija-tv/"]
 ---
 

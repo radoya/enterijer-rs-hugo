@@ -2,18 +2,22 @@
 title: "Klub stočić u obliku kofera"
 description: "Ovalni stočić sa crnim nogama u modernoj sobi"
 tip: "proizvod"
-kategorija: ["klub-stolovi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["klub-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/art-k/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/art-k/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klub-sto-art-k.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "smeđa"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-art-k/"]
 ---
 

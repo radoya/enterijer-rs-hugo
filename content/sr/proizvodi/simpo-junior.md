@@ -2,18 +2,22 @@
 title: "Dušek"
 description: "Beli dušek sa vertikalnim linijama i detaljima"
 tip: "proizvod"
-kategorija: ["duseci-za-krevetac"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-za-krevetac"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/junior/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/junior/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-junior.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "none"
+stil: "klasičan"
 aliases: ["/imenik/simpo-junior/"]
 ---
 

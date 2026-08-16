@@ -2,18 +2,22 @@
 title: "Plišani dušek"
 description: "Plišani dušek sa dijagonalnim štepovima, idealan za udobno spavanje."
 tip: "proizvod"
-kategorija: ["duseci-sa-zicanim-jezgrom"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-sa-zicanim-jezgrom"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/admiral/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/admiral/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-admiral.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "pliš"
+stil: "klasičan"
 aliases: ["/imenik/simpo-admiral/"]
 ---
 

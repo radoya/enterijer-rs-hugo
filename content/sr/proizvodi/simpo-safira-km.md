@@ -2,18 +2,22 @@
 title: "Komoda"
 description: "Moderna komoda od drveta sa dekorativnim predmetima na vrhu."
 tip: "proizvod"
-kategorija: ["komode"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["komode"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/komode/safira-km/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/komode/safira-km/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komoda-safira.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tamno smeđa"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-safira-km/"]
 ---
 

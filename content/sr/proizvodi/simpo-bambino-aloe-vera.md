@@ -2,18 +2,22 @@
 title: "Aloe Vera dušek"
 description: "Aloe Vera dušek sa ugraviranim motivom aloje vere"
 tip: "proizvod"
-kategorija: ["duseci-za-krevetac"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-za-krevetac"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/bambino-aloe-vera/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/bambino-aloe-vera/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-bambino_aloe_vera.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "poliuretan"
+stil: "klasik"
 aliases: ["/imenik/simpo-bambino-aloe-vera/"]
 ---
 

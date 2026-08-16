@@ -2,18 +2,22 @@
 title: "Komoda"
 description: "Moderna stilska komoda sa dekorativnim detaljima na nogama."
 tip: "proizvod"
-kategorija: ["tv-komode"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["tv-komode"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/alora-tv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/alora-tv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/alora-tv-komoda.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "belo, smeđe noge"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-alora-tv/"]
 ---
 

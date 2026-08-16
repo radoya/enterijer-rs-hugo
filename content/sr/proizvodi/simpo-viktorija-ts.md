@@ -2,18 +2,22 @@
 title: "Trpezarijski set"
 description: "Set od šest stolica i stola u klasičnom stilu, idealan za trpezarije."
 tip: "proizvod"
-kategorija: ["trpezarijski-stolovi"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijski-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/viktorija-ts/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/viktorija-ts/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, siva"
+materijal: "drvo, tkanina"
+stil: "klasik"
 aliases: ["/imenik/simpo-viktorija-ts/"]
 ---
 

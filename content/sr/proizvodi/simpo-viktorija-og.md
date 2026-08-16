@@ -2,18 +2,22 @@
 title: "Zidna slika"
 description: "Zidna slika u plavoj, zlatnoj i beloj boji, romantičnog i elegantnog stila."
 tip: "proizvod"
-kategorija: ["ogledala"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ogledala"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/viktorija-og/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/viktorija-og/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ogledalo-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "plava, zlatna, bela"
+materijal: "none"
+stil: "romantičan"
 aliases: ["/imenik/simpo-viktorija-og/"]
 ---
 

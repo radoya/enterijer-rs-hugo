@@ -2,18 +2,22 @@
 title: "Sofa i stolica"
 description: "Moderna sofa i stolica sa tekstilnim presvlakama u sivoj boji, kombinacija funkcionalnosti i dizajna."
 tip: "proizvod"
-kategorija: ["taburei"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["taburei"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/contessa-ta/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/contessa-ta/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tabure-contessa.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, bela"
+materijal: "tekstil, metal"
+stil: "none"
 aliases: ["/imenik/simpo-contessa-ta/"]
 ---
 

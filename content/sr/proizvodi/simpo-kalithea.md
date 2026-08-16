@@ -2,18 +2,22 @@
 title: "Ugaoni set"
 description: "Ugaoni set od eko kože sa bočnim i prednjim segmentima, ukrašen raznobojnim jastucima u crnoj, beloj i plavoj boji."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/kalithea/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/kalithea/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-kalithea.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "crna"
+materijal: "eko koža"
+stil: "industrijski"
 aliases: ["/imenik/simpo-kalithea/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Sto sa stolicama"
 description: "Moderni sto sa sedam crvenih stolica na drvenoj podlozi, sa pozadinom od cigle."
 tip: "proizvod"
-kategorija: ["trpezarijske-stolice"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijske-stolice"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/zulu/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/zulu/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-zulu.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "crna, crvena"
+materijal: "metal, veštačka koža"
+stil: "moderni"
 aliases: ["/imenik/simpo-zulu/"]
 ---
 

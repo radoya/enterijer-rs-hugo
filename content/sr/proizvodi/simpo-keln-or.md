@@ -2,18 +2,22 @@
 title: "Vrata za skrivanje"
 description: "Dvoja narandžasta vrata za skrivanje u modernom enterijeru."
 tip: "proizvod"
-kategorija: ["ormari"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["ormari"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/keln-or/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/keln-or/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-ormar-keln.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "narandžasta"
+materijal: "drvo"
+stil: "moderan"
 aliases: ["/imenik/simpo-keln-or/"]
 ---
 

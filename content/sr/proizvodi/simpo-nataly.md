@@ -2,18 +2,22 @@
 title: "Zelena fotelja"
 description: "Zelena fotelja, moderan stil, sivi jastuk."
 tip: "proizvod"
-kategorija: ["fotelje"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["fotelje"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/nataly/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/nataly/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/fotelja-nataly.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "zelena, siva"
+materijal: "tekstil"
+stil: "moderan"
 aliases: ["/imenik/simpo-nataly/"]
 ---
 

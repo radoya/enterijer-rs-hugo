@@ -2,18 +2,22 @@
 title: "Restoranska stolica"
 description: "Moderna restoranska stolica sa zelenim naslonom i metalnim nogama."
 tip: "proizvod"
-kategorija: ["trpezarijski-stolovi"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijski-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/tara-ts/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/tara-ts/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-tara.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "zeleno-crna"
+materijal: "tekstil, metal"
+stil: "industrijski"
 aliases: ["/imenik/simpo-tara-ts/"]
 ---
 

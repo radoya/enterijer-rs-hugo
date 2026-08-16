@@ -2,18 +2,22 @@
 title: "Ovalni sto"
 description: "Ovalni sto, moderan stil, bela boja"
 tip: "proizvod"
-kategorija: ["klub-stolovi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["klub-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/ela-120/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/ela-120/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klub-sto-ela120.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "plastika, metal"
+stil: "moderan"
 aliases: ["/imenik/simpo-ela-120/"]
 ---
 

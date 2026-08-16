@@ -2,18 +2,22 @@
 title: "Komplet sofa"
 description: "Moderni komplet sofa od kože u crvenoj boji, dekorisani jastucima, postavljeni u prostoriji sa betonskim zidom."
 tip: "proizvod"
-kategorija: ["sastavne-tdf-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["sastavne-tdf-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/galaxy/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/galaxy/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-galaxy.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "crvena"
+materijal: "koža"
+stil: "moderni"
 aliases: ["/imenik/simpo-galaxy/"]
 ---
 

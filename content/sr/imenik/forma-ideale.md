@@ -3,17 +3,18 @@ title: "Forma Ideale"
 description: "Kragujevački proizvođač pločastog nameštaja — regali, komode, kuhinjski elementi, dostupno u celoj Srbiji."
 tip: "firma"
 kategorija: ["namestaj"]
+potkategorija: []
 grad: ["kragujevac"]
 brend: ["forma-ideale"]
 price_range: ""
-price: ""
+price: 0
 store: ""
 source_url: ""
 website: "https://www.formaideale.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-08-15
+date: 2026-08-16
 ---
 
 Forma Ideale je među najpoznatijim domaćim brendovima pločastog nameštaja, sa širokom maloprodajnom mrežom i online prodajom.

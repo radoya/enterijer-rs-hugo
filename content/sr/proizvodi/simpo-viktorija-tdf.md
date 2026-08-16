@@ -2,18 +2,22 @@
 title: "Set za salon"
 description: "Klasičan set za dnevnu sobu sa sofom i dve stolice."
 tip: "proizvod"
-kategorija: ["sastavne-tdf-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["sastavne-tdf-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/viktorija-tdf/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garniture/viktorija-tdf/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "braon, bež"
+materijal: "drvo, tkanina"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viktorija-tdf/"]
 ---
 

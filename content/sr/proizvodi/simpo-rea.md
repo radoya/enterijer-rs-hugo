@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Moderni krevet sa žutim platnom i sivim jastucima, dizajniran u modernom stilu."
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/rea/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/rea/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-rea.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "žuta, siva"
+materijal: "plastika, metal"
+stil: "moderni"
 aliases: ["/imenik/simpo-rea/"]
 ---
 

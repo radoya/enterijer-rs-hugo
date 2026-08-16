@@ -1,0 +1,24 @@
+{{- /* SSR paginacija. Prima Pager (rezultat .Paginate). Prozor ±2 oko trenutne strane
+       jer katalog ide ka ~80 strana. Klase iste kao klijentski pager u list-filter.html. */ -}}
+{{- $p := . -}}
+{{- if gt $p.TotalPages 1 -}}
+<nav class="pager" aria-label="{{ i18n "pages" }}">
+  {{ with $p.Prev }}<a class="pager-btn" href="{{ .URL }}" rel="prev" aria-label="{{ i18n "prev_page" }}">‹</a>
+  {{ else }}<span class="pager-btn" aria-disabled="true">‹</span>{{ end }}
+  {{ range $p.Pagers }}
+    {{- $blizu := le (math.Abs (sub .PageNumber $p.PageNumber)) 2 -}}
+    {{- $ivica := or (eq .PageNumber 1) (eq .PageNumber $p.TotalPages) -}}
+    {{ if or $blizu $ivica }}
+      {{ if eq .PageNumber $p.PageNumber }}
+        <span class="pager-btn is-active" aria-current="page">{{ .PageNumber }}</span>
+      {{ else }}
+        <a class="pager-btn" href="{{ .URL }}">{{ .PageNumber }}</a>
+      {{ end }}
+    {{ else if or (eq .PageNumber 2) (eq .PageNumber (sub $p.TotalPages 1)) }}
+      <span class="pager-gap" aria-hidden="true">…</span>
+    {{ end }}
+  {{ end }}
+  {{ with $p.Next }}<a class="pager-btn" href="{{ .URL }}" rel="next" aria-label="{{ i18n "next_page" }}">›</a>
+  {{ else }}<span class="pager-btn" aria-disabled="true">›</span>{{ end }}
+</nav>
+{{- end -}}

@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Udoban krevet sa tekstilnim pokrivačem i jastucima za spavanje."
 tip: "proizvod"
-kategorija: ["klik-klak-lezajevi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["klik-klak-lezajevi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/maja/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/maja/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klik-klak-maja.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tamno plava"
+materijal: "tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-maja/"]
 ---
 

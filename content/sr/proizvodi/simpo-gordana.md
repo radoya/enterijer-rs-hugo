@@ -2,18 +2,22 @@
 title: "Krevetica"
 description: "Bež krevetica sa jastucima u modernoj sobi."
 tip: "proizvod"
-kategorija: ["kauci"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["kauci"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/gordana/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/gordana/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/kauc-gordana.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "tekstil"
+stil: "moderan"
 aliases: ["/imenik/simpo-gordana/"]
 ---
 

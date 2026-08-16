@@ -2,18 +2,22 @@
 title: "Set za sedenje"
 description: "Komforan set za sedenje u modernom stilu sa retro detaljima."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/amika/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/amika/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-amika.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tirkizno plavo"
+materijal: "tekstil"
+stil: "moderni stil sa elementima retro dizajna"
 aliases: ["/imenik/simpo-amika/"]
 ---
 

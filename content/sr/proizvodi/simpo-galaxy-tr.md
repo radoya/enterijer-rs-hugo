@@ -2,18 +2,22 @@
 title: "Crvena kožna sofa"
 description: "Crvena kožna sofa sa dva sedišta, modernog stila."
 tip: "proizvod"
-kategorija: ["trosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["trosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/galaxy-tr/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/galaxy-tr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trosed-galaxy.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "crvena"
+materijal: "koža"
+stil: "moderni"
 aliases: ["/imenik/simpo-galaxy-tr/"]
 ---
 

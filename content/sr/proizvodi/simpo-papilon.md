@@ -2,18 +2,22 @@
 title: "Klasična bela posteljina"
 description: "Bela posteljina od pamuka sa klasičnim dezenom."
 tip: "proizvod"
-kategorija: ["duseci-sa-zicanim-jezgrom"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-sa-zicanim-jezgrom"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/papilon/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/papilon/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-papilon.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "pamuk"
+stil: "klasičan"
 aliases: ["/imenik/simpo-papilon/"]
 ---
 

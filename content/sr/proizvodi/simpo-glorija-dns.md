@@ -2,18 +2,22 @@
 title: "Noćni ormarić"
 description: "Sivi noćni ormarić klasičnog stila sa dve zatvorene fioke, idealan za spavaću sobu."
 tip: "proizvod"
-kategorija: ["dodatni-program"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["dodatni-program"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/dodatni-program/glorija-dns/"
+source_url: "https://simpo.rs/proizvod/dodatni-program/glorija-dns/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/deciji-nocni-stocic-glorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva"
+materijal: "none"
+stil: "klasičan"
 aliases: ["/imenik/simpo-glorija-dns/"]
 ---
 

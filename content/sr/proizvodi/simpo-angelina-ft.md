@@ -2,18 +2,22 @@
 title: "Sedište"
 description: "Bež, moderno sedište od tekstila sa podesivim naslonom za glavu i leđa."
 tip: "proizvod"
-kategorija: ["fotelje"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["fotelje"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/angelina-ft/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/angelina-ft/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/fotelja-angelina.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "tekstil"
+stil: "moderan"
 aliases: ["/imenik/simpo-angelina-ft/"]
 ---
 

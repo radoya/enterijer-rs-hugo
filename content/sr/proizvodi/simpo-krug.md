@@ -2,18 +2,22 @@
 title: "Zidna dekoracija"
 description: "Zidna dekoracija sa unutrašnjim okruglim elementom i segmentima u tamnoj i svetloj boji."
 tip: "proizvod"
-kategorija: ["ogledala"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ogledala"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/krug/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/krug/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ogledalo-krug.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tamno smeđa, bela"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-krug/"]
 ---
 

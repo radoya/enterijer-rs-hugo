@@ -8,7 +8,8 @@ enableGitInfo = true
 
 
 [taxonomies]
-  kategorija = 'kategorija'
+  kategorija = 'kategorija'       # kanonski roditelj (zatvorena lista, vidi data/kategorije.json)
+  potkategorija = 'potkategorija' # leaf sa sajta prodavca (trosedi, tus-kabine, laminat)
   grad = 'grad'
   tip = 'tip'
   brend = 'brend'
@@ -187,7 +188,25 @@ enableGitInfo = true
   #   weight = 110
 
 [pagination]
-  pagerSize = 12
+  pagerSize = 24
+
+# "Slično iz kataloga" na stranici proizvoda — bez custom logike
+[related]
+  threshold = 20
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = 'potkategorija'
+    weight = 100
+  [[related.indices]]
+    name = 'store'
+    weight = 70
+  [[related.indices]]
+    name = 'kategorija'
+    weight = 40
+  [[related.indices]]
+    name = 'brend'
+    weight = 30
 
 [outputFormats.LLMSFULL]
   mediaType = "text/plain"

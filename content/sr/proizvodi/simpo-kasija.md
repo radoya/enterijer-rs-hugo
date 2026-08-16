@@ -2,18 +2,22 @@
 title: "Komoda"
 description: "Bela moderna komoda sa metalnim nogama, dekorisana belim vazama i drvetom."
 tip: "proizvod"
-kategorija: ["police-za-knjige"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["police-za-knjige"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/kasija/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/kasija/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/polica-za-knjige-kasija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela, braon"
+materijal: "drvo, metal"
+stil: "moderan"
 aliases: ["/imenik/simpo-kasija/"]
 ---
 

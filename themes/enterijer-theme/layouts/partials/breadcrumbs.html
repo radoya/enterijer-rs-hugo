@@ -2,6 +2,23 @@
 {{- range .Ancestors.Reverse -}}
   {{- $crumbs = $crumbs | append (dict "name" (.LinkTitle | default .Site.Title) "url" .Permalink) -}}
 {{- end -}}
+{{- /* Proizvod dobija kategorijsku putanju (Dnevna soba / Trosedi) između sekcije i naziva —
+       sekcijska hijerarhija je ravna, a katalog se pretražuje po kategorijama. */ -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
+{{- if eq .Type "proizvodi" -}}
+  {{- with index (.Params.kategorija | default slice) 0 -}}
+    {{- $slug := . -}}
+    {{- with index $kat $slug -}}
+      {{- $crumbs = $crumbs | append (dict "name" .naziv "url" (printf "/kategorija/%s/" $slug | absLangURL)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with index (.Params.potkategorija | default slice) 0 -}}
+    {{- $leaf := . -}}
+    {{- $naziv := $leaf -}}
+    {{- range $kat }}{{ with index .deca $leaf }}{{ $naziv = . }}{{ end }}{{ end -}}
+    {{- $crumbs = $crumbs | append (dict "name" $naziv "url" (printf "/potkategorija/%s/" $leaf | absLangURL)) -}}
+  {{- end -}}
+{{- end -}}
 {{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   {{- range $i, $c := $crumbs -}}

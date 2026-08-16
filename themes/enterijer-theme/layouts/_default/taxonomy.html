@@ -1,13 +1,114 @@
 {{ define "main" }}
+{{- /* Ovaj fajl opslužuje OBE vrste stranica taksonomije: listu termina (/kategorija/)
+       i pojedinačni term (/kategorija/dnevna-soba/, /potkategorija/trosedi/, /brend/simpo/).
+       Hugo 0.163 u ovom temu ne poteže `_default/term.html` — proveravano metrikom
+       (`hugo --templateMetrics`): sve stranice taksonomije prolaze kroz taxonomy.html.
+       Zato grananje ide po .Kind umesto po imenu fajla. */ -}}
+{{- $kat := hugo.Data.kategorije | default dict -}}
+
+{{- if eq .Kind "term" -}}
+  {{- $cvor := index $kat .Data.Term -}}
+  {{- $roditelj := "" -}}
+  {{- if eq .Data.Singular "potkategorija" -}}
+    {{- range $slug, $v := $kat }}{{ if isset $v.deca $.Data.Term }}{{ $roditelj = $slug }}{{ end }}{{ end -}}
+  {{- end -}}
+  {{- $proizvodi := where .Pages "Type" "proizvodi" -}}
+  {{- $firme := where .Pages "Type" "imenik" -}}
+
+<div class="container">
+  <header class="page-hero">
+    {{ partial "breadcrumbs.html" . }}
+    {{ with $roditelj }}{{ with index $kat . }}
+    <p class="term-parent"><a href="{{ (printf "/kategorija/%s/" $roditelj) | relLangURL }}">↑ {{ .naziv }}</a></p>
+    {{ end }}{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+  {{ with $cvor }}{{ with .deca }}
+  <section class="section">
+    <p class="eyebrow">{{ i18n "subcategories" }}</p>
+    <div class="subcat-grid">
+      {{ range $slug, $naziv := . }}
+        {{- $n := 0 -}}
+        {{- with index site.Taxonomies.potkategorija $slug }}{{ $n = len . }}{{ end -}}
+        {{ if $n }}
+        <a class="subcat-tile" href="{{ (printf "/potkategorija/%s/" $slug) | relLangURL }}">
+          <span class="subcat-name">{{ $naziv }}</span>
+          <span class="subcat-count">{{ $n }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}{{ end }}
+
+  {{ if $proizvodi }}
+    {{ with $firme }}
+    <section class="section">
+      <p class="eyebrow">{{ i18n "stores_in_category" }} ({{ len . }})</p>
+      <div class="card-grid">
+        {{ range first 6 (sort . "Title") }}{{ partial "listing-card.html" . }}{{ end }}
+      </div>
+    </section>
+    {{ end }}
+    {{- $stranica := .Paginate (sort $proizvodi "Title") -}}
+    <section class="section" id="proizvodi">
+      <p class="eyebrow">{{ len $proizvodi }} {{ i18n "products" }}</p>
+      <div class="card-grid">
+        {{ range $stranica.Pages }}{{ partial "listing-card.html" . }}{{ end }}
+      </div>
+      {{ partial "pager.html" $stranica }}
+    </section>
+  {{ else }}
+    {{- $stranica := .Paginate (sort .Pages "Title") -}}
+    <div class="card-grid">
+      {{ range $stranica.Pages }}
+        {{ if eq .Type "blog" }}{{ partial "card.html" . }}{{ else }}{{ partial "listing-card.html" . }}{{ end }}
+      {{ end }}
+    </div>
+    {{ partial "pager.html" $stranica }}
+  {{ end }}
+</div>
+
+{{- else -}}
 <div class="container">
   <header class="page-hero">
     {{ partial "breadcrumbs.html" . }}
     <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
   </header>
-  <div class="swatch-row">
-    {{ range .Data.Terms.ByCount }}
-      <a class="tag" data-k="{{ .Name | urlize }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+
+  {{ if eq .Data.Singular "kategorija" }}
+    {{- $termini := .Data.Terms -}}
+    {{ range $slug, $c := $kat }}
+      {{- $n := 0 -}}
+      {{- with index $termini $slug }}{{ $n = len . }}{{ end -}}
+      {{ if $n }}
+      <section class="section kat-grupa">
+        <h2><a href="{{ (printf "/kategorija/%s/" $slug) | relLangURL }}">{{ $c.naziv }}</a>
+          <span class="kat-count">{{ $n }}</span></h2>
+        {{ with $c.deca }}
+        <div class="swatch-row">
+          {{ range $leaf, $naziv := . }}
+            {{- $m := 0 -}}
+            {{- with index site.Taxonomies.potkategorija $leaf }}{{ $m = len . }}{{ end -}}
+            {{ if $m }}<a class="tag" href="{{ (printf "/potkategorija/%s/" $leaf) | relLangURL }}">{{ $naziv }} ({{ $m }})</a>{{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </section>
+      {{ end }}
     {{ end }}
-  </div>
+  {{ else }}
+    <div class="swatch-row">
+      {{ range .Data.Terms.ByCount }}
+        <a class="tag" data-k="{{ .Name | urlize }}" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+      {{ end }}
+    </div>
+  {{ end }}
 </div>
+{{- end -}}
 {{ end }}

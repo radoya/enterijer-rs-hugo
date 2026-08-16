@@ -2,18 +2,22 @@
 title: "Monto"
 description: ""
 tip: "proizvod"
-kategorija: ["duseci-sa-oprugama"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-sa-oprugama"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/monto/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/monto/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-monto.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "none"
+materijal: "none"
+stil: "none"
 aliases: ["/imenik/simpo-monto/"]
 ---
 

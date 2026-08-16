@@ -2,18 +2,22 @@
 title: "TV komoda"
 description: "Drvena TV komoda sa kutijama za odlaganje i otvorenom policom za knjige, industrijski stil."
 tip: "proizvod"
-kategorija: ["tv-komode"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["tv-komode"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/safira-tv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/safira-tv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tv-komoda-safira.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "braon"
+materijal: "drvo"
+stil: "industrijski"
 aliases: ["/imenik/simpo-safira-tv/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Zidne kutije za dekoraciju"
 description: "Zidne kutije sa različitim dekorativnim elementima za kućnu dekoraciju"
 tip: "proizvod"
-kategorija: ["police-za-deciju-sobu"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["police-za-deciju-sobu"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sobu/lino-pd/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sobu/lino-pd/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-polica-lino.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "žuta"
+materijal: "drvo"
+stil: "none"
 aliases: ["/imenik/simpo-lino-pd/"]
 ---
 

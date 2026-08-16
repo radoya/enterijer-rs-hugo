@@ -2,18 +2,22 @@
 title: "Trpezarijski set: dva stola i četiri stolice"
 description: "Drveni sto sa četiri braon stolice za trpezariju."
 tip: "proizvod"
-kategorija: ["trpezarijske-stolice"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijske-stolice"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/bea/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/bea/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-bea.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "braon"
+materijal: "drvo, tkanina"
+stil: "klasičan"
 aliases: ["/imenik/simpo-bea/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Krevet sa sedištem"
 description: "Komforan krevet sa sedištem u industrijskom stilu."
 tip: "proizvod"
-kategorija: ["klik-klak-lezajevi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["klik-klak-lezajevi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/mojca/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/mojca/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klik-klak-mojca.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "žuta, smeđa, bela"
+materijal: "tekstil, drvo"
+stil: "industrijski"
 aliases: ["/imenik/simpo-mojca/"]
 ---
 

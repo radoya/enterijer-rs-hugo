@@ -2,18 +2,22 @@
 title: "Kombinovani set za dnevnu sobu"
 description: "Moderan salonski set sa ugaonim sofama, stolom i dodacima na tekstilnoj podlozi."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/motion/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/motion/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-motion.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež, crna, bela"
+materijal: "tekstil, metal"
+stil: "moderan"
 aliases: ["/imenik/simpo-motion/"]
 ---
 

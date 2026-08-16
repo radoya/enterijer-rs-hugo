@@ -2,18 +2,22 @@
 title: "Konzola sa ogledalom"
 description: "Konzola sa ogledalom u klasičnom stilu, bež boje."
 tip: "proizvod"
-kategorija: ["dodatni-program"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["dodatni-program"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/dodatni-program/viktorija-dp/"
+source_url: "https://simpo.rs/proizvod/dodatni-program/viktorija-dp/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/konzola-viktorija.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "drvo"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viktorija-dp/"]
 ---
 

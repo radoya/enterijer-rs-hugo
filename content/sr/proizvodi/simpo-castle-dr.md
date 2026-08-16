@@ -2,18 +2,22 @@
 title: "Dečja soba"
 description: "Bela dečja soba sa garderobom, noćnim stočićem i posteljom, okružena prozorima."
 tip: "proizvod"
-kategorija: ["deciji-ormari"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["deciji-ormari"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-ormari/castle-dr/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-ormari/castle-dr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/decija-soba-deciji-ormari-castle.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "drvo"
+stil: "klasik"
 aliases: ["/imenik/simpo-castle-dr/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Dugački krevet"
 description: "Dugački krevet sive boje sa dodacima i dekorativnim elementima."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/montana/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/montana/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-montana.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva"
+materijal: "tekstil"
+stil: "industrijski"
 aliases: ["/imenik/simpo-montana/"]
 ---
 

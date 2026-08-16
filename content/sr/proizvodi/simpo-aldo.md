@@ -2,18 +2,22 @@
 title: "Fotelja"
 description: "Tirkizna tekstilna fotelja sa visokim naslonom, idealna za čitanje i opuštanje."
 tip: "proizvod"
-kategorija: ["fotelje"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["fotelje"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/aldo/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/aldo/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/fotelja-aldo.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tirkizna"
+materijal: "tekstil"
+stil: "klasik"
 aliases: ["/imenik/simpo-aldo/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Sto i stolice za trpezariju"
 description: "Set stolica za trpezariju u klasičnom stilu sa belim okvirom i sivim tekstilnim naslonom."
 tip: "proizvod"
-kategorija: ["trpezarijske-stolice"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijske-stolice"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/stil/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/stil/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-stil.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela boja, siva naslona"
+materijal: "drveni okvir, tekstilni naslon"
+stil: "klasičan"
 aliases: ["/imenik/simpo-stil/"]
 ---
 

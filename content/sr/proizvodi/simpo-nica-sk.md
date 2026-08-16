@@ -2,18 +2,22 @@
 title: "Komoda"
 description: "Moderna komoda sa dvoja vrata i tri zatvorene pregrade, u kombinaciji šarenog drveta i belih dekorativnih elemenata."
 tip: "proizvod"
-kategorija: ["komode-za-spavacu-sobu"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["komode-za-spavacu-sobu"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/komode-za-spavacu-sobu/nica-sk/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/komode-za-spavacu-sobu/nica-sk/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-komoda-nica.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "šareno-bela"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-nica-sk/"]
 ---
 

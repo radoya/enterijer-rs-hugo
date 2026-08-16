@@ -2,18 +2,22 @@
 title: "Dugačka sofa"
 description: "Moderna dugačka sofa sa drvenim nogama i tekstilnim materijalom."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/elizabet/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/elizabet/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/elizabet-ugaona-garnitura.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, smeđa"
+materijal: "tekstil, drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-elizabet/"]
 ---
 

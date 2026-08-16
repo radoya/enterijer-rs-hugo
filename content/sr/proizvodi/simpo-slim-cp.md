@@ -2,18 +2,22 @@
 title: "Ugradni sistem za odlaganje obuće"
 description: "Zidni sistem za odlaganje obuće sa staklenim poklopcima koji se otvaraju i zatvaraju."
 tip: "proizvod"
-kategorija: ["cipelarnici"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["cipelarnici"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/predsoblje/cipelarnici/slim-cp/"
+source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/cipelarnici/slim-cp/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje-cipelarnik-slim.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "none"
+materijal: "none"
+stil: "none"
 aliases: ["/imenik/simpo-slim-cp/"]
 ---
 

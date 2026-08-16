@@ -2,18 +2,22 @@
 title: "Sto i stolice za trpezariju"
 description: "Beli sto za trpezariju sa sedam stolica u modernom stilu."
 tip: "proizvod"
-kategorija: ["trpezarijske-stolice"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijske-stolice"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/vlasina/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/vlasina/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-vlasina.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "belo drvo"
+stil: "moderan"
 aliases: ["/imenik/simpo-vlasina/"]
 ---
 

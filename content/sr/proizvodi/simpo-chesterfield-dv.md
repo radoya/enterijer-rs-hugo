@@ -2,18 +2,22 @@
 title: "Chesterfield"
 description: "Dvodelni beli set sedišta sa dugim naslonima za ruke i mnogo dugmadi."
 tip: "proizvod"
-kategorija: ["dvosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["dvosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/chesterfield-dv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/chesterfield-dv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dvosed-chesterfield.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela"
+materijal: "tekstil"
+stil: "klasičan"
 aliases: ["/imenik/simpo-chesterfield-dv/"]
 ---
 

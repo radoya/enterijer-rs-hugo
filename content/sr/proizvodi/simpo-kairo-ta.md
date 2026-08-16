@@ -2,18 +2,22 @@
 title: "Tabure"
 description: "Tabure od tekstila i drveta sa tri noge, u bež i smeđoj boji."
 tip: "proizvod"
-kategorija: ["taburei"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["taburei"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/kairo-ta/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/kairo-ta/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/tabure-kairo.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež, smeđa"
+materijal: "tekstil, drvo"
+stil: "none"
 aliases: ["/imenik/simpo-kairo-ta/"]
 ---
 

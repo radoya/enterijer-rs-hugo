@@ -2,18 +2,22 @@
 title: "Zidni elementi za spavaću sobu"
 description: "Moderni enterijer spavaće sobe sa složenim vratima, stolicom i dekorativnim zidnim detaljima."
 tip: "proizvod"
-kategorija: ["spavace-sobe-kompleti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["spavace-sobe-kompleti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/nica/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-kompleti/nica/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-nica.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva sa šarenim detaljima"
+materijal: "none"
+stil: "moderni"
 aliases: ["/imenik/simpo-nica/"]
 ---
 

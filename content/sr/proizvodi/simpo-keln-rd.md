@@ -2,18 +2,22 @@
 title: "Radni sto"
 description: "Moderni radni sto sa drvenim fiokama i belom stonom lampom."
 tip: "proizvod"
-kategorija: ["radni-stolovi-za-decu"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["radni-stolovi-za-decu"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-decu/keln-rd/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-decu/keln-rd/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/keln-radni-sto.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "svetlosmeđa"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-keln-rd/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Sto i stolice za trpezariju"
 description: "Drveni sto sa sedam zelenih sedišta za trpezariju."
 tip: "proizvod"
-kategorija: ["trpezarijske-stolice"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["trpezarijske-stolice"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/kastor/"
+source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/kastor/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-kastor.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "žuta, smeđa, zelena"
+materijal: "drvo"
+stil: "moderan"
 aliases: ["/imenik/simpo-kastor/"]
 ---
 

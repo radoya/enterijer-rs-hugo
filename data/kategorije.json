@@ -1,0 +1,134 @@
+{
+  "kuhinje": {
+    "naziv": "Kuhinje",
+    "red": 10,
+    "deca": {}
+  },
+  "kupatila": {
+    "naziv": "Kupatila",
+    "red": 20,
+    "deca": {}
+  },
+  "dnevna-soba": {
+    "naziv": "Dnevna soba",
+    "red": 30,
+    "deca": {
+      "trosedi": "Trosedi",
+      "dvosedi": "Dvosedi",
+      "cetvorosedi": "Četvorosedi",
+      "ugaone-garniture": "Ugaone garniture",
+      "sastavne-tdf-garniture": "Sastavne garniture",
+      "kauci": "Kauči",
+      "fotelje": "Fotelje",
+      "taburei": "Taburei",
+      "klik-klak-lezajevi": "Klik-klak ležajevi",
+      "klub-stolovi": "Klub stolovi",
+      "tv-komode": "TV komode",
+      "komode": "Komode",
+      "vitrine": "Vitrine",
+      "police-za-knjige": "Police za knjige",
+      "ogledala": "Ogledala"
+    }
+  },
+  "spavaca-soba": {
+    "naziv": "Spavaća soba",
+    "red": 40,
+    "deca": {
+      "kreveti": "Kreveti",
+      "ormari": "Ormari",
+      "komode-za-spavacu-sobu": "Komode za spavaću sobu",
+      "nocni-stocici": "Noćni stočići",
+      "spavace-sobe-kompleti": "Spavaće sobe — kompleti",
+      "duseci-sa-oprugama": "Dušeci sa oprugama",
+      "duseci-sa-zicanim-jezgrom": "Dušeci sa žičanim jezgrom",
+      "duseci-od-pene": "Dušeci od pene",
+      "duseci-za-krevetac": "Dušeci za krevetac"
+    }
+  },
+  "namestaj": {
+    "naziv": "Nameštaj",
+    "red": 50,
+    "deca": {
+      "trpezarijski-stolovi": "Trpezarijski stolovi",
+      "trpezarijske-stolice": "Trpezarijske stolice",
+      "deciji-kreveti": "Dečiji kreveti",
+      "deciji-ormari": "Dečiji ormari",
+      "decije-sobe-kompleti": "Dečije sobe — kompleti",
+      "police-za-deciju-sobu": "Police za dečiju sobu",
+      "radni-stolovi-za-decu": "Radni stolovi za decu",
+      "ormari-za-predsoblja": "Ormari za predsoblje",
+      "cipelarnici": "Cipelarnici",
+      "civiluci": "Čiviluci",
+      "predsoblja-kompleti": "Predsoblja — kompleti",
+      "kolekcije-programi": "Kolekcije i programi",
+      "dodatni-program": "Dodatni program"
+    }
+  },
+  "rasveta": {
+    "naziv": "Rasveta",
+    "red": 60,
+    "deca": {}
+  },
+  "podovi": {
+    "naziv": "Podovi",
+    "red": 70,
+    "deca": {}
+  },
+  "boje": {
+    "naziv": "Boje",
+    "red": 80,
+    "deca": {}
+  },
+  "dekoracija": {
+    "naziv": "Dekoracija",
+    "red": 90,
+    "deca": {}
+  },
+  "alati": {
+    "naziv": "Alati",
+    "red": 100,
+    "deca": {}
+  },
+  "moleraj": {
+    "naziv": "Moleraj",
+    "red": 210,
+    "usluga": true,
+    "deca": {}
+  },
+  "stolarija": {
+    "naziv": "Stolarija",
+    "red": 220,
+    "usluga": true,
+    "deca": {}
+  },
+  "parket": {
+    "naziv": "Parket",
+    "red": 230,
+    "usluga": true,
+    "deca": {}
+  },
+  "gipsani-radovi": {
+    "naziv": "Gipsani radovi",
+    "red": 240,
+    "usluga": true,
+    "deca": {}
+  },
+  "elektroinstalacije": {
+    "naziv": "Elektroinstalacije",
+    "red": 250,
+    "usluga": true,
+    "deca": {}
+  },
+  "vodoinstalacije": {
+    "naziv": "Vodoinstalacije",
+    "red": 260,
+    "usluga": true,
+    "deca": {}
+  },
+  "renoviranje": {
+    "naziv": "Renoviranje",
+    "red": 270,
+    "usluga": true,
+    "deca": {}
+  }
+}

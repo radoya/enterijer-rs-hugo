@@ -5,6 +5,7 @@
 {{- $pages := .pages -}}
 {{- range .facets -}}
   {{- $key := .key -}}
+  {{- $label := .label | default .key -}}
   {{- $vals := slice -}}
   {{- range $pages -}}
     {{- range (index .Params $key | default slice) -}}
@@ -13,8 +14,8 @@
   {{- end -}}
   {{- $uniq := $vals | uniq | sort -}}
   {{- with $uniq }}
-  <div class="filter-row" role="group" aria-label="Filter: {{ $.label | default $key }}">
-    <span class="filter-label">{{ $.label | default $key }}:</span>
+  <div class="filter-row" role="group" aria-label="Filter: {{ $label }}">
+    <span class="filter-label">{{ $label }}:</span>
     <button type="button" class="tag is-active" data-filter="{{ $key }}" data-val="">Sve</button>
     {{ range . }}<button type="button" class="tag" data-filter="{{ $key }}" data-val="{{ . | urlize }}">{{ . }}</button>{{ end }}
   </div>

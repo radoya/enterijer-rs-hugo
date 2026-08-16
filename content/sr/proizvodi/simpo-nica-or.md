@@ -2,18 +2,22 @@
 title: "Garderobni ormar sa kliznim vratima"
 description: "Garderobni ormar za spavaću sobu sa kliznim vratima u šareno sivoj i smeđoj boji."
 tip: "proizvod"
-kategorija: ["ormari"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["ormari"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/nica-or/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/nica-or/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spvaca-soba-ormar-nica.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "šareno siva, smeđa"
+materijal: "drvo, metal"
+stil: "moderni"
 aliases: ["/imenik/simpo-nica-or/"]
 ---
 

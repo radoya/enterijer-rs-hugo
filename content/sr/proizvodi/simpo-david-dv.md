@@ -2,18 +2,22 @@
 title: "Dvosed"
 description: "Moderni dvosed u taupe boji za kućne enterijere."
 tip: "proizvod"
-kategorija: ["dvosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["dvosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/david-dv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/david-dv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dvosed-david.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "taupe"
+materijal: "tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-david-dv/"]
 ---
 

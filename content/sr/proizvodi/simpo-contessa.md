@@ -2,18 +2,22 @@
 title: "Dugačka sofa"
 description: "Moderna dugačka siva sofa sa dodatnim modulom i umetničkim radom na zidu."
 tip: "proizvod"
-kategorija: ["ugaone-garniture"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["ugaone-garniture"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/contessa/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/contessa/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-contessa.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva"
+materijal: "tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-contessa/"]
 ---
 

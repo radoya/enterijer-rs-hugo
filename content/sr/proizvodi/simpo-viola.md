@@ -2,18 +2,22 @@
 title: "Podloga za ležište"
 description: "Podloga za ležište sa ljubičastim motivima"
 tip: "proizvod"
-kategorija: ["duseci-sa-oprugama"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["duseci-sa-oprugama"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/viola/"
+source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/viola/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dusek-viola.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bela sa ljubičastim motivima"
+materijal: "poliuretan"
+stil: "klasičan"
 aliases: ["/imenik/simpo-viola/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Dve drvene stolice"
 description: "Dve drvene stolice modernog stila u tamnosmeđoj boji, jedna veća i jedna manja."
 tip: "proizvod"
-kategorija: ["klub-stolovi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["klub-stolovi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/safira-ks/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/safira-ks/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/klub-sto-safira.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "tamnosmeđa"
+materijal: "drvo"
+stil: "moderni"
 aliases: ["/imenik/simpo-safira-ks/"]
 ---
 

@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Moderni krevet sa tekstilnim detaljima i drvenim okvirom, idealan za spavaću sobu."
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/nica-kr/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/nica-kr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-nica.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, smeđa, plava"
+materijal: "drvo, tekstil"
+stil: "moderni"
 aliases: ["/imenik/simpo-nica-kr/"]
 ---
 

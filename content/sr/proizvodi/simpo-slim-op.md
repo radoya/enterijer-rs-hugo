@@ -2,18 +2,22 @@
 title: "Cipelarnik za obuću"
 description: "Moderni cipelarnik za obuću sa pregradama i držačem za kape."
 tip: "proizvod"
-kategorija: ["ormari-za-predsoblja"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["ormari-za-predsoblja"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/slim-op/"
+source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/slim-op/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/predsoblje-ormar-slim.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "beli"
+materijal: "none"
+stil: "moderni"
 aliases: ["/imenik/simpo-slim-op/"]
 ---
 

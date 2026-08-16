@@ -2,18 +2,22 @@
 title: "Radni sto"
 description: "Minimalistički radni sto sa kutijom za odlaganje i otvorenom policom."
 tip: "proizvod"
-kategorija: ["radni-stolovi-za-decu"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["radni-stolovi-za-decu"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-decu/moon/"
+source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-decu/moon/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/moon-radni-sto.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "svetlo siva"
+materijal: "drvo"
+stil: "moderan"
 aliases: ["/imenik/simpo-moon/"]
 ---
 

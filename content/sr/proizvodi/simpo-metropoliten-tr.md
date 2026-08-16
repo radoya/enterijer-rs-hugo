@@ -2,18 +2,22 @@
 title: "Dvosed"
 description: "Moderni dvosed od kože u plavoj boji"
 tip: "proizvod"
-kategorija: ["trosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["trosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/metropoliten-tr/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/metropoliten-tr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/trosed-metropoliten.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "plava"
+materijal: "koža"
+stil: "moderni"
 aliases: ["/imenik/simpo-metropoliten-tr/"]
 ---
 

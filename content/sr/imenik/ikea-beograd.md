@@ -3,17 +3,18 @@ title: "IKEA Beograd"
 description: "Robna kuća skandinavskog nameštaja i opreme za dom — kuhinje, plakari, rasveta, dekoracija."
 tip: "firma"
 kategorija: ["namestaj", "kuhinje", "dekoracija"]
+potkategorija: []
 grad: ["beograd"]
 brend: ["ikea"]
 price_range: ""
-price: ""
+price: 0
 store: ""
 source_url: ""
 website: "https://www.ikea.rs"
 phone: ""
 address: ""
 images: []
-date: 2026-08-15
+date: 2026-08-16
 ---
 
 IKEA robna kuća u Beogradu pokriva kompletno opremanje doma, uz uslugu planiranja kuhinja i plakara po meri sistema.

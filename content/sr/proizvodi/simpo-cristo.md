@@ -2,18 +2,22 @@
 title: "Krevet"
 description: "Krevet sa okvirom od PVC materijala u modernom stilu"
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/cristo/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/cristo/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-cristo.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "pvc"
+stil: "moderni"
 aliases: ["/imenik/simpo-cristo/"]
 ---
 

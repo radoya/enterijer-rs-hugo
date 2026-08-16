@@ -1,5 +1,5 @@
 {{- $slug := .File.ContentBaseName -}}
-{{- $rev := index site.Data.reviews $slug | default dict -}}
+{{- $rev := index hugo.Data.reviews $slug | default dict -}}
 <section class="reviews" id="recenzije">
   <h2>Recenzije{{ with $rev.count }} ({{ . }}){{ end }}</h2>
   {{ with $rev.avg }}

@@ -1,5 +1,5 @@
 {{- $slug := .File.ContentBaseName -}}
-{{- $rev := index site.Data.reviews $slug | default dict -}}
+{{- $rev := index hugo.Data.reviews $slug | default dict -}}
 {{- $isProduct := eq .Params.tip "proizvod" -}}
 {{- $img := index (.Params.images | default slice) 0 -}}
 {{- $facets := dict

@@ -2,18 +2,22 @@
 title: "Kožni dvosed"
 description: "Bež kožni dvosed modernog stila, pogodan za sedenje i spavanje."
 tip: "proizvod"
-kategorija: ["dvosedi"]
-grad: []
+kategorija: ["dnevna-soba"]
+potkategorija: ["dvosedi"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/angelina-dv/"
+source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/angelina-dv/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/dvosed-angelina.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "bež"
+materijal: "koža"
+stil: "moderan"
 aliases: ["/imenik/simpo-angelina-dv/"]
 ---
 

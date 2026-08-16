@@ -2,18 +2,22 @@
 title: "Posteljina"
 description: "Moderna spavaća soba sa posteljinom, dve bele jastučnice i svetlosivim platnom na krevetu."
 tip: "proizvod"
-kategorija: ["kreveti"]
-grad: []
+kategorija: ["spavaca-soba"]
+potkategorija: ["kreveti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/keln-kr/"
+source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/keln-kr/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-keln.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "siva, bela"
+materijal: "pamuk"
+stil: "moderni"
 aliases: ["/imenik/simpo-keln-kr/"]
 ---
 

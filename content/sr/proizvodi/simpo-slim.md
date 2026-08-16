@@ -2,18 +2,22 @@
 title: "Šaški ormarić"
 description: "Šaški ormarić sa ogledalom i držačima za odeću."
 tip: "proizvod"
-kategorija: ["predsoblja-kompleti"]
-grad: []
+kategorija: ["namestaj"]
+potkategorija: ["predsoblja-kompleti"]
+grad: ["vranje"]
 brend: ["Simpo"]
 price_range: ""
-price: ""
+price: 0
 store: "simpo"
-source_url: ""
-website: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/slim/"
+source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/slim/"
+website: ""
 phone: ""
 address: ""
 images: ["https://simpo.rs/wp-content/uploads/komplet-predsoblje-slim.webp"]
-date: 2026-08-15
+date: 2026-08-16
+boja: "beli"
+materijal: "plastika"
+stil: "moderni"
 aliases: ["/imenik/simpo-slim/"]
 ---
 

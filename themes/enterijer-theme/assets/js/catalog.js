@@ -174,6 +174,11 @@
 
   function promena() {
     var s = stanje();
+    // prvo kategorije, pa maska nad potkategorijama — inace bi odcekirana potkategorija
+    // ostala u filteru do sledeceg klika (input je sakriven, ali vrednost se jos cita)
+    s.k = Array.prototype.map.call(
+      root.querySelectorAll('input[data-dim="k"]:checked'), function (i) { return i.value; });
+    zavisnePotkategorije(s);
     DIMS.forEach(function (d) {
       s[d] = Array.prototype.map.call(
         root.querySelectorAll('input[data-dim="' + d + '"]:checked'), function (i) { return i.value; });

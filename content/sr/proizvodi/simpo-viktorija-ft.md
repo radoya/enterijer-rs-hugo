@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/viktorija-ft
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/bf258107de988957.webp"]
 date: 2026-08-16
 boja: "braon, bež sa cvetnim motivom"
 materijal: "drvo, tkanina"

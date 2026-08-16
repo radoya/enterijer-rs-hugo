@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-nevena.webp"]
+images: ["https://media.enterijer.rs/simpo/d6c3d9cd3b1ee22c.webp"]
 date: 2026-08-16
 boja: "bež, smeđa, crna, bela, ružičasta"
 materijal: "tekstil, drvo"

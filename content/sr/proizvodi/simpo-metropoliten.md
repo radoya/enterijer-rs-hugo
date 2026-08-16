@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-metropoliten.webp"]
+images: ["https://media.enterijer.rs/simpo/923e2b41edeb357a.webp"]
 date: 2026-08-16
 boja: "plava"
 materijal: "tekstil"

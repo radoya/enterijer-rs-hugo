@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-dec
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/keln-radni-sto.webp"]
+images: ["https://media.enterijer.rs/simpo/df939b0f55b43f03.webp"]
 date: 2026-08-16
 boja: "svetlosmeđa"
 materijal: "drvo"

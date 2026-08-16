@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/de-marco-ft/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-de-marco.webp"]
+images: ["https://media.enterijer.rs/simpo/ef46bb7509adbdc8.webp"]
 date: 2026-08-16
 boja: "svetlo siva"
 materijal: "tekstil"

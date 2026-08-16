@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-ormari/castle
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-deciji-ormari-castle.webp"]
+images: ["https://media.enterijer.rs/simpo/002b91acc066abbe.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "drvo"

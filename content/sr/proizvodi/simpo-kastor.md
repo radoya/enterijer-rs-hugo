@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-kastor.webp"]
+images: ["https://media.enterijer.rs/simpo/f51534f08f3b60fc.webp"]
 date: 2026-08-16
 boja: "žuta, smeđa, zelena"
 materijal: "drvo"

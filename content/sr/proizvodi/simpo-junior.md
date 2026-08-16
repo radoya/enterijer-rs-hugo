@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/junior/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-junior.webp"]
+images: ["https://media.enterijer.rs/simpo/78c03b44090e316e.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "none"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/meli/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ogledalo-meli.webp"]
+images: ["https://media.enterijer.rs/simpo/ff4f4a6aa0d0d88b.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tkanina"

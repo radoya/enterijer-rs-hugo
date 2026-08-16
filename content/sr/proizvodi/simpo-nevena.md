@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/n
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klik-klak-nevena.webp"]
+images: ["https://media.enterijer.rs/simpo/aaec0db5e6c3206a.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "drvo"

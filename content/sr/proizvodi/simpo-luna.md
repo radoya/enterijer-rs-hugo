@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/l
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/predsoblje_luna.webp"]
+images: ["https://media.enterijer.rs/simpo/300db2831c657bcc.webp"]
 date: 2026-08-16
 boja: "bela, smeđa"
 materijal: "drvo, metal"

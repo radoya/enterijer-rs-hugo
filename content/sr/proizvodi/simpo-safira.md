@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/safira/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-dnevna-soba-safira.webp"]
+images: ["https://media.enterijer.rs/simpo/6157c3b65e73a95c.webp"]
 date: 2026-08-16
 boja: "tamno smeđa"
 materijal: "drvo"

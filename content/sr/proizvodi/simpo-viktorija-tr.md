@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/viktorija-tr
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/e607cbd1cab3e894.webp"]
 date: 2026-08-16
 boja: "bež, smeđa"
 materijal: "drvo, tkanina"

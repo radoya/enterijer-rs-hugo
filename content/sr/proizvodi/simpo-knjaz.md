@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/knjaz/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/kauc-knjaz.webp"]
+images: ["https://media.enterijer.rs/simpo/aa6532d72f3f4458.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

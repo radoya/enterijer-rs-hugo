@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/cipelarnici/luna-cp/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/predsoblje-cipelarnik-luna.webp"]
+images: ["https://media.enterijer.rs/simpo/efd8d82ec2b9559e.webp"]
 date: 2026-08-16
 boja: "belo, smeđe"
 materijal: "plastika, drvo"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/krug/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ogledalo-krug.webp"]
+images: ["https://media.enterijer.rs/simpo/2878d3b5b86c670e.webp"]
 date: 2026-08-16
 boja: "tamno smeđa, bela"
 materijal: "drvo"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-tara.webp"]
+images: ["https://media.enterijer.rs/simpo/8797ef04c67340f8.webp"]
 date: 2026-08-16
 boja: "zeleno-crna"
 materijal: "tekstil, metal"

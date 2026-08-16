@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-garnitura-adel.webp"]
+images: ["https://media.enterijer.rs/simpo/6cc0be5585d16864.webp"]
 date: 2026-08-16
 boja: "narandžasta"
 materijal: "koža"

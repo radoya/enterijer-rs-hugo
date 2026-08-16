@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/kal
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-kalithea.webp"]
+images: ["https://media.enterijer.rs/simpo/3dd27a952cf78f38.webp"]
 date: 2026-08-16
 boja: "crna"
 materijal: "eko koža"

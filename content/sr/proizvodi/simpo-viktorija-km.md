@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/komode/viktorija-km/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komoda-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/5e299410b883bce5.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "drvo"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/con
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-contessa.webp"]
+images: ["https://media.enterijer.rs/simpo/b3250725258fa717.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

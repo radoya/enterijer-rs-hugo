@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/fred-relax/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-fred-relax.webp"]
+images: ["https://media.enterijer.rs/simpo/cf7077fa4dfd1f52.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

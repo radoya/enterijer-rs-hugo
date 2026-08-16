@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/margo-dv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-margo.webp"]
+images: ["https://media.enterijer.rs/simpo/96ab173a533498b5.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

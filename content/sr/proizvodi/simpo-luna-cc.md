@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/civiluci/luna-cc/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/predsoblje-civiluk-luna.webp"]
+images: ["https://media.enterijer.rs/simpo/8fd9c19c6a770e27.webp"]
 date: 2026-08-16
 boja: "bela, smeđa"
 materijal: "drvo, metal"

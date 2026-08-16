@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-margo.webp"]
+images: ["https://media.enterijer.rs/simpo/22e52fe225a82f5a.webp"]
 date: 2026-08-16
 boja: "crna, bela"
 materijal: "metal, tekstil"

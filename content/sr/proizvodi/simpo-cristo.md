@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/cristo/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-cristo.webp"]
+images: ["https://media.enterijer.rs/simpo/0aad6686633dbc3e.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "pvc"

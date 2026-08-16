@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/flavio-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/flavio-klub-sto.webp"]
+images: ["https://media.enterijer.rs/simpo/5a7d504de5ef2a92.webp"]
 date: 2026-08-16
 boja: "narandžasta"
 materijal: "drvo"

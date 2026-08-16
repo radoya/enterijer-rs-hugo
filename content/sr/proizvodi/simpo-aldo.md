@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/aldo/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-aldo.webp"]
+images: ["https://media.enterijer.rs/simpo/d08730acafba3ec4.webp"]
 date: 2026-08-16
 boja: "tirkizna"
 materijal: "tekstil"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/civiluci/slim-cc/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/predsoblje-civiluk-slim.webp"]
+images: ["https://media.enterijer.rs/simpo/826ee47fb8a8be7f.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "plastika"

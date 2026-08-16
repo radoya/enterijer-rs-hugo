@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/viola/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-viola.webp"]
+images: ["https://media.enterijer.rs/simpo/069b250e3033cbc4.webp"]
 date: 2026-08-16
 boja: "bela sa ljubičastim motivima"
 materijal: "poliuretan"

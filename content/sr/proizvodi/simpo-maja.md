@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/m
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klik-klak-maja.webp"]
+images: ["https://media.enterijer.rs/simpo/6da7de0bbb195c81.webp"]
 date: 2026-08-16
 boja: "tamno plava"
 materijal: "tekstil"

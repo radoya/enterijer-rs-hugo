@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/chesterfield
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-chesterfield.webp"]
+images: ["https://media.enterijer.rs/simpo/37b507f681e28077.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "none"

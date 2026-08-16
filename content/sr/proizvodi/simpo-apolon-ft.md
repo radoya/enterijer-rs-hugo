@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/apolon-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-apolon.webp"]
+images: ["https://media.enterijer.rs/simpo/8d53cd84d64b56d9.webp"]
 date: 2026-08-16
 boja: "zelena"
 materijal: "tekstil"

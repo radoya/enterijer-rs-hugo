@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/art-k/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-art-k.webp"]
+images: ["https://media.enterijer.rs/simpo/31edd1226940d91d.webp"]
 date: 2026-08-16
 boja: "smeđa"
 materijal: "drvo"

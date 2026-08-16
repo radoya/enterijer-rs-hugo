@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/pariska-noc-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-pariska-noc.webp"]
+images: ["https://media.enterijer.rs/simpo/59a78d1a871174ae.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

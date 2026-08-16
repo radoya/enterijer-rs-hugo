@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/contessa-ta/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-contessa.webp"]
+images: ["https://media.enterijer.rs/simpo/5f39b9161bf5e85e.webp"]
 date: 2026-08-16
 boja: "siva, bela"
 materijal: "tekstil, metal"

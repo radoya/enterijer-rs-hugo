@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/komode/safira-km/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komoda-safira.webp"]
+images: ["https://media.enterijer.rs/simpo/f65b4cfb8035a0e4.webp"]
 date: 2026-08-16
 boja: "tamno smeđa"
 materijal: "drvo"

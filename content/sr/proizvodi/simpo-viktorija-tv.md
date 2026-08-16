@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/viktorija-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tv-komoda-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/962866ff1f21298b.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "plastika"

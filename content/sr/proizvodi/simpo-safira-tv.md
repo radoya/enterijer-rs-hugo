@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/safira-tv/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tv-komoda-safira.webp"]
+images: ["https://media.enterijer.rs/simpo/bebd83e9597e9cc6.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "drvo"

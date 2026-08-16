@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/margo-tr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-margo.webp"]
+images: ["https://media.enterijer.rs/simpo/fe7420f4498ce77d.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

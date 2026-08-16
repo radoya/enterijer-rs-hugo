@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/david-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-david.webp"]
+images: ["https://media.enterijer.rs/simpo/569a5213bc3be562.webp"]
 date: 2026-08-16
 boja: "narandžasta"
 materijal: "tekstil"

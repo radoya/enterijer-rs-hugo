@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/nevena-dv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-nevena.webp"]
+images: ["https://media.enterijer.rs/simpo/45490c06e794ac7c.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

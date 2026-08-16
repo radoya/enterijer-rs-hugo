@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/kairo-ta/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-kairo.webp"]
+images: ["https://media.enterijer.rs/simpo/0ccf2108cb7e1611.webp"]
 date: 2026-08-16
 boja: "bež, smeđa"
 materijal: "tekstil, drvo"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/ceri/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-ceri.webp"]
+images: ["https://media.enterijer.rs/simpo/7c4f616e6a008e0a.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "pvc"

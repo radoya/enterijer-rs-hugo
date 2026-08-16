@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/rea/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-rea.webp"]
+images: ["https://media.enterijer.rs/simpo/6fff5e61f1c541bf.webp"]
 date: 2026-08-16
 boja: "žuta, siva"
 materijal: "plastika, metal"

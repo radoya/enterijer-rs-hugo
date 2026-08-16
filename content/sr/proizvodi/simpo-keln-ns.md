@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/keln-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-nocni-stocic-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/e632c79da58911db.webp"]
 date: 2026-08-16
 boja: "bela, smeđa"
 materijal: "drvo"

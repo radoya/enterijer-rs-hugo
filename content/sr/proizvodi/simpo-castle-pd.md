@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sob
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-polica-castle.webp"]
+images: ["https://media.enterijer.rs/simpo/2f3a244d825dc467.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "none"

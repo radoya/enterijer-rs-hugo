@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/decije-sobe-kompleti
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-decija-soba-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/2d835c8a793a347e.webp"]
 date: 2026-08-16
 boja: "siva i roza"
 materijal: "svetli materijal, moguće pamuk ili poliester"

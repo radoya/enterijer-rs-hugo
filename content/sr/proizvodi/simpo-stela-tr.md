@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/stela-tr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-stela.webp"]
+images: ["https://media.enterijer.rs/simpo/25ac9bd1594c8ac9.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "pvc"

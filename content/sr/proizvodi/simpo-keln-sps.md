@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-komple
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/9c39a636f87bf9ca.webp"]
 date: 2026-08-16
 boja: "svetlo drvo"
 materijal: "drveni okvir"

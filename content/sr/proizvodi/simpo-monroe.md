@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/monroe/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-monroe.webp"]
+images: ["https://media.enterijer.rs/simpo/e5e0f9f74e69585d.webp"]
 date: 2026-08-16
 boja: "siva, smeđa"
 materijal: "tekstil, drvo"

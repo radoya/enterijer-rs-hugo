@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/spavace-sobe-komple
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-spavaca-soba-nica.webp"]
+images: ["https://media.enterijer.rs/simpo/f300b53456fee0f3.webp"]
 date: 2026-08-16
 boja: "siva sa šarenim detaljima"
 materijal: "none"

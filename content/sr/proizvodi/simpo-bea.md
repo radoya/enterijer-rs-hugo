@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-bea.webp"]
+images: ["https://media.enterijer.rs/simpo/e661c973ad93b289.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "drvo, tkanina"

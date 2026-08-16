@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/metropoliten
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-metropoliten.webp"]
+images: ["https://media.enterijer.rs/simpo/7852ed5d054e38d3.webp"]
 date: 2026-08-16
 boja: "ljubičasta"
 materijal: "koža"

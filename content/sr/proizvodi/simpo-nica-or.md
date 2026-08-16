@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/nica-or/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spvaca-soba-ormar-nica.webp"]
+images: ["https://media.enterijer.rs/simpo/0b6cdc41049ac746.webp"]
 date: 2026-08-16
 boja: "šareno siva, smeđa"
 materijal: "drvo, metal"

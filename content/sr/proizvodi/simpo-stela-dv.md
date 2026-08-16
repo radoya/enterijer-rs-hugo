@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/stela-dv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-stela.webp"]
+images: ["https://media.enterijer.rs/simpo/907369c5af4e9585.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "veštačka koža"

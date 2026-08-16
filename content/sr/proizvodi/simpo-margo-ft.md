@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/margo-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-margo.webp"]
+images: ["https://media.enterijer.rs/simpo/356744a4f377ab18.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

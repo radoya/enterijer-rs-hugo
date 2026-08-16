@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/safira-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-safira.webp"]
+images: ["https://media.enterijer.rs/simpo/c7a8aa58cf0ace82.webp"]
 date: 2026-08-16
 boja: "tamnosmeđa"
 materijal: "drvo"

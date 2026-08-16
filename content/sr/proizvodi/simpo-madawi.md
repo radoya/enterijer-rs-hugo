@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/mad
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-madawi.webp"]
+images: ["https://media.enterijer.rs/simpo/3baff28b2b8d044c.webp"]
 date: 2026-08-16
 boja: "zeleno-siva"
 materijal: "tekstil, metal"

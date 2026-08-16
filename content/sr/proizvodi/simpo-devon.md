@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijske-stolice/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijska-stolica-devon.webp"]
+images: ["https://media.enterijer.rs/simpo/9b9e80b2767394cc.webp"]
 date: 2026-08-16
 boja: "bež, bela"
 materijal: "belo drvo, tekstilni tapacirung"

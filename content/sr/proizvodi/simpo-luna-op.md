@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/ormari-za-predsoblja/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/predsoblje-ormar-luna.webp"]
+images: ["https://media.enterijer.rs/simpo/668b359c75e71960.webp"]
 date: 2026-08-16
 boja: "bela, smeđa"
 materijal: "drvo, plastični premaz"

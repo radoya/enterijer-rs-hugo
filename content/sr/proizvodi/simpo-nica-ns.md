@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/nica-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-nocni-stocic-nica.webp"]
+images: ["https://media.enterijer.rs/simpo/b438a2eab13f1e1a.webp"]
 date: 2026-08-16
 boja: "šarene, bela"
 materijal: "drvo, metal"

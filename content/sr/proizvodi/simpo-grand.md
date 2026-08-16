@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/grand/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-grand.webp"]
+images: ["https://media.enterijer.rs/simpo/db7a936eac54b090.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "pamuk"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/konte/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/kauc-konte.webp"]
+images: ["https://media.enterijer.rs/simpo/b40848c81e7d4632.webp"]
 date: 2026-08-16
 boja: "narandžasta"
 materijal: "tekstil"

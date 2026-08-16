@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-apolon.webp"]
+images: ["https://media.enterijer.rs/simpo/e20cf486c01be16f.webp"]
 date: 2026-08-16
 boja: "zelena"
 materijal: "koža"

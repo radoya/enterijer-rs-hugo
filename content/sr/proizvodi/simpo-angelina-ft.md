@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/angelina-ft/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-angelina.webp"]
+images: ["https://media.enterijer.rs/simpo/d82b63217cf6942d.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

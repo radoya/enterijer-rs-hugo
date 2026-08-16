@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-galaxy.webp"]
+images: ["https://media.enterijer.rs/simpo/f93a4b820ae8fa1d.webp"]
 date: 2026-08-16
 boja: "crvena"
 materijal: "koža"

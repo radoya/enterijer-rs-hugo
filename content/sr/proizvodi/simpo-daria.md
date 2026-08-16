@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/dar
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/polica-za-knjige-daria.webp"]
+images: ["https://media.enterijer.rs/simpo/ceb2649c99be422f.webp"]
 date: 2026-08-16
 boja: "bela, boja drveta"
 materijal: "drvo, metal"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-oprugama/nautilus-aloe-v
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-nautilus-aloe-vera.webp"]
+images: ["https://media.enterijer.rs/simpo/4db1051473c3be42.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "poliuretan, pamuk"

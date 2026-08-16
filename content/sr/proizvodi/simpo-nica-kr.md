@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/nica-kr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-nica.webp"]
+images: ["https://media.enterijer.rs/simpo/c67c505448873330.webp"]
 date: 2026-08-16
 boja: "siva, smeđa, plava"
 materijal: "drvo, tekstil"

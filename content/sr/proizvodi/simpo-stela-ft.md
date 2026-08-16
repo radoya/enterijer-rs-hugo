@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/stela-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-stela.webp"]
+images: ["https://media.enterijer.rs/simpo/843acccf0848825a.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

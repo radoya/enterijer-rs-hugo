@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/keln-kr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/20471e45b7d5aa1a.webp"]
 date: 2026-08-16
 boja: "siva, bela"
 materijal: "pamuk"

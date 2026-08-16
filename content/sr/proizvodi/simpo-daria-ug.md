@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/dar
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-daria.webp"]
+images: ["https://media.enterijer.rs/simpo/cb95f49a4032bad5.webp"]
 date: 2026-08-16
 boja: "žuta"
 materijal: "tekstil"

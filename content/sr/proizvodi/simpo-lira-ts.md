@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-lira.webp"]
+images: ["https://media.enterijer.rs/simpo/c1e66a035857bef9.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "drvo, tkanina"

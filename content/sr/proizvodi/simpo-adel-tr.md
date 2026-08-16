@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/adel-tr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed_adel.webp"]
+images: ["https://media.enterijer.rs/simpo/ee213bae603c1bf9.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "koža"

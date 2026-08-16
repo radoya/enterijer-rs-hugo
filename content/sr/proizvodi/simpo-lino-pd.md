@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/police-za-deciju-sob
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-polica-lino.webp"]
+images: ["https://media.enterijer.rs/simpo/287a5ed2702d9067.webp"]
 date: 2026-08-16
 boja: "žuta"
 materijal: "drvo"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/angelina-dv/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-angelina.webp"]
+images: ["https://media.enterijer.rs/simpo/1ca73df5afbbb83a.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "koža"

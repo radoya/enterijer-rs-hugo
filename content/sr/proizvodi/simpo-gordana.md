@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/gordana/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/kauc-gordana.webp"]
+images: ["https://media.enterijer.rs/simpo/15bcee9df5d5f098.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

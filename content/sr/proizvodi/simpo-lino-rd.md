@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/radni-stolovi-za-dec
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-radni-sto-lino.webp"]
+images: ["https://media.enterijer.rs/simpo/bb8601d1439326ef.webp"]
 date: 2026-08-16
 boja: "belo, zeleno"
 materijal: "drvo"

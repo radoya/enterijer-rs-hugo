@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-de-marco.webp"]
+images: ["https://media.enterijer.rs/simpo/b11654e93304433b.webp"]
 date: 2026-08-16
 boja: "svetlosiva"
 materijal: "tekstil"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/galaxy-tr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-galaxy.webp"]
+images: ["https://media.enterijer.rs/simpo/370d6ecf72b9633b.webp"]
 date: 2026-08-16
 boja: "crvena"
 materijal: "koža"

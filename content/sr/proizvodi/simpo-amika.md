@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/ami
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-amika.webp"]
+images: ["https://media.enterijer.rs/simpo/5745a0a245d6e4e9.webp"]
 date: 2026-08-16
 boja: "tirkizno plavo"
 materijal: "tekstil"

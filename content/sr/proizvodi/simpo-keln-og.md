@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/keln-og/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ogledalo-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/8036de4bbabd5759.webp"]
 date: 2026-08-16
 boja: "žuta, bela i crna"
 materijal: "none"

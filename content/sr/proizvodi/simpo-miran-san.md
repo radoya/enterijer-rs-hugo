@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/miran-san/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-miran-san.webp"]
+images: ["https://media.enterijer.rs/simpo/79d91532b4ac4ff4.webp"]
 date: 2026-08-16
 boja: "siva, bela, zelena"
 materijal: "tekstil"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/kreveti/anabela-lux
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-krevet-anabela-lux.webp"]
+images: ["https://media.enterijer.rs/simpo/42bede33b0b6d771.webp"]
 date: 2026-08-16
 boja: "siva, bela, zelena"
 materijal: "tekstil"

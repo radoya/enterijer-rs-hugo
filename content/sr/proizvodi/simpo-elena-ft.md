@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/elena-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-elena.webp"]
+images: ["https://media.enterijer.rs/simpo/ac1d9bfc39ff421b.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "metal"

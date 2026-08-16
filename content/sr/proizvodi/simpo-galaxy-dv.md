@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/galaxy-dv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-galaxy.webp"]
+images: ["https://media.enterijer.rs/simpo/8919bbe68bea1897.webp"]
 date: 2026-08-16
 boja: "crvena"
 materijal: "koža"

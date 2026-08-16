@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/dodatni-program/castle-sdp/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/stalak-sa-dodatkom-za-povijanje-castle.webp"]
+images: ["https://media.enterijer.rs/simpo/214494ac92dbc0b2.webp"]
 date: 2026-08-16
 boja: "svetlosiva sa dezenom drveta"
 materijal: "pvc"

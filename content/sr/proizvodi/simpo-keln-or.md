@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/ormari/keln-or/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/spavaca-soba-ormar-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/def41fca9e16611e.webp"]
 date: 2026-08-16
 boja: "narandžasta"
 materijal: "drvo"

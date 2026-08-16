@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/tv-komode/alora-tv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/alora-tv-komoda.webp"]
+images: ["https://media.enterijer.rs/simpo/921970c69abe9433.webp"]
 date: 2026-08-16
 boja: "belo, smeđe noge"
 materijal: "drvo"

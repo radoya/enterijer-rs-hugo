@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/kauci/onix/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/kauc-onix.webp"]
+images: ["https://media.enterijer.rs/simpo/3cda4479bb7314ad.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

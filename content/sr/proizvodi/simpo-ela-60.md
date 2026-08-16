@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/ela-60/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-ela-60.webp"]
+images: ["https://media.enterijer.rs/simpo/e1884c568d3d34fc.webp"]
 date: 2026-08-16
 boja: "beli"
 materijal: "plastika"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/decije-sobe-kompleti
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-decija-soba-castle.webp"]
+images: ["https://media.enterijer.rs/simpo/4f50fcd953b9a745.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "drvo"

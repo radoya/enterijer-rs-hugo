@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/aldo-ta/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-aldo.webp"]
+images: ["https://media.enterijer.rs/simpo/f869a5cbda90b44b.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

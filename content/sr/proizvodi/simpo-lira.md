@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/lira/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-lira.webp"]
+images: ["https://media.enterijer.rs/simpo/7f4149aeae466f76.webp"]
 date: 2026-08-16
 boja: "tamnosmeđa"
 materijal: "drvo, metal"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-za-krevetac/bambino-aloe-ve
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-bambino_aloe_vera.webp"]
+images: ["https://media.enterijer.rs/simpo/81395aad16596a43.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "poliuretan"

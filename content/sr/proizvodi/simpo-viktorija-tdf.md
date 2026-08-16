@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/d1c289420587946b.webp"]
 date: 2026-08-16
 boja: "braon, bež"
 materijal: "drvo, tkanina"

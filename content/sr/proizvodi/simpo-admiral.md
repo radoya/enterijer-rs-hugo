@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/admiral/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-admiral.webp"]
+images: ["https://media.enterijer.rs/simpo/fc0d019945e0b4ab.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "pliš"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/nevena-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-nevena.webp"]
+images: ["https://media.enterijer.rs/simpo/eed5059b42226d35.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

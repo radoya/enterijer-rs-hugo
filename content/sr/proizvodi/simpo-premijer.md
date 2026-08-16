@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/premijer
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-premijer.webp"]
+images: ["https://media.enterijer.rs/simpo/91d333f7b13c8b5c.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "poliuretan, pamuk"

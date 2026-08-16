@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/vitrine/safira-vt/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/vitrina-safira.webp"]
+images: ["https://media.enterijer.rs/simpo/44a1bd36c2a36fe4.webp"]
 date: 2026-08-16
 boja: "siva-braon"
 materijal: "drvo"

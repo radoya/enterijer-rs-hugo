@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/mot
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-motion.webp"]
+images: ["https://media.enterijer.rs/simpo/82e5b6b5c68e7147.webp"]
 date: 2026-08-16
 boja: "bež, crna, bela"
 materijal: "tekstil, metal"

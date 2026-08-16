@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/viktori
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/b1af4a05cce5074e.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "drvo"

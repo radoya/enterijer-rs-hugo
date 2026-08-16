@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/koktel-puff/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-koktel-puff.webp"]
+images: ["https://media.enterijer.rs/simpo/18f49b125cf6c735.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "tekstil"

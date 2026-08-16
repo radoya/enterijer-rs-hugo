@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/70419a94b11e96f7.webp"]
 date: 2026-08-16
 boja: "bela, siva"
 materijal: "drvo, tkanina"

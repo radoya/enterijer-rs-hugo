@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/sastavne-tdf-garnitu
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/sastavna-tdf-garnitura-stela.webp"]
+images: ["https://media.enterijer.rs/simpo/7bf26c6c5a5d1d09.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "tekstil"

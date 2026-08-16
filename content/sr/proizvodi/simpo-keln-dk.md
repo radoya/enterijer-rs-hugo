@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/keln-
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-krevet-keln.webp"]
+images: ["https://media.enterijer.rs/simpo/e1aeee5575cf2aca.webp"]
 date: 2026-08-16
 boja: "bela i smeđa"
 materijal: "drveni okvir sa metalnim detaljima"

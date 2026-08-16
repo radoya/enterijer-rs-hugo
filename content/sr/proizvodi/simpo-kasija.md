@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/police-za-knjige/kas
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/polica-za-knjige-kasija.webp"]
+images: ["https://media.enterijer.rs/simpo/dfa9c97bd5ee64be.webp"]
 date: 2026-08-16
 boja: "bela, braon"
 materijal: "drvo, metal"

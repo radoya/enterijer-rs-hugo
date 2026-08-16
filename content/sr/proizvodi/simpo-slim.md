@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/predsoblje/predsoblja-kompleti/s
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-predsoblje-slim.webp"]
+images: ["https://media.enterijer.rs/simpo/35b026694bfd8223.webp"]
 date: 2026-08-16
 boja: "beli"
 materijal: "plastika"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/galaxy-ft/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-galaxy.webp"]
+images: ["https://media.enterijer.rs/simpo/48c7953bbcf69d1a.webp"]
 date: 2026-08-16
 boja: "crvena"
 materijal: "koža"

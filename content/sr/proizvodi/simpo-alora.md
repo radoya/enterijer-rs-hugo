@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/spavaca-soba/nocni-stocici/alora
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/alora-nocni-stocic.webp"]
+images: ["https://media.enterijer.rs/simpo/7659bbb429b77f49.webp"]
 date: 2026-08-16
 boja: "belo, smeđi tonovi"
 materijal: "drvo, metal"

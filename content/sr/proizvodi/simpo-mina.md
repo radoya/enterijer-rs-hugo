@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ugaone-garniture/min
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ugaona-garnitura-mina.webp"]
+images: ["https://media.enterijer.rs/simpo/f08fe2abea704651.webp"]
 date: 2026-08-16
 boja: "lila"
 materijal: "tekstil"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-vasa.webp"]
+images: ["https://media.enterijer.rs/simpo/f984edd7ad7efb0e.webp"]
 date: 2026-08-16
 boja: "svetlosmeđa, bež"
 materijal: "drveni okvir, tekstilni nasloni"

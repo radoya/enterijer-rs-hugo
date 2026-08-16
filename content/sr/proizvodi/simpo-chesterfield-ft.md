@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/chesterfield
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-chesterfield.webp"]
+images: ["https://media.enterijer.rs/simpo/186fb435762184f2.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "koža"

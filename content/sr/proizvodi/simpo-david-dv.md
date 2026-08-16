@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/david-dv/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-david.webp"]
+images: ["https://media.enterijer.rs/simpo/2fa41b2641e40fe2.webp"]
 date: 2026-08-16
 boja: "taupe"
 materijal: "tekstil"

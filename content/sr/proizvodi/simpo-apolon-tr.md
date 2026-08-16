@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/trosedi/apolon-tr/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trosed-apolon.webp"]
+images: ["https://media.enterijer.rs/simpo/a0d7790c9c3626f2.webp"]
 date: 2026-08-16
 boja: "zelena"
 materijal: "koža"

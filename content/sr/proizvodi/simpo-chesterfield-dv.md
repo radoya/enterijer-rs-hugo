@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/dvosedi/chesterfield
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dvosed-chesterfield.webp"]
+images: ["https://media.enterijer.rs/simpo/4090f9a43136fc2e.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "tekstil"

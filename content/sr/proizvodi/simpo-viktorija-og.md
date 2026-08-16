@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/ogledala/viktorija-o
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/ogledalo-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/d01ca2213382d29d.webp"]
 date: 2026-08-16
 boja: "plava, zlatna, bela"
 materijal: "none"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/kolekcije-programi/viktorija/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/komplet-dnevna-soba-viktorija.webp"]
+images: ["https://media.enterijer.rs/simpo/6eb9ada569d31432.webp"]
 date: 2026-08-16
 boja: "bela, siva"
 materijal: "drvo, tkanina"

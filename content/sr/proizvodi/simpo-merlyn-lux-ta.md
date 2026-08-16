@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/merlyn-lux-t
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-merlyn-lux.webp"]
+images: ["https://media.enterijer.rs/simpo/5c08cc96e44126ee.webp"]
 date: 2026-08-16
 boja: "bež"
 materijal: "koža"

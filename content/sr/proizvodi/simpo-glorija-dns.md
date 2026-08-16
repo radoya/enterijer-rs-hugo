@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/dodatni-program/glorija-dns/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/deciji-nocni-stocic-glorija.webp"]
+images: ["https://media.enterijer.rs/simpo/44251e70a0b2e061.webp"]
 date: 2026-08-16
 boja: "siva"
 materijal: "none"

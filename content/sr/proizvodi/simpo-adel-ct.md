@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/cetvorosedi/adel-ct/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/cetvorosed-adel.webp"]
+images: ["https://media.enterijer.rs/simpo/6e7434924b8d1ae3.webp"]
 date: 2026-08-16
 boja: "braon"
 materijal: "koža"

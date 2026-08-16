@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/fotelje/nataly/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/fotelja-nataly.webp"]
+images: ["https://media.enterijer.rs/simpo/49b1a3e3ef1a3aee.webp"]
 date: 2026-08-16
 boja: "zelena, siva"
 materijal: "tekstil"

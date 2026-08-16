@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/trpezarija/trpezarijski-stolovi/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/trpezarijski-sto-sahara.webp"]
+images: ["https://media.enterijer.rs/simpo/e7be73236121f530.webp"]
 date: 2026-08-16
 boja: "svetlo smeđa, tamnozelena, bela"
 materijal: "drvo, platno"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klub-stolovi/fira/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klub-sto-fira.webp"]
+images: ["https://media.enterijer.rs/simpo/863a8ed4a1ca6960.webp"]
 date: 2026-08-16
 boja: "crna"
 materijal: "drvo"

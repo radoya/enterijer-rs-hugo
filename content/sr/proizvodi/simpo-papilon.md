@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-sa-zicanim-jezgrom/papilon/
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-papilon.webp"]
+images: ["https://media.enterijer.rs/simpo/0bf905b34e328538.webp"]
 date: 2026-08-16
 boja: "bela"
 materijal: "pamuk"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/duseci/duseci-od-pene/adonis-s/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/dusek-adonis.webp"]
+images: ["https://media.enterijer.rs/simpo/3b27f113f2f4fa80.webp"]
 date: 2026-08-16
 boja: "belo i crno"
 materijal: "poliuretan i pamuk"

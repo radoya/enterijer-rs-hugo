@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/decija-soba/deciji-kreveti/miran
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/decija-soba-krevet-miran-san.webp"]
+images: ["https://media.enterijer.rs/simpo/1637e290d9193e4a.webp"]
 date: 2026-08-16
 boja: "siva, smeđa, bela"
 materijal: "tekstil, metal"

@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/klik-klak-lezajevi/f
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/klik-klak-fiona.webp"]
+images: ["https://media.enterijer.rs/simpo/e37b0e8d67b8a8ae.webp"]
 date: 2026-08-16
 boja: "beli"
 materijal: "none"

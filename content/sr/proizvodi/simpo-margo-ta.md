@@ -13,7 +13,7 @@ source_url: "https://simpo.rs/proizvod/namestaj/dnevna-soba/taburei/margo-ta/"
 website: ""
 phone: ""
 address: ""
-images: ["https://simpo.rs/wp-content/uploads/tabure-margo.webp"]
+images: ["https://media.enterijer.rs/simpo/27d0027738094df1.webp"]
 date: 2026-08-16
 boja: "siva, smeđa"
 materijal: "tekstil, somot"
